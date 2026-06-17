@@ -1,0 +1,33 @@
+Pre-cleanup failed: Error: API 2FA verify failed: 429
+    at ApiHelper.authenticate (/home/runner/work/oasis-front/oasis-front/tests/e2e/helpers/api.helper.ts:41:15)
+    at /home/runner/work/oasis-front/oasis-front/tests/e2e/specs/08-food-crud.spec.ts:19:7
+    at /home/runner/work/oasis-front/oasis-front/node_modules/playwright/lib/worker/testInfo.js:320:11
+    at TimeoutManager.withRunnable (/home/runner/work/oasis-front/oasis-front/node_modules/playwright/lib/worker/timeoutManager.js:67:14)
+    at TestInfoImpl._runWithTimeout (/home/runner/work/oasis-front/oasis-front/node_modules/playwright/lib/worker/testInfo.js:318:7)
+    at FixtureRunner.resolveParametersAndRunFunction (/home/runner/work/oasis-front/oasis-front/node_modules/playwright/lib/worker/fixtureRunner.js:232:5)
+    at /home/runner/work/oasis-front/oasis-front/node_modules/playwright/lib/worker/workerMain.js:442:13
+    at TestInfoImpl._runAsStep (/home/runner/work/oasis-front/oasis-front/node_modules/playwright/lib/worker/testInfo.js:309:7)
+    at WorkerMain._runAllHooksForSuite (/home/runner/work/oasis-front/oasis-front/node_modules/playwright/lib/worker/workerMain.js:437:9)
+    at WorkerMain._runBeforeAllHooksForSuite (/home/runner/work/oasis-front/oasis-front/node_modules/playwright/lib/worker/workerMain.js:431:5)
+    at /home/runner/work/oasis-front/oasis-front/node_modules/playwright/lib/worker/workerMain.js:313:11
+    at TestInfoImpl._runAsStep (/home/runner/work/oasis-front/oasis-front/node_modules/playwright/lib/worker/testInfo.js:309:7)
+    at /home/runner/work/oasis-front/oasis-front/node_modules/playwright/lib/worker/workerMain.js:311:7
+    at WorkerMain._runTest (/home/runner/work/oasis-front/oasis-front/node_modules/playwright/lib/worker/workerMain.js:296:5)
+    at WorkerMain.runTestGroup (/home/runner/work/oasis-front/oasis-front/node_modules/playwright/lib/worker/workerMain.js:196:11)
+    at process.<anonymous> (/home/runner/work/oasis-front/oasis-front/node_modules/playwright/lib/common/process.js:72:22)
+Post-cleanup failed: Error: API auth failed: 429
+    at ApiHelper.authenticate (/home/runner/work/oasis-front/oasis-front/tests/e2e/helpers/api.helper.ts:30:13)
+    at /home/runner/work/oasis-front/oasis-front/tests/e2e/specs/08-food-crud.spec.ts:148:7
+    at /home/runner/work/oasis-front/oasis-front/node_modules/playwright/lib/worker/testInfo.js:320:11
+    at TimeoutManager.withRunnable (/home/runner/work/oasis-front/oasis-front/node_modules/playwright/lib/worker/timeoutManager.js:67:14)
+    at TestInfoImpl._runWithTimeout (/home/runner/work/oasis-front/oasis-front/node_modules/playwright/lib/worker/testInfo.js:318:7)
+    at FixtureRunner.resolveParametersAndRunFunction (/home/runner/work/oasis-front/oasis-front/node_modules/playwright/lib/worker/fixtureRunner.js:232:5)
+    at /home/runner/work/oasis-front/oasis-front/node_modules/playwright/lib/worker/workerMain.js:442:13
+    at TestInfoImpl._runAsStep (/home/runner/work/oasis-front/oasis-front/node_modules/playwright/lib/worker/testInfo.js:309:7)
+    at WorkerMain._runAllHooksForSuite (/home/runner/work/oasis-front/oasis-front/node_modules/playwright/lib/worker/workerMain.js:437:9)
+    at WorkerMain._runAfterAllHooksForSuite (/home/runner/work/oasis-front/oasis-front/node_modules/playwright/lib/worker/workerMain.js:467:5)
+    at /home/runner/work/oasis-front/oasis-front/node_modules/playwright/lib/worker/workerMain.js:353:13
+    at TestInfoImpl._runAsStep (/home/runner/work/oasis-front/oasis-front/node_modules/playwright/lib/worker/testInfo.js:309:7)
+    at WorkerMain._runTest (/home/runner/work/oasis-front/oasis-front/node_modules/playwright/lib/worker/workerMain.js:331:5)
+    at WorkerMain.runTestGroup (/home/runner/work/oasis-front/oasis-front/node_modules/playwright/lib/worker/workerMain.js:196:11)
+    at process.<anonymous> (/home/runner/work/oasis-front/oasis-front/node_modules/playwright/lib/common/process.js:72:22)

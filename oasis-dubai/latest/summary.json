@@ -1,0 +1,21 @@
+{
+  "project": "oasis-dubai",
+  "projectDisplayName": "Oasis Admin Dubai",
+  "status": "pass",
+  "passed": 50,
+  "failed": 0,
+  "skipped": 3,
+  "retried": 0,
+  "total": 53,
+  "failedCritical": 0,
+  "failedMajor": 0,
+  "failedMinor": 0,
+  "passRate": "94.34",
+  "durationFormatted": "2m 15s",
+  "timestamp": "2026-06-17T05:56:37.901Z",
+  "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/oasis-dubai/latest/",
+  "actionsUrl": "https://github.com/DgtlBureau/oasis-front-dubai/actions/runs/27668727708",
+  "failedTests": [],
+  "prevFailed": 0,
+  "deltaFailed": 0
+}

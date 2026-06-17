@@ -1,0 +1,6 @@
+Pre-cleanup failed: SyntaxError: Unexpected token '<', "<html>
+<h"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at APIResponse.json (/home/runner/work/oasis-front/oasis-front/node_modules/playwright-core/lib/client/fetch.js:300:17)
+    at /home/runner/work/oasis-front/oasis-front/tests/e2e/specs/07-users-crud.spec.ts:30:20
+    at /home/runner/work/oasis-front/oasis-front/node_modules/playwright/lib/worker/testInfo.js:320:11

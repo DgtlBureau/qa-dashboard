@@ -1,0 +1,2 @@
+[waitForTableData] Table loaded but appears to be empty
+[Точки питания] Table loaded but has no data rows

@@ -1,0 +1,8 @@
+[
+  { "id": "torpedo-shop", "name": "Torpedo Shop", "group": "HC Torpedo", "summaryPath": "torpedo-shop/latest/summary.json" },
+  { "id": "torpedo-site", "name": "HC Torpedo (КХЛ)", "group": "HC Torpedo", "summaryPath": "torpedo-site/latest/summary.json" },
+  { "id": "gorky-site", "name": "HC Gorky (ВХЛ)", "group": "HC Torpedo", "summaryPath": "gorky-site/latest/summary.json" },
+  { "id": "chaika-site", "name": "HC Chaika (МХЛ)", "group": "HC Torpedo", "summaryPath": "chaika-site/latest/summary.json" },
+  { "id": "oasis-russia", "name": "Oasis Admin Russia", "group": "Oasis", "summaryPath": "oasis-russia/latest/summary.json" },
+  { "id": "oasis-dubai", "name": "Oasis Admin Dubai", "group": "Oasis", "summaryPath": "oasis-dubai/latest/summary.json" }
+]

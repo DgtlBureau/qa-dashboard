@@ -1,0 +1,63 @@
+{
+  "project": "chaika-site",
+  "projectDisplayName": "HC Chaika (МХЛ)",
+  "status": "critical",
+  "passed": 0,
+  "failed": 111,
+  "skipped": 0,
+  "retried": 111,
+  "total": 111,
+  "failedCritical": 32,
+  "failedMajor": 52,
+  "failedMinor": 27,
+  "passRate": "0.00",
+  "durationFormatted": "3m 55s",
+  "timestamp": "2026-06-17T06:51:42.105Z",
+  "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/chaika-site/latest/",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/27670991340",
+  "failedTests": [
+    {
+      "name": "Главная / отвечает 200 @critical",
+      "priority": "critical"
+    },
+    {
+      "name": "Новости /news/ отвечает 200 @critical",
+      "priority": "critical"
+    },
+    {
+      "name": "Состав /teamroster/ отвечает 200 @critical",
+      "priority": "critical"
+    },
+    {
+      "name": "Тренеры /coaches/ отвечает 200 @critical",
+      "priority": "critical"
+    },
+    {
+      "name": "Персонал /staffs/ отвечает 200 @critical",
+      "priority": "critical"
+    },
+    {
+      "name": "Руководство /leaders/ отвечает 200 @critical",
+      "priority": "critical"
+    },
+    {
+      "name": "Правление /manage/ отвечает 200 @critical",
+      "priority": "critical"
+    },
+    {
+      "name": "Календарь /season/calendar/ отвечает 200 @critical",
+      "priority": "critical"
+    },
+    {
+      "name": "Матчи /season/matches/ отвечает 200 @critical",
+      "priority": "critical"
+    },
+    {
+      "name": "Турнирная таблица /season/tournament_tables/ отвечает 200 @critical",
+      "priority": "critical"
+    }
+  ],
+  "commitMessage": "revert: вернуть учёт показов новостей (случайно затёрт в 606ee6a4)",
+  "prevFailed": 111,
+  "deltaFailed": 0
+}

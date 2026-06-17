@@ -1,0 +1,2 @@
+[waitForTableData] Could not confirm table loaded
+[Заказы] Page shows a server error — backend issue, not a frontend bug

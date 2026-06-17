@@ -1,0 +1,276 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - complementary [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - link "IFCM" [ref=e9] [cursor=pointer]:
+            - /url: /accommodations
+          - button [ref=e10] [cursor=pointer]:
+            - img [ref=e11]
+        - list [ref=e17]:
+          - listitem [ref=e18] [cursor=pointer]:
+            - link "Assets" [ref=e19]:
+              - /url: /assets
+              - img [ref=e21]
+              - generic [ref=e27]: Assets
+          - listitem [ref=e28] [cursor=pointer]:
+            - link "Accommodations" [ref=e29]:
+              - /url: /accommodations
+              - img [ref=e31]
+              - generic [ref=e45]: Accommodations
+          - listitem [ref=e46] [cursor=pointer]:
+            - link "Food" [ref=e47]:
+              - /url: /food
+              - img [ref=e49]
+              - generic [ref=e59]: Food
+          - listitem [ref=e60] [cursor=pointer]:
+            - link "Orders 3" [ref=e61]:
+              - /url: /transactions
+              - img [ref=e63]
+              - generic [ref=e72]:
+                - generic [ref=e73]: Orders
+                - generic [ref=e77]: "3"
+          - listitem [ref=e78] [cursor=pointer]:
+            - link "Employees" [ref=e79]:
+              - /url: /user
+              - img [ref=e81]
+              - generic [ref=e90]:
+                - generic [ref=e91]: Employees
+                - img [ref=e93]
+          - listitem [ref=e95] [cursor=pointer]:
+            - link "Tickets 61" [ref=e96]:
+              - /url: /requests
+              - img [ref=e98]
+              - generic [ref=e107]:
+                - generic [ref=e108]: Tickets
+                - generic [ref=e112]: "61"
+          - listitem [ref=e113] [cursor=pointer]:
+            - link "Feedback 226" [ref=e114]:
+              - /url: /feedback
+              - img [ref=e116]
+              - generic [ref=e120]:
+                - generic [ref=e121]: Feedback
+                - generic [ref=e125]: "226"
+          - listitem [ref=e126] [cursor=pointer]:
+            - link "News" [ref=e127]:
+              - /url: /announcements
+              - img [ref=e129]
+              - generic [ref=e133]: News
+          - listitem [ref=e134] [cursor=pointer]:
+            - link "Questionnaires" [ref=e135]:
+              - /url: /questionnaires
+              - img [ref=e137]
+              - generic [ref=e145]: Questionnaires
+          - listitem [ref=e146] [cursor=pointer]:
+            - link "Events" [ref=e147]:
+              - /url: /events
+              - img [ref=e149]
+              - generic [ref=e157]: Events
+          - listitem [ref=e158] [cursor=pointer]:
+            - link "Services" [ref=e159]:
+              - /url: /services
+              - img [ref=e161]
+              - generic [ref=e164]: Services
+          - listitem [ref=e165] [cursor=pointer]:
+            - link "Entertainment" [ref=e166]:
+              - /url: /entertainment
+              - img [ref=e168]
+              - generic [ref=e194]: Entertainment
+          - listitem [ref=e195] [cursor=pointer]:
+            - link "Loyalty" [ref=e196]:
+              - /url: /promotions
+              - img [ref=e198]
+              - generic [ref=e202]: Loyalty
+        - generic [ref=e203]:
+          - list [ref=e204]:
+            - listitem [ref=e205] [cursor=pointer]:
+              - link "Notifications" [ref=e206]:
+                - /url: /notifications
+                - img [ref=e208]
+                - generic [ref=e220]: Notifications
+            - listitem [ref=e221] [cursor=pointer]:
+              - link "Settings" [ref=e222]:
+                - /url: /settings
+                - img [ref=e224]
+                - generic [ref=e230]: Settings
+            - listitem [ref=e231] [cursor=pointer]:
+              - link "QR Generator" [ref=e232]:
+                - /url: /qr
+                - img [ref=e234]
+                - generic [ref=e238]: QR Generator
+          - button "Log out" [ref=e239] [cursor=pointer]:
+            - img [ref=e241]
+            - generic [ref=e248]: Log out
+    - generic [ref=e249]:
+      - banner [ref=e250]:
+        - generic [ref=e251]:
+          - navigation [ref=e252]:
+            - list [ref=e253]:
+              - listitem [ref=e254]:
+                - link "Dashboard" [ref=e255] [cursor=pointer]:
+                  - /url: /dashboard
+                  - img [ref=e256]
+                  - generic [ref=e261]: Dashboard
+              - listitem [ref=e262]:
+                - link "Knowledge base" [ref=e263] [cursor=pointer]:
+                  - /url: /knowledge-base
+                  - img [ref=e264]
+                  - generic [ref=e267]: Knowledge base
+              - listitem [ref=e268]:
+                - link "Storage" [ref=e269] [cursor=pointer]:
+                  - /url: /documents
+                  - img [ref=e270]
+                  - generic [ref=e275]: Storage
+          - button "AM" [ref=e277] [cursor=pointer]:
+            - generic [ref=e279]: AM
+      - main [ref=e281]:
+        - generic [ref=e283]:
+          - heading "All employees" [level=2] [ref=e289]
+          - generic [ref=e290]:
+            - tablist [ref=e292]:
+              - tab "Total (2144)" [selected] [ref=e293] [cursor=pointer]
+              - tab "Business trip (8)" [ref=e294] [cursor=pointer]
+              - tab "Awaiting business trip (1)" [ref=e295] [cursor=pointer]
+              - tab "Finished business trip (2135)" [ref=e296] [cursor=pointer]
+            - generic [ref=e297]:
+              - generic [ref=e298]:
+                - generic [ref=e299]:
+                  - generic [ref=e300]: Show
+                  - generic [ref=e302] [cursor=pointer]:
+                    - generic [ref=e303]:
+                      - combobox [ref=e305]
+                      - generic "15" [ref=e306]
+                    - generic:
+                      - img:
+                        - img
+                  - generic [ref=e307]: entries
+                - generic [ref=e308]:
+                  - generic [ref=e310]:
+                    - generic [ref=e312]: "Search:"
+                    - textbox "Search:" [active] [ref=e313]:
+                      - /placeholder: Search by code, N.P.
+                      - text: zzz_e2e_no_match_99999
+                  - button "Show filters" [ref=e314] [cursor=pointer]:
+                    - img [ref=e315]
+                    - generic [ref=e317]: Show filters
+                  - button "Actions" [ref=e319] [cursor=pointer]:
+                    - img [ref=e320]
+                    - text: Actions
+              - table [ref=e327]:
+                - rowgroup [ref=e328]:
+                  - row "First name Patronymic Start date End date Code Company Accommodation facility Action" [ref=e329]:
+                    - columnheader [ref=e330]:
+                      - heading [level=4] [ref=e333] [cursor=pointer]:
+                        - checkbox [ref=e335]
+                    - columnheader "First name Patronymic" [ref=e337]:
+                      - generic [ref=e339] [cursor=pointer]:
+                        - heading "First name Patronymic" [level=4] [ref=e340]
+                        - generic [ref=e341]:
+                          - button [ref=e342]:
+                            - img [ref=e343]
+                          - button [ref=e346]:
+                            - img [ref=e347]
+                    - columnheader "Start date" [ref=e350]:
+                      - heading "Start date" [level=4] [ref=e353] [cursor=pointer]
+                    - columnheader "End date" [ref=e354]:
+                      - heading "End date" [level=4] [ref=e357] [cursor=pointer]
+                    - columnheader "Code" [ref=e358]:
+                      - generic [ref=e360] [cursor=pointer]:
+                        - heading "Code" [level=4] [ref=e361]
+                        - generic [ref=e362]:
+                          - button [ref=e363]:
+                            - img [ref=e364]
+                          - button [ref=e367]:
+                            - img [ref=e368]
+                    - columnheader "Company" [ref=e371]:
+                      - generic [ref=e373] [cursor=pointer]:
+                        - heading "Company" [level=4] [ref=e374]
+                        - generic [ref=e375]:
+                          - button [ref=e376]:
+                            - img [ref=e377]
+                          - button [ref=e380]:
+                            - img [ref=e381]
+                    - columnheader "Accommodation facility" [ref=e384]:
+                      - heading "Accommodation facility" [level=4] [ref=e387] [cursor=pointer]
+                    - columnheader "Action" [ref=e388]:
+                      - heading "Action" [level=4] [ref=e391] [cursor=pointer]
+                - rowgroup
+              - navigation "Pagination" [ref=e394]:
+                - listitem [ref=e395]:
+                  - button "Previous page" [disabled] [ref=e396] [cursor=pointer]: Prev
+                - listitem [ref=e397]:
+                  - button "Page 1 is your current page" [ref=e398] [cursor=pointer]: "1"
+                - listitem [ref=e399]:
+                  - button "Next page" [disabled] [ref=e400] [cursor=pointer]: next
+  - generic [ref=e401]:
+    - paragraph [ref=e402]:
+      - generic [ref=e403]: Attention!
+      - text: The list of certain users is made once, save the file for transfer to other employees
+    - generic [ref=e404]:
+      - button "Download file" [ref=e405] [cursor=pointer]:
+        - generic [ref=e407]: Download file
+      - button "Cancel" [ref=e408] [cursor=pointer]:
+        - generic [ref=e410]: Cancel
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - button "Choose File"
+          - button "Choose a file"
+        - generic:
+          - button "Process"
+          - button "Cancel":
+            - generic:
+              - generic: Cancel
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - paragraph: Debiting points
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic: Points
+                - textbox "Points"
+            - button "Write off":
+              - generic:
+                - generic: Write off
+          - button:
+            - img
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - heading "Change status in the following sections:" [level=4]
+            - button "Close":
+              - generic:
+                - generic: Close
+          - list:
+            - listitem:
+              - generic:
+                - generic:
+                  - checkbox "Tickets"
+                - text: Tickets
+            - listitem:
+              - generic:
+                - generic:
+                  - checkbox "Feedback"
+                - text: Feedback
+            - listitem:
+              - generic:
+                - generic:
+                  - checkbox "Orders"
+                - text: Orders
+          - generic:
+            - button "Unblock":
+              - generic:
+                - generic: Unblock
+            - button "Block":
+              - generic:
+                - generic: Block
+```

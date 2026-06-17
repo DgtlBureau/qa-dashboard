@@ -1,0 +1,21 @@
+{
+  "project": "oasis-russia",
+  "projectDisplayName": "Oasis Admin Russia",
+  "status": "pass",
+  "passed": 41,
+  "failed": 0,
+  "skipped": 2,
+  "retried": 0,
+  "total": 43,
+  "failedCritical": 0,
+  "failedMajor": 0,
+  "failedMinor": 0,
+  "passRate": "95.35",
+  "durationFormatted": "1m 38s",
+  "timestamp": "2026-06-17T12:54:35.577Z",
+  "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/oasis-russia/latest/",
+  "actionsUrl": "https://github.com/DgtlBureau/oasis-front/actions/runs/27690125836",
+  "failedTests": [],
+  "prevFailed": 0,
+  "deltaFailed": 0
+}
