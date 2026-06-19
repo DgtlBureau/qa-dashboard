@@ -11,10 +11,10 @@
   "failedMajor": 52,
   "failedMinor": 27,
   "passRate": "0.00",
-  "durationFormatted": "3m 11s",
-  "timestamp": "2026-06-18T06:43:19.706Z",
+  "durationFormatted": "3m 48s",
+  "timestamp": "2026-06-19T06:53:22.649Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/gorky-site/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/27741526021",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/27810259365",
   "failedTests": [
     {
       "name": "Главная / отвечает 200 @critical",
