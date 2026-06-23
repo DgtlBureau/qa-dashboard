@@ -1,21 +1,26 @@
 {
   "project": "torpedo-shop",
   "projectDisplayName": "Torpedo Shop",
-  "status": "retry",
-  "passed": 641,
-  "failed": 0,
+  "status": "critical",
+  "passed": 640,
+  "failed": 1,
   "skipped": 0,
-  "retried": 1,
+  "retried": 5,
   "total": 641,
-  "failedCritical": 0,
+  "failedCritical": 1,
   "failedMajor": 0,
   "failedMinor": 0,
-  "passRate": "100.00",
-  "durationFormatted": "23m 35s",
-  "timestamp": "2026-06-22T04:59:39.958Z",
+  "passRate": "99.84",
+  "durationFormatted": "33m 0s",
+  "timestamp": "2026-06-23T04:59:38.569Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/27929817272",
-  "failedTests": [],
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/28002093828",
+  "failedTests": [
+    {
+      "name": "TC-AUTH-04 | Вход с пустыми полями показывает ошибку @critical",
+      "priority": "critical"
+    }
+  ],
   "prevFailed": 0,
-  "deltaFailed": 0
+  "deltaFailed": 1
 }
