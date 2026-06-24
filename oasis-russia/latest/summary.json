@@ -1,26 +1,21 @@
 {
   "project": "oasis-russia",
   "projectDisplayName": "Oasis Admin Russia",
-  "status": "warning",
-  "passed": 38,
-  "failed": 1,
-  "skipped": 4,
-  "retried": 3,
+  "status": "pass",
+  "passed": 41,
+  "failed": 0,
+  "skipped": 2,
+  "retried": 0,
   "total": 43,
   "failedCritical": 0,
-  "failedMajor": 1,
+  "failedMajor": 0,
   "failedMinor": 0,
-  "passRate": "88.37",
-  "durationFormatted": "1m 37s",
-  "timestamp": "2026-06-24T04:56:39.196Z",
+  "passRate": "95.35",
+  "durationFormatted": "1m 56s",
+  "timestamp": "2026-06-24T08:31:55.725Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/oasis-russia/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/oasis-front/actions/runs/28075972744",
-  "failedTests": [
-    {
-      "name": "Создание пользователя через API @major",
-      "priority": "major"
-    }
-  ],
-  "prevFailed": 0,
-  "deltaFailed": 1
+  "actionsUrl": "https://github.com/DgtlBureau/oasis-front/actions/runs/28085480966",
+  "failedTests": [],
+  "prevFailed": 1,
+  "deltaFailed": -1
 }
