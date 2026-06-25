@@ -5,17 +5,17 @@
   "passed": 641,
   "failed": 0,
   "skipped": 0,
-  "retried": 2,
+  "retried": 5,
   "total": 641,
   "failedCritical": 0,
   "failedMajor": 0,
   "failedMinor": 0,
   "passRate": "100.00",
-  "durationFormatted": "23m 32s",
-  "timestamp": "2026-06-24T04:52:25.701Z",
+  "durationFormatted": "26m 45s",
+  "timestamp": "2026-06-25T04:55:19.168Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/28075135486",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/28146833550",
   "failedTests": [],
-  "prevFailed": 1,
-  "deltaFailed": -1
+  "prevFailed": 0,
+  "deltaFailed": 0
 }
