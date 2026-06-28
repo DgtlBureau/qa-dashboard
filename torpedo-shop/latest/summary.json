@@ -1,30 +1,21 @@
 {
   "project": "torpedo-shop",
   "projectDisplayName": "Torpedo Shop",
-  "status": "warning",
-  "passed": 604,
-  "failed": 2,
-  "skipped": 34,
-  "retried": 43,
-  "total": 640,
+  "status": "retry",
+  "passed": 641,
+  "failed": 0,
+  "skipped": 0,
+  "retried": 2,
+  "total": 641,
   "failedCritical": 0,
-  "failedMajor": 2,
+  "failedMajor": 0,
   "failedMinor": 0,
-  "passRate": "94.38",
-  "durationFormatted": "34m 47s",
-  "timestamp": "2026-06-27T05:00:15.684Z",
+  "passRate": "100.00",
+  "durationFormatted": "21m 32s",
+  "timestamp": "2026-06-28T04:55:38.765Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/28278466024",
-  "failedTests": [
-    {
-      "name": "CJM-03-01 | Страница корзины отображает добавленный товар @major",
-      "priority": "major"
-    },
-    {
-      "name": "TC-ADDR-06 | Отправка пустой формы показывает ошибки валидации @major",
-      "priority": "major"
-    }
-  ],
-  "prevFailed": 0,
-  "deltaFailed": 2
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/28311407804",
+  "failedTests": [],
+  "prevFailed": 2,
+  "deltaFailed": -2
 }
