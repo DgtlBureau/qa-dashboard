@@ -1,21 +1,21 @@
 {
   "project": "torpedo-shop",
   "projectDisplayName": "Torpedo Shop",
-  "status": "retry",
+  "status": "pass",
   "passed": 641,
   "failed": 0,
   "skipped": 0,
-  "retried": 2,
+  "retried": 0,
   "total": 641,
   "failedCritical": 0,
   "failedMajor": 0,
   "failedMinor": 0,
   "passRate": "100.00",
-  "durationFormatted": "21m 32s",
-  "timestamp": "2026-06-28T04:55:38.765Z",
+  "durationFormatted": "21m 35s",
+  "timestamp": "2026-06-29T04:56:20.309Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/28311407804",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/28348819723",
   "failedTests": [],
-  "prevFailed": 2,
-  "deltaFailed": -2
+  "prevFailed": 0,
+  "deltaFailed": 0
 }
