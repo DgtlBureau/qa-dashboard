@@ -11,10 +11,10 @@
   "failedMajor": 0,
   "failedMinor": 1,
   "passRate": "93.02",
-  "durationFormatted": "1m 44s",
-  "timestamp": "2026-06-28T05:05:20.584Z",
+  "durationFormatted": "1m 41s",
+  "timestamp": "2026-06-29T05:08:34.271Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/oasis-russia/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/oasis-front/actions/runs/28311960464",
+  "actionsUrl": "https://github.com/DgtlBureau/oasis-front/actions/runs/28349800651",
   "failedTests": [
     {
       "name": "Создание роли, назначение админу и проверка ограничений",
