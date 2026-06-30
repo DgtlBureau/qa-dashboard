@@ -11,10 +11,10 @@
   "failedMajor": 0,
   "failedMinor": 0,
   "passRate": "100.00",
-  "durationFormatted": "21m 35s",
-  "timestamp": "2026-06-29T04:56:20.309Z",
+  "durationFormatted": "20m 33s",
+  "timestamp": "2026-06-30T04:49:11.978Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/28348819723",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/28420270083",
   "failedTests": [],
   "prevFailed": 0,
   "deltaFailed": 0
