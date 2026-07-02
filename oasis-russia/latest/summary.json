@@ -1,30 +1,21 @@
 {
   "project": "oasis-russia",
   "projectDisplayName": "Oasis Admin Russia",
-  "status": "warning",
-  "passed": 41,
-  "failed": 2,
+  "status": "pass",
+  "passed": 43,
+  "failed": 0,
   "skipped": 0,
-  "retried": 5,
+  "retried": 0,
   "total": 43,
   "failedCritical": 0,
-  "failedMajor": 1,
-  "failedMinor": 1,
-  "passRate": "95.35",
-  "durationFormatted": "2m 21s",
-  "timestamp": "2026-07-02T20:37:43.778Z",
+  "failedMajor": 0,
+  "failedMinor": 0,
+  "passRate": "100.00",
+  "durationFormatted": "2m 8s",
+  "timestamp": "2026-07-02T20:56:15.747Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/oasis-russia/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/oasis-front/actions/runs/28619611686",
-  "failedTests": [
-    {
-      "name": "Удаление размещения через таблицу @major",
-      "priority": "major"
-    },
-    {
-      "name": "Удаление роли с админами блокируется",
-      "priority": "minor"
-    }
-  ],
+  "actionsUrl": "https://github.com/DgtlBureau/oasis-front/actions/runs/28620715858",
+  "failedTests": [],
   "prevFailed": 2,
-  "deltaFailed": 0
+  "deltaFailed": -2
 }
