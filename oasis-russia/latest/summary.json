@@ -1,26 +1,21 @@
 {
   "project": "oasis-russia",
   "projectDisplayName": "Oasis Admin Russia",
-  "status": "minor",
-  "passed": 40,
-  "failed": 1,
+  "status": "pass",
+  "passed": 41,
+  "failed": 0,
   "skipped": 2,
-  "retried": 1,
+  "retried": 0,
   "total": 43,
   "failedCritical": 0,
   "failedMajor": 0,
-  "failedMinor": 1,
-  "passRate": "93.02",
-  "durationFormatted": "2m 15s",
-  "timestamp": "2026-07-02T20:18:05.065Z",
+  "failedMinor": 0,
+  "passRate": "95.35",
+  "durationFormatted": "1m 39s",
+  "timestamp": "2026-07-02T20:22:36.726Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/oasis-russia/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/oasis-front/actions/runs/28618551054",
-  "failedTests": [
-    {
-      "name": "Создание роли, назначение админу и проверка ограничений",
-      "priority": "minor"
-    }
-  ],
+  "actionsUrl": "https://github.com/DgtlBureau/oasis-front/actions/runs/28618858316",
+  "failedTests": [],
   "prevFailed": 1,
-  "deltaFailed": 0
+  "deltaFailed": -1
 }
