@@ -1,21 +1,62 @@
 {
   "project": "torpedo-shop",
   "projectDisplayName": "Torpedo Shop",
-  "status": "pass",
-  "passed": 641,
-  "failed": 0,
-  "skipped": 0,
-  "retried": 0,
-  "total": 641,
-  "failedCritical": 0,
-  "failedMajor": 0,
-  "failedMinor": 0,
-  "passRate": "100.00",
-  "durationFormatted": "22m 21s",
-  "timestamp": "2026-07-05T04:48:36.362Z",
+  "status": "critical",
+  "passed": 577,
+  "failed": 10,
+  "skipped": 53,
+  "retried": 85,
+  "total": 640,
+  "failedCritical": 1,
+  "failedMajor": 7,
+  "failedMinor": 2,
+  "passRate": "90.16",
+  "durationFormatted": "34m 55s",
+  "timestamp": "2026-07-06T05:06:25.066Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/28729394787",
-  "failedTests": [],
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/28767864413",
+  "failedTests": [
+    {
+      "name": "CJM-03-01 | Страница корзины отображает добавленный товар @major",
+      "priority": "major"
+    },
+    {
+      "name": "TC-RAT-01 | Блок рейтинга отображается на странице товара @minor",
+      "priority": "minor"
+    },
+    {
+      "name": "TC-RESP-01 | /payment — нет горизонтального скролла на мобиле",
+      "priority": "minor"
+    },
+    {
+      "name": "TC-PAY-05 | PaymentRedirectOverlay не отображается на каталоге @critical",
+      "priority": "critical"
+    },
+    {
+      "name": "CJM-03-02 | Кнопка «+» увеличивает количество @major",
+      "priority": "major"
+    },
+    {
+      "name": "CJM-03-03 | Кнопка «−» уменьшает количество @major",
+      "priority": "major"
+    },
+    {
+      "name": "TC-ADDR-03 | На странице есть кнопка \"Добавить адрес\" @major",
+      "priority": "major"
+    },
+    {
+      "name": "TC-ADDR-04 | Клик на \"Добавить адрес\" показывает форму с полями @major",
+      "priority": "major"
+    },
+    {
+      "name": "TC-ADDR-11 | Кнопка \"Выйти со всех устройств\" присутствует в профиле @major",
+      "priority": "major"
+    },
+    {
+      "name": "TC-ADDR-12 | Кнопка \"Выйти со всех устройств\" показывает confirm диалог @major",
+      "priority": "major"
+    }
+  ],
   "prevFailed": 0,
-  "deltaFailed": 0
+  "deltaFailed": 10
 }
