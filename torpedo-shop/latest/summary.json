@@ -1,26 +1,21 @@
 {
   "project": "torpedo-shop",
   "projectDisplayName": "Torpedo Shop",
-  "status": "critical",
-  "passed": 640,
-  "failed": 1,
+  "status": "retry",
+  "passed": 641,
+  "failed": 0,
   "skipped": 0,
   "retried": 1,
   "total": 641,
-  "failedCritical": 1,
+  "failedCritical": 0,
   "failedMajor": 0,
   "failedMinor": 0,
-  "passRate": "99.84",
-  "durationFormatted": "24m 37s",
-  "timestamp": "2026-07-11T12:15:16.659Z",
+  "passRate": "100.00",
+  "durationFormatted": "23m 22s",
+  "timestamp": "2026-07-11T12:57:58.068Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/29151601547",
-  "failedTests": [
-    {
-      "name": "TC-HOME-14 | Ссылка «В каталог» ведёт на /catalog @critical",
-      "priority": "critical"
-    }
-  ],
-  "prevFailed": 0,
-  "deltaFailed": 1
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/29152809482",
+  "failedTests": [],
+  "prevFailed": 1,
+  "deltaFailed": -1
 }
