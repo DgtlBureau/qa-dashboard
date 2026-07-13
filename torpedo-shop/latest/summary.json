@@ -1,21 +1,26 @@
 {
   "project": "torpedo-shop",
   "projectDisplayName": "Torpedo Shop",
-  "status": "pass",
-  "passed": 641,
-  "failed": 0,
-  "skipped": 0,
-  "retried": 0,
-  "total": 641,
+  "status": "minor",
+  "passed": 629,
+  "failed": 1,
+  "skipped": 10,
+  "retried": 5,
+  "total": 640,
   "failedCritical": 0,
   "failedMajor": 0,
-  "failedMinor": 0,
-  "passRate": "100.00",
-  "durationFormatted": "20m 40s",
-  "timestamp": "2026-07-12T04:34:51.021Z",
+  "failedMinor": 1,
+  "passRate": "98.28",
+  "durationFormatted": "34m 53s",
+  "timestamp": "2026-07-13T04:51:09.355Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/29179367157",
-  "failedTests": [],
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/29223443302",
+  "failedTests": [
+    {
+      "name": "TC-PERF-01 | Главная страница загружается быстрее 10 секунд @minor",
+      "priority": "minor"
+    }
+  ],
   "prevFailed": 0,
-  "deltaFailed": 0
+  "deltaFailed": 1
 }
