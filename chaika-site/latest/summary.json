@@ -11,10 +11,10 @@
   "failedMajor": 52,
   "failedMinor": 27,
   "passRate": "0.00",
-  "durationFormatted": "3m 57s",
-  "timestamp": "2026-07-15T05:54:22.958Z",
+  "durationFormatted": "3m 44s",
+  "timestamp": "2026-07-16T06:00:01.969Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/chaika-site/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/29392441282",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/29475152049",
   "failedTests": [
     {
       "name": "Главная / отвечает 200 @critical",
