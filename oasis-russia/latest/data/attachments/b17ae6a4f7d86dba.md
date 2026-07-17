@@ -1,0 +1,32 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - generic [ref=e5] [cursor=pointer]:
+    - alert [ref=e6]:
+      - img [ref=e8]
+      - generic [ref=e11]:
+        - generic [ref=e12]: "Ошибка: нет ответа от сервера"
+        - generic [ref=e13]: Try again later
+    - button "close" [ref=e14]:
+      - img [ref=e15]
+    - progressbar "notification timer"
+  - generic [ref=e17] [cursor=pointer]:
+    - alert [ref=e18]:
+      - img [ref=e20]
+      - generic [ref=e23]:
+        - generic [ref=e24]: "Ошибка: нет ответа от сервера"
+        - generic [ref=e25]: Try again later
+    - button "close" [ref=e26]:
+      - img [ref=e27]
+    - progressbar "notification timer"
+  - generic [ref=e29] [cursor=pointer]:
+    - alert [ref=e30]:
+      - img [ref=e32]
+      - generic [ref=e35]:
+        - generic [ref=e36]: "Ошибка: нет ответа от сервера"
+        - generic [ref=e37]: Try again later
+    - button "close" [ref=e38]:
+      - img [ref=e39]
+    - progressbar "notification timer"
+```
