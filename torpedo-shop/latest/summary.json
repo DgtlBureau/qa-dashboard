@@ -5,22 +5,22 @@
   "passed": 640,
   "failed": 1,
   "skipped": 0,
-  "retried": 3,
+  "retried": 2,
   "total": 641,
   "failedCritical": 0,
   "failedMajor": 1,
   "failedMinor": 0,
   "passRate": "99.84",
-  "durationFormatted": "26m 0s",
-  "timestamp": "2026-07-24T04:31:35.579Z",
+  "durationFormatted": "24m 58s",
+  "timestamp": "2026-07-25T04:29:11.357Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/30065789258",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/30143310009",
   "failedTests": [
     {
       "name": "ТК-13 | Версия nginx/PHP скрыта в ответах backend @major",
       "priority": "major"
     }
   ],
-  "prevFailed": 0,
-  "deltaFailed": 1
+  "prevFailed": 1,
+  "deltaFailed": 0
 }
