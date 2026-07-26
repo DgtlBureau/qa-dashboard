@@ -1,42 +1,21 @@
 {
   "project": "oasis-russia",
   "projectDisplayName": "Oasis Admin Russia",
-  "status": "warning",
-  "passed": 35,
-  "failed": 5,
-  "skipped": 3,
-  "retried": 21,
+  "status": "pass",
+  "passed": 43,
+  "failed": 0,
+  "skipped": 0,
+  "retried": 0,
   "total": 43,
   "failedCritical": 0,
-  "failedMajor": 5,
+  "failedMajor": 0,
   "failedMinor": 0,
-  "passRate": "81.40",
-  "durationFormatted": "6m 13s",
-  "timestamp": "2026-07-25T04:43:02.358Z",
+  "passRate": "100.00",
+  "durationFormatted": "2m 10s",
+  "timestamp": "2026-07-26T04:41:25.821Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/oasis-russia/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/oasis-front/actions/runs/30144224317",
-  "failedTests": [
-    {
-      "name": "Таблица с данными загружается @major",
-      "priority": "major"
-    },
-    {
-      "name": "Таблица с данными загружается @major",
-      "priority": "major"
-    },
-    {
-      "name": "События (/events) — страница открывается @major",
-      "priority": "major"
-    },
-    {
-      "name": "Пользователь отображается в таблице @major",
-      "priority": "major"
-    },
-    {
-      "name": "Создание точки питания через API @major",
-      "priority": "major"
-    }
-  ],
-  "prevFailed": 0,
-  "deltaFailed": 5
+  "actionsUrl": "https://github.com/DgtlBureau/oasis-front/actions/runs/30188088076",
+  "failedTests": [],
+  "prevFailed": 5,
+  "deltaFailed": -5
 }
