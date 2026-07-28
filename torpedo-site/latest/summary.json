@@ -11,10 +11,10 @@
   "failedMajor": 52,
   "failedMinor": 27,
   "passRate": "0.00",
-  "durationFormatted": "4m 0s",
-  "timestamp": "2026-07-27T06:17:01.974Z",
+  "durationFormatted": "4m 2s",
+  "timestamp": "2026-07-28T06:04:56.713Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-site/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/30241922380",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/30333300271",
   "failedTests": [
     {
       "name": "Главная / отвечает 200 @critical",
@@ -57,7 +57,7 @@
       "priority": "critical"
     }
   ],
-  "commitMessage": "feat(tickets): показывать несколько карточек «Ближайших матчей» в ряд",
+  "commitMessage": "fix(ci): рабочая очистка build-кэша после сборки",
   "prevFailed": 111,
   "deltaFailed": 0
 }
