@@ -12,9 +12,9 @@
   "failedMinor": 1,
   "passRate": "0.00",
   "durationFormatted": "0m 1s",
-  "timestamp": "2026-07-27T05:26:58.590Z",
+  "timestamp": "2026-07-28T05:13:04.032Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/oasis-dubai/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/oasis-front-dubai/actions/runs/30239622727",
+  "actionsUrl": "https://github.com/DgtlBureau/oasis-front-dubai/actions/runs/30330794212",
   "failedTests": [
     {
       "name": "authenticate as admin",
