@@ -2,33 +2,25 @@
   "project": "torpedo-shop",
   "projectDisplayName": "Torpedo Shop",
   "status": "warning",
-  "passed": 637,
-  "failed": 3,
-  "skipped": 1,
-  "retried": 3,
+  "passed": 640,
+  "failed": 1,
+  "skipped": 0,
+  "retried": 6,
   "total": 641,
   "failedCritical": 0,
-  "failedMajor": 3,
+  "failedMajor": 1,
   "failedMinor": 0,
-  "passRate": "99.38",
-  "durationFormatted": "24m 31s",
-  "timestamp": "2026-07-27T04:43:07.030Z",
+  "passRate": "99.84",
+  "durationFormatted": "28m 25s",
+  "timestamp": "2026-07-28T04:32:46.686Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/30236650993",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/30327586052",
   "failedTests": [
     {
       "name": "ТК-13 | Версия nginx/PHP скрыта в ответах backend @major",
       "priority": "major"
-    },
-    {
-      "name": "TC-CAT-11 | Панель фильтров открывается @major",
-      "priority": "major"
-    },
-    {
-      "name": "TC-CAT-15 | Дропдаун сортировки присутствует @major",
-      "priority": "major"
     }
   ],
-  "prevFailed": 1,
-  "deltaFailed": 2
+  "prevFailed": 3,
+  "deltaFailed": -2
 }
