@@ -11,10 +11,10 @@
   "failedMajor": 52,
   "failedMinor": 27,
   "passRate": "0.00",
-  "durationFormatted": "4m 10s",
-  "timestamp": "2026-07-28T06:04:56.741Z",
+  "durationFormatted": "4m 8s",
+  "timestamp": "2026-07-29T06:07:29.711Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/chaika-site/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/30333300271",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/30426848550",
   "failedTests": [
     {
       "name": "Главная / отвечает 200 @critical",
@@ -57,7 +57,7 @@
       "priority": "critical"
     }
   ],
-  "commitMessage": "fix(ci): рабочая очистка build-кэша после сборки",
+  "commitMessage": "feat(абонементы): лендинг переехал на /abonements/ + правки по замечаниям",
   "prevFailed": 111,
   "deltaFailed": 0
 }
