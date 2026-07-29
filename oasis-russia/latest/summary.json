@@ -11,10 +11,10 @@
   "failedMajor": 1,
   "failedMinor": 0,
   "passRate": "93.02",
-  "durationFormatted": "1m 44s",
-  "timestamp": "2026-07-29T10:36:25.381Z",
+  "durationFormatted": "2m 5s",
+  "timestamp": "2026-07-29T11:14:07.633Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/oasis-russia/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/oasis-front/actions/runs/30443948134",
+  "actionsUrl": "https://github.com/DgtlBureau/oasis-front/actions/runs/30446404539",
   "failedTests": [
     {
       "name": "Создание нового размещения через форму @major",
