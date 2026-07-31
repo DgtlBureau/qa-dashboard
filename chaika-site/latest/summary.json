@@ -11,10 +11,10 @@
   "failedMajor": 52,
   "failedMinor": 27,
   "passRate": "0.00",
-  "durationFormatted": "3m 59s",
-  "timestamp": "2026-07-30T06:02:00.723Z",
+  "durationFormatted": "3m 21s",
+  "timestamp": "2026-07-31T06:09:45.109Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/chaika-site/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/30518053096",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/30608553395",
   "failedTests": [
     {
       "name": "Главная / отвечает 200 @critical",
@@ -57,7 +57,7 @@
       "priority": "critical"
     }
   ],
-  "commitMessage": "feat(абонементы): лендинг переехал на /abonements/ + правки по замечаниям",
+  "commitMessage": "Revert \"Школа: ссылки ведут на school.hctorpedo.ru, старый /school/ — 301\"",
   "prevFailed": 111,
   "deltaFailed": 0
 }
