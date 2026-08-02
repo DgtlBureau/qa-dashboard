@@ -11,10 +11,10 @@
   "failedMajor": 1,
   "failedMinor": 0,
   "passRate": "99.84",
-  "durationFormatted": "27m 43s",
-  "timestamp": "2026-08-01T04:37:56.442Z",
+  "durationFormatted": "23m 45s",
+  "timestamp": "2026-08-02T04:36:51.786Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/30683350122",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/30731930843",
   "failedTests": [
     {
       "name": "ТК-13 | Версия nginx/PHP скрыта в ответах backend @major",
