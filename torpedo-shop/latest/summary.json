@@ -1,26 +1,21 @@
 {
   "project": "torpedo-shop",
   "projectDisplayName": "Torpedo Shop",
-  "status": "warning",
-  "passed": 640,
-  "failed": 1,
+  "status": "pass",
+  "passed": 641,
+  "failed": 0,
   "skipped": 0,
-  "retried": 3,
+  "retried": 0,
   "total": 641,
   "failedCritical": 0,
-  "failedMajor": 1,
+  "failedMajor": 0,
   "failedMinor": 0,
-  "passRate": "99.84",
-  "durationFormatted": "23m 45s",
-  "timestamp": "2026-08-02T04:36:51.786Z",
+  "passRate": "100.00",
+  "durationFormatted": "26m 50s",
+  "timestamp": "2026-08-02T13:34:23.437Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/30731930843",
-  "failedTests": [
-    {
-      "name": "ТК-13 | Версия nginx/PHP скрыта в ответах backend @major",
-      "priority": "major"
-    }
-  ],
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/30749193119",
+  "failedTests": [],
   "prevFailed": 1,
-  "deltaFailed": 0
+  "deltaFailed": -1
 }
