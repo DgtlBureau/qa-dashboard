@@ -1,21 +1,30 @@
 {
   "project": "torpedo-shop",
   "projectDisplayName": "Torpedo Shop",
-  "status": "pass",
-  "passed": 641,
-  "failed": 0,
-  "skipped": 0,
-  "retried": 0,
+  "status": "warning",
+  "passed": 638,
+  "failed": 2,
+  "skipped": 1,
+  "retried": 2,
   "total": 641,
   "failedCritical": 0,
-  "failedMajor": 0,
+  "failedMajor": 2,
   "failedMinor": 0,
-  "passRate": "100.00",
-  "durationFormatted": "22m 51s",
-  "timestamp": "2026-08-07T04:22:42.111Z",
+  "passRate": "99.53",
+  "durationFormatted": "23m 27s",
+  "timestamp": "2026-08-08T03:56:28.405Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/31145943822",
-  "failedTests": [],
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/31237372508",
+  "failedTests": [
+    {
+      "name": "TC-CAT-11 | Панель фильтров открывается @major",
+      "priority": "major"
+    },
+    {
+      "name": "TC-CAT-15 | Дропдаун сортировки присутствует @major",
+      "priority": "major"
+    }
+  ],
   "prevFailed": 0,
-  "deltaFailed": 0
+  "deltaFailed": 2
 }
