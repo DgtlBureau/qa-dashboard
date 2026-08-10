@@ -11,10 +11,10 @@
   "failedMajor": 52,
   "failedMinor": 27,
   "passRate": "0.00",
-  "durationFormatted": "4m 4s",
-  "timestamp": "2026-08-09T05:29:34.140Z",
+  "durationFormatted": "3m 29s",
+  "timestamp": "2026-08-10T05:39:05.150Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/chaika-site/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/31296587101",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/31358967957",
   "failedTests": [
     {
       "name": "Главная / отвечает 200 @critical",
@@ -57,7 +57,7 @@
       "priority": "critical"
     }
   ],
-  "commitMessage": "Идеи: ряд шагов не разъезжается при увеличении, голос снимается кликом",
+  "commitMessage": "Абонементы: новый ролик в шапке страницы",
   "prevFailed": 111,
   "deltaFailed": 0
 }
