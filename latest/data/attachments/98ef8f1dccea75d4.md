@@ -1,0 +1,374 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e6]:
+      - button "Открыть меню" [ref=e7] [cursor=pointer]:
+        - img [ref=e8]
+        - img [ref=e11]
+      - text: 
+      - link "ХК Торпедо" [ref=e14] [cursor=pointer]:
+        - /url: /
+        - img "ХК Торпедо" [ref=e15]
+      - generic [ref=e16]:
+        - text: 
+        - link "" [ref=e17] [cursor=pointer]:
+          - /url: https://hctorpedo.ru/
+          - generic [ref=e18]: 
+        - link "" [ref=e19] [cursor=pointer]:
+          - /url: https://hctorpedo.ru/tickets/
+          - generic [ref=e20]: 
+        - link "" [ref=e21] [cursor=pointer]:
+          - /url: /account/personal/
+          - generic [ref=e22]: 
+        - link "Корзина" [ref=e23] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=e24]: 
+  - generic [ref=e25]:
+    - generic [ref=e26]:
+      - button "Закрыть" [ref=e27] [cursor=pointer]:
+        - img [ref=e28]
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - img "Торпедо" [ref=e32]
+          - generic [ref=e33]: Торпедо
+        - generic [ref=e36]: 14 августа, пт, 16:00
+        - generic [ref=e38]:
+          - img "Динамо" [ref=e39]
+          - generic [ref=e40]: Динамо
+    - button [ref=e41] [cursor=pointer]:
+      - generic [ref=e42]: 
+  - main [ref=e44]:
+    - list [ref=e46]:
+      - listitem [ref=e47]:
+        - link "Главная" [ref=e48] [cursor=pointer]:
+          - /url: /
+        - text: 
+      - listitem [ref=e49]: Каталог товаров
+    - generic [ref=e51]:
+      - generic [ref=e52]:
+        - button "Фильтр и сортировка " [ref=e53] [cursor=pointer]:
+          - text: Фильтр и сортировка
+          - generic [ref=e54]: 
+        - text:  
+      - generic [ref=e55]:
+        - generic [ref=e56]:
+          - link "Бейсболка \"№ 52\" (ripstop) серая 55-58 (A&C) сетка Убрать из избранного Быстрый просмотр Бейсболка \"№ 52\" (ripstop) серая 55-58 (A&C) сетка 2 000 ₽      (1)" [ref=e57] [cursor=pointer]:
+            - /url: /product/beysbolka-52-ripstop-seraya-55-58-ac-setka
+            - generic [ref=e58]:
+              - img "Бейсболка \"№ 52\" (ripstop) серая 55-58 (A&C) сетка" [ref=e60]
+              - button "Убрать из избранного" [ref=e62]:
+                - text: 
+                - generic [ref=e63]: 
+              - generic:
+                - button "Быстрый просмотр"
+            - generic [ref=e64]:
+              - generic [ref=e65]: Бейсболка "№ 52" (ripstop) серая 55-58 (A&C) сетка
+              - generic [ref=e67]: 2 000 ₽
+              - generic [ref=e68]:
+                - generic [ref=e69]:
+                  - generic [ref=e70]: 
+                  - generic [ref=e71]: 
+                  - generic [ref=e72]: 
+                  - generic [ref=e73]: 
+                  - generic [ref=e74]: 
+                - generic [ref=e75]: (1)
+          - link "Бейсболка ХК Торпедо НН (подростковая), син., 52-54 (Atributika&Club) SALE Убрать из избранного Быстрый просмотр Бейсболка ХК Торпедо НН (подростковая), син., 52-54 (Atributika&Club) 2 500 ₽ 1 500 ₽     " [ref=e76] [cursor=pointer]:
+            - /url: /product/beysbolka-khk-torpedo-nn-podrostkovaya-sin-52-54-atributikaclub
+            - generic [ref=e77]:
+              - img "Бейсболка ХК Торпедо НН (подростковая), син., 52-54 (Atributika&Club)" [ref=e79]
+              - generic [ref=e81]: SALE
+              - button "Убрать из избранного" [ref=e83]:
+                - text: 
+                - generic [ref=e84]: 
+              - generic:
+                - button "Быстрый просмотр"
+            - generic [ref=e85]:
+              - generic [ref=e86]: Бейсболка ХК Торпедо НН (подростковая), син., 52-54 (Atributika&Club)
+              - generic [ref=e87]:
+                - generic [ref=e88]: 2 500 ₽
+                - generic [ref=e89]: 1 500 ₽
+              - generic [ref=e91]:
+                - generic [ref=e92]: 
+                - generic [ref=e93]: 
+                - generic [ref=e94]: 
+                - generic [ref=e95]: 
+                - generic [ref=e96]: 
+          - link "Альбом для рисования \"Торрик\" 24 л. Убрать из избранного Быстрый просмотр Альбом для рисования \"Торрик\" 24 л. 250 ₽     " [ref=e97] [cursor=pointer]:
+            - /url: /product/albom-dlya-risovaniya-torrik-24-l
+            - generic [ref=e98]:
+              - img "Альбом для рисования \"Торрик\" 24 л." [ref=e100]
+              - button "Убрать из избранного" [ref=e102]:
+                - text: 
+                - generic [ref=e103]: 
+              - generic:
+                - button "Быстрый просмотр"
+            - generic [ref=e104]:
+              - generic [ref=e105]: Альбом для рисования "Торрик" 24 л.
+              - generic [ref=e107]: 250 ₽
+              - generic [ref=e109]:
+                - generic [ref=e110]: 
+                - generic [ref=e111]: 
+                - generic [ref=e112]: 
+                - generic [ref=e113]: 
+                - generic [ref=e114]: 
+          - link "Футболка ХК Торпедо (TORPEDO HOCKEY EST.1946) (белая) (A&C) Убрать из избранного Быстрый просмотр Футболка ХК Торпедо (TORPEDO HOCKEY EST.1946) (белая) (A&C) 2 000 ₽     " [ref=e115] [cursor=pointer]:
+            - /url: /product/futbolka-khk-torpedo-torpedo-hockey-est1946-belaya-ac
+            - generic [ref=e116]:
+              - img "Футболка ХК Торпедо (TORPEDO HOCKEY EST.1946) (белая) (A&C)" [ref=e118]
+              - button "Убрать из избранного" [ref=e120]:
+                - text: 
+                - generic [ref=e121]: 
+              - generic:
+                - button "Быстрый просмотр"
+            - generic [ref=e122]:
+              - generic [ref=e123]: Футболка ХК Торпедо (TORPEDO HOCKEY EST.1946) (белая) (A&C)
+              - generic [ref=e125]: 2 000 ₽
+              - generic [ref=e127]:
+                - generic [ref=e128]: 
+                - generic [ref=e129]: 
+                - generic [ref=e130]: 
+                - generic [ref=e131]: 
+                - generic [ref=e132]: 
+          - link "Значок \"Шлем\" ХК Торпедо Убрать из избранного Быстрый просмотр Значок \"Шлем\" ХК Торпедо 300 ₽     " [ref=e133] [cursor=pointer]:
+            - /url: /product/znachok-shlem-khk-torpedo
+            - generic [ref=e134]:
+              - img "Значок \"Шлем\" ХК Торпедо" [ref=e136]
+              - button "Убрать из избранного" [ref=e138]:
+                - text: 
+                - generic [ref=e139]: 
+              - generic:
+                - button "Быстрый просмотр"
+            - generic [ref=e140]:
+              - generic [ref=e141]: Значок "Шлем" ХК Торпедо
+              - generic [ref=e143]: 300 ₽
+              - generic [ref=e145]:
+                - generic [ref=e146]: 
+                - generic [ref=e147]: 
+                - generic [ref=e148]: 
+                - generic [ref=e149]: 
+                - generic [ref=e150]: 
+          - link "Шайба односторонняя монохром (Логотип) черная Убрать из избранного Быстрый просмотр Шайба односторонняя монохром (Логотип) черная 600 ₽     " [ref=e151] [cursor=pointer]:
+            - /url: /product/shayba-odnostoronnyaya-monokhrom-logotip-chernaya
+            - generic [ref=e152]:
+              - img "Шайба односторонняя монохром (Логотип) черная" [ref=e154]
+              - button "Убрать из избранного" [ref=e156]:
+                - text: 
+                - generic [ref=e157]: 
+              - generic:
+                - button "Быстрый просмотр"
+            - generic [ref=e158]:
+              - generic [ref=e159]: Шайба односторонняя монохром (Логотип) черная
+              - generic [ref=e161]: 600 ₽
+              - generic [ref=e163]:
+                - generic [ref=e164]: 
+                - generic [ref=e165]: 
+                - generic [ref=e166]: 
+                - generic [ref=e167]: 
+                - generic [ref=e168]: 
+          - link "Значок \"Фанат\" ХК Торпедо Убрать из избранного Быстрый просмотр Значок \"Фанат\" ХК Торпедо 300 ₽     " [ref=e169] [cursor=pointer]:
+            - /url: /product/znachok-fanat-khk-torpedo
+            - generic [ref=e170]:
+              - img "Значок \"Фанат\" ХК Торпедо" [ref=e172]
+              - button "Убрать из избранного" [ref=e174]:
+                - text: 
+                - generic [ref=e175]: 
+              - generic:
+                - button "Быстрый просмотр"
+            - generic [ref=e176]:
+              - generic [ref=e177]: Значок "Фанат" ХК Торпедо
+              - generic [ref=e179]: 300 ₽
+              - generic [ref=e181]:
+                - generic [ref=e182]: 
+                - generic [ref=e183]: 
+                - generic [ref=e184]: 
+                - generic [ref=e185]: 
+                - generic [ref=e186]: 
+          - link "Бейсболка \"MASCOT COLLECTION\" синяя 52-54 (Atributika&Club) сетка подростковая Убрать из избранного Быстрый просмотр Бейсболка \"MASCOT COLLECTION\" синяя 52-54 (Atributika&Club) сетка подростковая 2 200 ₽     " [ref=e187] [cursor=pointer]:
+            - /url: /product/beysbolka-mascot-collection-sinyaya-52-54-atributikaclub-setka-podrostkovaya
+            - generic [ref=e188]:
+              - img "Бейсболка \"MASCOT COLLECTION\" синяя 52-54 (Atributika&Club) сетка подростковая" [ref=e190]
+              - button "Убрать из избранного" [ref=e192]:
+                - text: 
+                - generic [ref=e193]: 
+              - generic:
+                - button "Быстрый просмотр"
+            - generic [ref=e194]:
+              - generic [ref=e195]: Бейсболка "MASCOT COLLECTION" синяя 52-54 (Atributika&Club) сетка подростковая
+              - generic [ref=e197]: 2 200 ₽
+              - generic [ref=e199]:
+                - generic [ref=e200]: 
+                - generic [ref=e201]: 
+                - generic [ref=e202]: 
+                - generic [ref=e203]: 
+                - generic [ref=e204]: 
+          - link "Бейсболка ХК Торпедо (светло-синяя), 55-58 (A&C) Убрать из избранного Быстрый просмотр Бейсболка ХК Торпедо (светло-синяя), 55-58 (A&C) 2 000 ₽      (1)" [ref=e205] [cursor=pointer]:
+            - /url: /product/beysbolka-khk-torpedo-svetlo-sinyaya-55-58-ac
+            - generic [ref=e206]:
+              - img "Бейсболка ХК Торпедо (светло-синяя), 55-58 (A&C)" [ref=e208]
+              - button "Убрать из избранного" [ref=e210]:
+                - text: 
+                - generic [ref=e211]: 
+              - generic:
+                - button "Быстрый просмотр"
+            - generic [ref=e212]:
+              - generic [ref=e213]: Бейсболка ХК Торпедо (светло-синяя), 55-58 (A&C)
+              - generic [ref=e215]: 2 000 ₽
+              - generic [ref=e216]:
+                - generic [ref=e217]:
+                  - generic [ref=e218]: 
+                  - generic [ref=e219]: 
+                  - generic [ref=e220]: 
+                  - generic [ref=e221]: 
+                  - generic [ref=e222]: 
+                - generic [ref=e223]: (1)
+          - link "Футболка \"Т\" сливочная Убрать из избранного Быстрый просмотр Футболка \"Т\" сливочная 4 500 ₽     " [ref=e224] [cursor=pointer]:
+            - /url: /product/futbolka-t-slivochnaya
+            - generic [ref=e225]:
+              - img "Футболка \"Т\" сливочная" [ref=e227]
+              - button "Убрать из избранного" [ref=e229]:
+                - text: 
+                - generic [ref=e230]: 
+              - generic:
+                - button "Быстрый просмотр"
+            - generic [ref=e231]:
+              - generic [ref=e232]: Футболка "Т" сливочная
+              - generic [ref=e234]: 4 500 ₽
+              - generic [ref=e236]:
+                - generic [ref=e237]: 
+                - generic [ref=e238]: 
+                - generic [ref=e239]: 
+                - generic [ref=e240]: 
+                - generic [ref=e241]: 
+          - link "Кружка МХК Чайка Нижний Новгород синяя Убрать из избранного Быстрый просмотр Кружка МХК Чайка Нижний Новгород синяя 550 ₽      (1)" [ref=e242] [cursor=pointer]:
+            - /url: /product/kruzhka-mkhk-chayka-nizhniy-novgorod-sinyaya
+            - generic [ref=e243]:
+              - img "Кружка МХК Чайка Нижний Новгород синяя" [ref=e245]
+              - button "Убрать из избранного" [ref=e247]:
+                - text: 
+                - generic [ref=e248]: 
+              - generic:
+                - button "Быстрый просмотр"
+            - generic [ref=e249]:
+              - generic [ref=e250]: Кружка МХК Чайка Нижний Новгород синяя
+              - generic [ref=e252]: 550 ₽
+              - generic [ref=e253]:
+                - generic [ref=e254]:
+                  - generic [ref=e255]: 
+                  - generic [ref=e256]: 
+                  - generic [ref=e257]: 
+                  - generic [ref=e258]: 
+                  - generic [ref=e259]: 
+                - generic [ref=e260]: (1)
+          - link "Бейсболка черная (с кожаным патчем) (56-58) Убрать из избранного Быстрый просмотр Бейсболка черная (с кожаным патчем) (56-58) 2 200 ₽     " [ref=e261] [cursor=pointer]:
+            - /url: /product/beysbolka-chernaya-s-kozhanym-patchem-56-58
+            - generic [ref=e262]:
+              - img "Бейсболка черная (с кожаным патчем) (56-58)" [ref=e264]
+              - button "Убрать из избранного" [ref=e266]:
+                - text: 
+                - generic [ref=e267]: 
+              - generic:
+                - button "Быстрый просмотр"
+            - generic [ref=e268]:
+              - generic [ref=e269]: Бейсболка черная (с кожаным патчем) (56-58)
+              - generic [ref=e271]: 2 200 ₽
+              - generic [ref=e273]:
+                - generic [ref=e274]: 
+                - generic [ref=e275]: 
+                - generic [ref=e276]: 
+                - generic [ref=e277]: 
+                - generic [ref=e278]: 
+        - generic [ref=e279]:
+          - button "Показать ещё 12 товаров" [ref=e280] [cursor=pointer]
+          - paragraph [ref=e281]: Показано 12 из 343 моделей
+  - contentinfo [ref=e282]:
+    - generic [ref=e283]:
+      - generic [ref=e284]:
+        - generic [ref=e285]:
+          - generic [ref=e286]: "Режим работы: Вторник – Суббота 10:00 – 19:00"
+          - generic [ref=e287]:
+            - link "Личный кабинет" [ref=e288] [cursor=pointer]:
+              - /url: /account/orders
+            - link "Оплата" [ref=e289] [cursor=pointer]:
+              - /url: /payment
+            - link "Доставка" [ref=e290] [cursor=pointer]:
+              - /url: /delivery
+            - link "Баллы" [ref=e291] [cursor=pointer]:
+              - /url: /account/bonuses
+            - link "Возврат" [ref=e292] [cursor=pointer]:
+              - /url: /refund
+            - link "Контакты" [ref=e293] [cursor=pointer]:
+              - /url: /contacts
+        - generic [ref=e294]:
+          - link "+7 (930) 711-19-46" [ref=e295] [cursor=pointer]:
+            - /url: tel:+79307111946
+          - generic [ref=e296]: Телефон магазина
+      - generic [ref=e297]:
+        - generic [ref=e298]: Ближайший матч «Торпедо»
+        - generic [ref=e299]:
+          - generic [ref=e300]:
+            - img "Торпедо" [ref=e301]
+            - text: Торпедо
+          - generic [ref=e302]:
+            - generic [ref=e303]: 14 августа, пт, 16:00
+            - text: КРК Нагорный
+          - generic [ref=e304]:
+            - img "Динамо" [ref=e305]
+            - text: Динамо
+        - link " Билеты " [ref=e306] [cursor=pointer]:
+          - /url: https://widget.afisha.yandex.ru/w/sessions/ticketsteam-6585@62469908?clientKey=85231729-d812-4fef-ab69-919e45f9cfb1&regionId=47
+          - generic [ref=e307]: 
+          - text: Билеты
+          - generic [ref=e308]: 
+      - generic [ref=e309]:
+        - generic [ref=e310]: "Следить за нами в социальных сетях:"
+        - generic [ref=e311]:
+          - link "" [ref=e313] [cursor=pointer]:
+            - /url: https://vk.com/shop_hctorpedo
+            - generic [ref=e314]: 
+          - link "" [ref=e316] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@hctorpedo
+            - generic [ref=e317]: 
+          - link "" [ref=e319] [cursor=pointer]:
+            - /url: https://t.me/hctorpedo
+            - generic [ref=e320]: 
+          - link "" [ref=e322] [cursor=pointer]:
+            - /url: https://twitter.com/torpedonn
+            - generic [ref=e323]: 
+          - link "" [ref=e325] [cursor=pointer]:
+            - /url: https://ok.ru/hctorpedo
+            - generic [ref=e326]: 
+          - link "" [ref=e328] [cursor=pointer]:
+            - /url: https://www.youtube.com/hctorpedonn
+            - generic [ref=e329]: 
+      - generic [ref=e330]:
+        - generic [ref=e331]:
+          - paragraph [ref=e332]: 2003-2026 АНО «Хоккейный клуб «Торпедо»
+          - paragraph [ref=e333]:
+            - link "Условия пользования сайтами ХК «Торпедо»" [ref=e334] [cursor=pointer]:
+              - /url: /terms
+        - generic [ref=e336]:
+          - link "Политика обработки персональных данных" [ref=e337] [cursor=pointer]:
+            - /url: /privacy
+          - link "Пользовательское соглашение" [ref=e338] [cursor=pointer]:
+            - /url: /terms
+  - generic [ref=e339]:
+    - button "Закрыть" [ref=e340] [cursor=pointer]
+    - link "Абонементы на сезон уже в продаже" [ref=e341] [cursor=pointer]:
+      - /url: https://shop.hctorpedo.ru/
+      - img "Абонементы на сезон уже в продаже" [ref=e343]
+      - generic [ref=e344]:
+        - text: Купить абонемент
+        - img [ref=e345]
+  - dialog "Уведомление об использовании файлов cookie" [ref=e347]:
+    - generic [ref=e348]:
+      - paragraph [ref=e349]:
+        - text: Мы используем файлы cookie для улучшения работы сайта. Продолжая пользоваться сайтом, вы соглашаетесь с
+        - link "Политикой конфиденциальности" [ref=e350] [cursor=pointer]:
+          - /url: /privacy
+        - text: .
+      - generic [ref=e351]:
+        - button "Принять" [ref=e352] [cursor=pointer]
+        - button "Отказаться" [ref=e353] [cursor=pointer]
+```
