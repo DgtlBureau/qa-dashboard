@@ -11,10 +11,10 @@
   "failedMajor": 52,
   "failedMinor": 27,
   "passRate": "0.00",
-  "durationFormatted": "3m 37s",
-  "timestamp": "2026-08-13T05:39:50.764Z",
+  "durationFormatted": "3m 55s",
+  "timestamp": "2026-08-14T05:39:36.079Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/chaika-site/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/31670767228",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/31773415133",
   "failedTests": [
     {
       "name": "Главная / отвечает 200 @critical",
@@ -57,7 +57,7 @@
       "priority": "critical"
     }
   ],
-  "commitMessage": "tickets: кнопка покупки — по верхней кромке карточки",
+  "commitMessage": "Юридические документы переехали к нам, /security/ восстановлена",
   "prevFailed": 111,
   "deltaFailed": 0
 }
