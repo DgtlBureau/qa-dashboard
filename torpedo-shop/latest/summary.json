@@ -2,25 +2,25 @@
   "project": "torpedo-shop",
   "projectDisplayName": "Torpedo Shop",
   "status": "warning",
-  "passed": 640,
+  "passed": 639,
   "failed": 1,
-  "skipped": 0,
+  "skipped": 1,
   "retried": 2,
   "total": 641,
   "failedCritical": 0,
   "failedMajor": 1,
   "failedMinor": 0,
-  "passRate": "99.84",
-  "durationFormatted": "24m 41s",
-  "timestamp": "2026-08-15T03:42:06.799Z",
+  "passRate": "99.69",
+  "durationFormatted": "24m 7s",
+  "timestamp": "2026-08-16T03:45:33.321Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/31861329470",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/31923970820",
   "failedTests": [
     {
       "name": "TC-VK-03 | Клик по кнопке VK открывает VK ID виджет или меняет состояние кнопки @major",
       "priority": "major"
     }
   ],
-  "prevFailed": 5,
-  "deltaFailed": -4
+  "prevFailed": 1,
+  "deltaFailed": 0
 }
