@@ -11,10 +11,10 @@
   "failedMajor": 52,
   "failedMinor": 27,
   "passRate": "0.00",
-  "durationFormatted": "3m 56s",
-  "timestamp": "2026-08-15T05:14:05.034Z",
+  "durationFormatted": "2m 48s",
+  "timestamp": "2026-08-16T05:15:07.985Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-site/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/31866200539",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/31928350775",
   "failedTests": [
     {
       "name": "Главная / отвечает 200 @critical",
@@ -57,7 +57,7 @@
       "priority": "critical"
     }
   ],
-  "commitMessage": "Правила билетов: тёмный заголовок — _light без баннера был белым на белом",
+  "commitMessage": "Изменения в составе: секция «Командированные» убрана — живёт на /teamroster/",
   "prevFailed": 111,
   "deltaFailed": 0
 }
