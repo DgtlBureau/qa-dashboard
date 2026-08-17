@@ -11,10 +11,10 @@
   "failedMajor": 1,
   "failedMinor": 0,
   "passRate": "97.67",
-  "durationFormatted": "2m 16s",
-  "timestamp": "2026-08-17T10:11:01.236Z",
+  "durationFormatted": "2m 15s",
+  "timestamp": "2026-08-17T11:46:10.173Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/oasis-russia/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/oasis-front/actions/runs/32018426030",
+  "actionsUrl": "https://github.com/DgtlBureau/oasis-front/actions/runs/32026037357",
   "failedTests": [
     {
       "name": "Удаление размещения через таблицу @major",
