@@ -1,63 +1,22 @@
 {
   "project": "chaika-site",
   "projectDisplayName": "HC Chaika (МХЛ)",
-  "status": "critical",
+  "status": "pass",
   "passed": 0,
-  "failed": 111,
+  "failed": 0,
   "skipped": 0,
-  "retried": 111,
-  "total": 111,
-  "failedCritical": 32,
-  "failedMajor": 52,
-  "failedMinor": 27,
+  "retried": 0,
+  "total": 0,
+  "failedCritical": 0,
+  "failedMajor": 0,
+  "failedMinor": 0,
   "passRate": "0.00",
-  "durationFormatted": "4m 7s",
-  "timestamp": "2026-08-18T05:18:25.565Z",
+  "durationFormatted": "0m 0s",
+  "timestamp": "2026-08-19T05:42:03.390Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/chaika-site/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/32101889127",
-  "failedTests": [
-    {
-      "name": "Главная / отвечает 200 @critical",
-      "priority": "critical"
-    },
-    {
-      "name": "Новости /news/ отвечает 200 @critical",
-      "priority": "critical"
-    },
-    {
-      "name": "Состав /teamroster/ отвечает 200 @critical",
-      "priority": "critical"
-    },
-    {
-      "name": "Тренеры /coaches/ отвечает 200 @critical",
-      "priority": "critical"
-    },
-    {
-      "name": "Персонал /staffs/ отвечает 200 @critical",
-      "priority": "critical"
-    },
-    {
-      "name": "Руководство /leaders/ отвечает 200 @critical",
-      "priority": "critical"
-    },
-    {
-      "name": "Правление /manage/ отвечает 200 @critical",
-      "priority": "critical"
-    },
-    {
-      "name": "Календарь /season/calendar/ отвечает 200 @critical",
-      "priority": "critical"
-    },
-    {
-      "name": "Матчи /season/matches/ отвечает 200 @critical",
-      "priority": "critical"
-    },
-    {
-      "name": "Турнирная таблица /season/tournament_tables/ отвечает 200 @critical",
-      "priority": "critical"
-    }
-  ],
-  "commitMessage": "Изменения в составе: секция «Командированные» убрана — живёт на /teamroster/",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/32218480112",
+  "failedTests": [],
+  "commitMessage": "Виджет на сайте: показывается тем, у кого есть код продления",
   "prevFailed": 111,
-  "deltaFailed": 0
+  "deltaFailed": -111
 }
