@@ -11,10 +11,10 @@
   "failedMajor": 52,
   "failedMinor": 27,
   "passRate": "0.00",
-  "durationFormatted": "3m 40s",
-  "timestamp": "2026-08-18T05:18:25.556Z",
+  "durationFormatted": "4m 1s",
+  "timestamp": "2026-08-19T05:42:03.385Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/gorky-site/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/32101889127",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/32218480112",
   "failedTests": [
     {
       "name": "Главная / отвечает 200 @critical",
@@ -57,7 +57,7 @@
       "priority": "critical"
     }
   ],
-  "commitMessage": "Изменения в составе: секция «Командированные» убрана — живёт на /teamroster/",
+  "commitMessage": "Виджет на сайте: показывается тем, у кого есть код продления",
   "prevFailed": 111,
   "deltaFailed": 0
 }
