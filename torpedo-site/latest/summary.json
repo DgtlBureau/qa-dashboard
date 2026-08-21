@@ -11,10 +11,10 @@
   "failedMajor": 52,
   "failedMinor": 27,
   "passRate": "0.00",
-  "durationFormatted": "3m 55s",
-  "timestamp": "2026-08-20T05:17:53.345Z",
+  "durationFormatted": "4m 9s",
+  "timestamp": "2026-08-21T05:18:32.518Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-site/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/32334714619",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/32449716465",
   "failedTests": [
     {
       "name": "Главная / отвечает 200 @critical",
@@ -57,7 +57,7 @@
       "priority": "critical"
     }
   ],
-  "commitMessage": "Абонементы: кнопка «Купить» ведёт в личный кабинет магазина",
+  "commitMessage": "Юридические PDF: сканы пережаты, 21,7 МБ → 1,0 МБ",
   "prevFailed": 111,
   "deltaFailed": 0
 }
