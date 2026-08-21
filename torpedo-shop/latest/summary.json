@@ -11,10 +11,10 @@
   "failedMajor": 1,
   "failedMinor": 0,
   "passRate": "99.84",
-  "durationFormatted": "32m 22s",
-  "timestamp": "2026-08-20T03:52:39.124Z",
+  "durationFormatted": "26m 27s",
+  "timestamp": "2026-08-21T03:50:05.319Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/32327754201",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/32443090761",
   "failedTests": [
     {
       "name": "TC-VK-03 | Клик по кнопке VK открывает VK ID виджет или меняет состояние кнопки @major",
