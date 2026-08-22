@@ -1,0 +1,208 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]: "Режим работы:"
+        - generic [ref=e8]: Ежедневно 10:00 – 19:00
+        - generic [ref=e9]: "Телефон магазина:"
+        - link "+7 (930) 711-19-46" [ref=e10] [cursor=pointer]:
+          - /url: tel:+79307111946
+        - generic [ref=e11]: "Касса:"
+        - link "+7 (920) 006-05-34" [ref=e12] [cursor=pointer]:
+          - /url: tel:+79200060534
+      - generic [ref=e14]:
+        - link "Оплата" [ref=e15] [cursor=pointer]:
+          - /url: /payment
+        - link "Доставка" [ref=e16] [cursor=pointer]:
+          - /url: /delivery
+        - link "Баллы" [ref=e17] [cursor=pointer]:
+          - /url: /account/bonuses
+        - link "Возврат" [ref=e18] [cursor=pointer]:
+          - /url: /refund
+        - link "Контакты" [ref=e19] [cursor=pointer]:
+          - /url: /contacts
+    - generic [ref=e22]:
+      - generic [ref=e24]:
+        - textbox "Искать товары" [ref=e25]
+        - button "Поиск":
+          - generic: 
+      - link "ХК Торпедо" [ref=e26] [cursor=pointer]:
+        - /url: /
+        - img "ХК Торпедо" [ref=e27]
+      - generic [ref=e28]:
+        - text: 
+        - link " Основной сайт" [ref=e29] [cursor=pointer]:
+          - /url: https://hctorpedo.ru/
+          - generic [ref=e30]: 
+          - generic [ref=e31]: Основной сайт
+        - link " Билеты" [ref=e32] [cursor=pointer]:
+          - /url: https://hctorpedo.ru/tickets/
+          - generic [ref=e33]: 
+          - generic [ref=e34]: Билеты
+        - link " Войти" [ref=e35] [cursor=pointer]:
+          - /url: /account/personal/
+          - generic [ref=e36]: 
+          - generic [ref=e37]: Войти
+        - link "Корзина" [ref=e38] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=e39]: 
+          - generic [ref=e40]: Корзина
+    - navigation [ref=e41]:
+      - list [ref=e43]:
+        - listitem [ref=e44]:
+          - link "Атрибутика" [ref=e45] [cursor=pointer]:
+            - /url: /catalog/atributika-1/
+        - listitem [ref=e46]:
+          - link "Головные уборы" [ref=e47] [cursor=pointer]:
+            - /url: /catalog/golovnye-ubory-1/
+        - listitem [ref=e48]:
+          - link "Аксессуары" [ref=e49] [cursor=pointer]:
+            - /url: /catalog/aksessuary-1/
+        - listitem [ref=e50]:
+          - link "Женская одежда" [ref=e51] [cursor=pointer]:
+            - /url: /catalog/zhenskaya-odezhda-1/
+        - listitem [ref=e52]:
+          - link "Сувениры" [ref=e53] [cursor=pointer]:
+            - /url: /catalog/suveniry-1/
+        - listitem [ref=e54]:
+          - link "Игровые свитеры" [ref=e55] [cursor=pointer]:
+            - /url: /catalog/igrovye-svitery-1/
+        - listitem [ref=e56]:
+          - link "Детская одежда" [ref=e57] [cursor=pointer]:
+            - /url: /catalog/detskaya-odezhda-1/
+        - listitem [ref=e58]:
+          - link "Мужская одежда" [ref=e59] [cursor=pointer]:
+            - /url: /catalog/muzhskaya-odezhda-1/
+        - listitem [ref=e60]:
+          - link "МХК Чайка" [ref=e61] [cursor=pointer]:
+            - /url: /catalog/mkhk-chayka-1/
+  - generic [ref=e62]:
+    - generic [ref=e63]:
+      - button "Закрыть" [ref=e64] [cursor=pointer]:
+        - img [ref=e65]
+        - generic [ref=e67]: Ближайший матч
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - img "Динамо" [ref=e70]
+          - generic [ref=e71]: Динамо
+        - generic [ref=e73]:
+          - generic [ref=e74]: 28 августа, пт, 18:30
+          - generic [ref=e75]: ДС «Мегаспорт»
+        - generic [ref=e77]:
+          - img "Торпедо" [ref=e78]
+          - generic [ref=e79]: Торпедо
+    - button "Купить билеты" [ref=e80] [cursor=pointer]:
+      - generic [ref=e81]: 
+      - generic [ref=e82]: Купить билеты
+      - img [ref=e83]
+  - main [ref=e85]:
+    - generic [ref=e87]:
+      - img "ХК Торпедо" [ref=e89]
+      - generic [ref=e91]:
+        - heading "Вход" [level=3] [ref=e92]
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - textbox [active] [ref=e95]
+            - generic: E-mail или телефон
+          - generic [ref=e96]:
+            - textbox [ref=e97]
+            - generic: Пароль
+            - button "Показать пароль" [ref=e98] [cursor=pointer]:
+              - img [ref=e99]
+          - generic [ref=e102]:
+            - checkbox "Запомнить меня" [ref=e103] [cursor=pointer]
+            - generic [ref=e104] [cursor=pointer]: Запомнить меня
+          - button "Войти " [ref=e105] [cursor=pointer]
+          - generic [ref=e107]: или
+          - button "Войти через VK" [ref=e109] [cursor=pointer]:
+            - img [ref=e110]
+            - text: Войти через VK
+        - generic [ref=e112]:
+          - button "Я забыл пароль" [ref=e113] [cursor=pointer]
+          - link "Зарегистрируйтесь в приложении" [ref=e114] [cursor=pointer]:
+            - /url: https://onelink.to/r9efwk
+  - contentinfo [ref=e115]:
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - generic [ref=e118]:
+          - generic [ref=e119]: "Режим работы: Вторник – Суббота 10:00 – 19:00"
+          - generic [ref=e120]:
+            - link "Личный кабинет" [ref=e121] [cursor=pointer]:
+              - /url: /account/orders
+            - link "Оплата" [ref=e122] [cursor=pointer]:
+              - /url: /payment
+            - link "Доставка" [ref=e123] [cursor=pointer]:
+              - /url: /delivery
+            - link "Баллы" [ref=e124] [cursor=pointer]:
+              - /url: /account/bonuses
+            - link "Возврат" [ref=e125] [cursor=pointer]:
+              - /url: /refund
+            - link "Контакты" [ref=e126] [cursor=pointer]:
+              - /url: /contacts
+        - generic [ref=e127]:
+          - link "+7 (930) 711-19-46" [ref=e128] [cursor=pointer]:
+            - /url: tel:+79307111946
+          - generic [ref=e129]: Телефон магазина
+      - generic [ref=e130]:
+        - generic [ref=e131]: Ближайший матч «Торпедо»
+        - generic [ref=e132]:
+          - generic [ref=e133]:
+            - img "Торпедо" [ref=e134]
+            - text: Торпедо
+          - generic [ref=e135]:
+            - generic [ref=e136]: 28 августа, пт, 18:30
+            - text: ДС «Мегаспорт»
+          - generic [ref=e137]:
+            - img "Динамо" [ref=e138]
+            - text: Динамо
+        - link " Билеты " [ref=e139] [cursor=pointer]:
+          - /url: https://www.ticketland.ru/sportivnye-kompleksy/dvorec-sporta-megasport-na-khodynskom-pole/match-4-dinamo-moskva-torpedo/t_20260828_1530_p_28822014/
+          - generic [ref=e140]: 
+          - text: Билеты
+          - generic [ref=e141]: 
+      - generic [ref=e142]:
+        - generic [ref=e143]: "Следить за нами в социальных сетях:"
+        - generic [ref=e144]:
+          - link "" [ref=e146] [cursor=pointer]:
+            - /url: https://vk.com/shop_hctorpedo
+            - generic [ref=e147]: 
+          - link "" [ref=e149] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@hctorpedo
+            - generic [ref=e150]: 
+          - link "" [ref=e152] [cursor=pointer]:
+            - /url: https://t.me/hctorpedo
+            - generic [ref=e153]: 
+          - link "" [ref=e155] [cursor=pointer]:
+            - /url: https://twitter.com/torpedonn
+            - generic [ref=e156]: 
+          - link "" [ref=e158] [cursor=pointer]:
+            - /url: https://ok.ru/hctorpedo
+            - generic [ref=e159]: 
+          - link "" [ref=e161] [cursor=pointer]:
+            - /url: https://www.youtube.com/hctorpedonn
+            - generic [ref=e162]: 
+      - generic [ref=e163]:
+        - generic [ref=e164]:
+          - paragraph [ref=e165]: 2003-2026 АНО «Хоккейный клуб «Торпедо»
+          - paragraph [ref=e166]:
+            - link "Условия пользования сайтами ХК «Торпедо»" [ref=e167] [cursor=pointer]:
+              - /url: /terms
+        - generic [ref=e169]:
+          - link "Политика обработки персональных данных" [ref=e170] [cursor=pointer]:
+            - /url: /privacy
+          - link "Пользовательское соглашение" [ref=e171] [cursor=pointer]:
+            - /url: /terms
+  - dialog "Уведомление об использовании файлов cookie" [ref=e172]:
+    - generic [ref=e173]:
+      - paragraph [ref=e174]:
+        - text: Мы используем файлы cookie для улучшения работы сайта. Продолжая пользоваться сайтом, вы соглашаетесь с
+        - link "Политикой конфиденциальности" [ref=e175] [cursor=pointer]:
+          - /url: /privacy
+        - text: .
+      - generic [ref=e176]:
+        - button "Принять" [ref=e177] [cursor=pointer]
+        - button "Отказаться" [ref=e178] [cursor=pointer]
+```
