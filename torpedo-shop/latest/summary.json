@@ -2,19 +2,19 @@
   "project": "torpedo-shop",
   "projectDisplayName": "Torpedo Shop",
   "status": "warning",
-  "passed": 636,
-  "failed": 5,
-  "skipped": 0,
-  "retried": 9,
+  "passed": 632,
+  "failed": 7,
+  "skipped": 2,
+  "retried": 11,
   "total": 641,
   "failedCritical": 0,
-  "failedMajor": 5,
-  "failedMinor": 0,
-  "passRate": "99.22",
-  "durationFormatted": "23m 35s",
-  "timestamp": "2026-08-25T03:45:25.159Z",
+  "failedMajor": 6,
+  "failedMinor": 1,
+  "passRate": "98.60",
+  "durationFormatted": "19m 5s",
+  "timestamp": "2026-08-26T03:43:59.017Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/32804717818",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/32926207814",
   "failedTests": [
     {
       "name": "TC-CART-06 | В корзине можно уменьшить количество @major",
@@ -25,18 +25,26 @@
       "priority": "major"
     },
     {
+      "name": "TC-CAT-11 | Панель фильтров открывается @major",
+      "priority": "major"
+    },
+    {
+      "name": "TC-CAT-15 | Дропдаун сортировки присутствует @major",
+      "priority": "major"
+    },
+    {
       "name": "TC-CART-06 | В корзине можно уменьшить количество @major",
       "priority": "major"
     },
     {
-      "name": "CJM-02-03 | После добавления счётчик корзины увеличивается @major",
-      "priority": "major"
+      "name": "TC-RESP-10 | Все видимые изображения загрузились без ошибок @minor",
+      "priority": "minor"
     },
     {
-      "name": "TC-VK-03 | Клик по кнопке VK открывает VK ID виджет или меняет состояние кнопки @major",
+      "name": "CJM-02-03 | После добавления счётчик корзины увеличивается @major",
       "priority": "major"
     }
   ],
-  "prevFailed": 4,
-  "deltaFailed": 1
+  "prevFailed": 5,
+  "deltaFailed": 2
 }
