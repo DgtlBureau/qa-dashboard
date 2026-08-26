@@ -11,10 +11,10 @@
   "failedMajor": 52,
   "failedMinor": 27,
   "passRate": "0.00",
-  "durationFormatted": "3m 15s",
-  "timestamp": "2026-08-25T05:17:56.585Z",
+  "durationFormatted": "3m 55s",
+  "timestamp": "2026-08-26T05:18:28.166Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/chaika-site/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/32811977747",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/32933181224",
   "failedTests": [
     {
       "name": "Главная / отвечает 200 @critical",
@@ -57,7 +57,7 @@
       "priority": "critical"
     }
   ],
-  "commitMessage": "Деплой: сборка образа в GitHub Actions и публикация в GHCR, сервер только pull — пересборка больше не грузит прод и не роняет мониторинг",
+  "commitMessage": "Повторный аудит: клубный скоуп подписки, SRI Swiper, WOFF2, мёртвые файлы",
   "prevFailed": 111,
   "deltaFailed": 0
 }
