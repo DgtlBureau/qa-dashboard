@@ -1,0 +1,486 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - complementary [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - link "OAZIS PRO Admin panel v2.0.1" [ref=e8] [cursor=pointer]:
+            - /url: /accommodations
+            - generic [ref=e11]:
+              - generic [ref=e12]:
+                - text: OAZIS
+                - generic [ref=e13]: PRO
+              - generic [ref=e14]:
+                - generic [ref=e15]: Admin panel
+                - generic [ref=e16]: v2.0.1
+          - button [ref=e17] [cursor=pointer]:
+            - img [ref=e18]
+        - list [ref=e24]:
+          - listitem [ref=e25] [cursor=pointer]:
+            - link "Assets" [ref=e26]:
+              - /url: /assets
+              - img [ref=e28]
+              - generic [ref=e34]: Assets
+          - listitem [ref=e35] [cursor=pointer]:
+            - link "Accommodations" [ref=e36]:
+              - /url: /accommodations
+              - img [ref=e38]
+              - generic [ref=e52]: Accommodations
+          - listitem [ref=e53] [cursor=pointer]:
+            - link "Food" [ref=e54]:
+              - /url: /food
+              - img [ref=e56]
+              - generic [ref=e66]: Food
+          - listitem [ref=e67] [cursor=pointer]:
+            - link "Orders" [ref=e68]:
+              - /url: /transactions
+              - img [ref=e70]
+              - generic [ref=e79]:
+                - generic [ref=e80]: Orders
+                - img [ref=e82]
+          - listitem [ref=e84] [cursor=pointer]:
+            - link "Employees" [ref=e85]:
+              - /url: /user
+              - img [ref=e87]
+              - generic [ref=e97]: Employees
+          - listitem [ref=e98] [cursor=pointer]:
+            - link "Tickets 10" [ref=e99]:
+              - /url: /requests
+              - img [ref=e101]
+              - generic [ref=e110]:
+                - generic [ref=e111]: Tickets
+                - generic [ref=e115]: "10"
+          - listitem [ref=e116] [cursor=pointer]:
+            - link "Feedback" [ref=e117]:
+              - /url: /feedback
+              - img [ref=e119]
+              - generic [ref=e124]: Feedback
+          - listitem [ref=e125] [cursor=pointer]:
+            - link "News" [ref=e126]:
+              - /url: /announcements
+              - img [ref=e128]
+              - generic [ref=e132]: News
+          - listitem [ref=e133] [cursor=pointer]:
+            - link "Questionnaires" [ref=e134]:
+              - /url: /questionnaires
+              - img [ref=e136]
+              - generic [ref=e144]: Questionnaires
+          - listitem [ref=e145] [cursor=pointer]:
+            - link "Events" [ref=e146]:
+              - /url: /events
+              - img [ref=e148]
+              - generic [ref=e156]: Events
+          - listitem [ref=e157] [cursor=pointer]:
+            - link "Services" [ref=e158]:
+              - /url: /services
+              - img [ref=e160]
+              - generic [ref=e163]: Services
+          - listitem [ref=e164] [cursor=pointer]:
+            - link "Leisure" [ref=e165]:
+              - /url: /entertainment
+              - img [ref=e167]
+              - generic [ref=e193]: Leisure
+          - listitem [ref=e194] [cursor=pointer]:
+            - link "Loyalty" [ref=e195]:
+              - /url: /promotions
+              - img [ref=e197]
+              - generic [ref=e201]: Loyalty
+        - generic [ref=e202]:
+          - list [ref=e203]:
+            - listitem [ref=e204] [cursor=pointer]:
+              - link "Notifications" [ref=e205]:
+                - /url: /notifications
+                - img [ref=e207]
+                - generic [ref=e219]: Notifications
+            - listitem [ref=e220] [cursor=pointer]:
+              - link "Settings" [ref=e221]:
+                - /url: /settings
+                - img [ref=e223]
+                - generic [ref=e229]: Settings
+            - listitem [ref=e230] [cursor=pointer]:
+              - link "QR Generator" [ref=e231]:
+                - /url: /qr
+                - img [ref=e233]
+                - generic [ref=e237]: QR Generator
+            - listitem [ref=e238] [cursor=pointer]:
+              - link "Administration" [ref=e239]:
+                - /url: /access-management
+                - img [ref=e241]
+                - generic [ref=e247]: Administration
+          - button "Log out" [ref=e248] [cursor=pointer]:
+            - img [ref=e250]
+            - generic [ref=e257]: Log out
+    - generic [ref=e258]:
+      - banner [ref=e259]:
+        - generic [ref=e260]:
+          - navigation [ref=e261]:
+            - list [ref=e262]:
+              - listitem [ref=e263]:
+                - link "Dashboard" [ref=e264] [cursor=pointer]:
+                  - /url: /dashboard
+                  - img [ref=e265]
+                  - generic [ref=e270]: Dashboard
+              - listitem [ref=e271]:
+                - link "Knowledge base" [ref=e272] [cursor=pointer]:
+                  - /url: /knowledge-base
+                  - img [ref=e273]
+                  - generic [ref=e276]: Knowledge base
+              - listitem [ref=e277]:
+                - link "Wiki" [ref=e278] [cursor=pointer]:
+                  - /url: /wiki
+                  - img [ref=e279]
+                  - generic [ref=e281]: Wiki
+              - listitem [ref=e282]:
+                - link "Storage" [ref=e283] [cursor=pointer]:
+                  - /url: /documents
+                  - img [ref=e284]
+                  - generic [ref=e289]: Storage
+          - generic [ref=e290]:
+            - button "Import history" [ref=e291] [cursor=pointer]:
+              - img [ref=e292]
+            - button "ВВ" [ref=e295] [cursor=pointer]:
+              - generic [ref=e297]: ВВ
+      - main [ref=e300]:
+        - generic [ref=e302]:
+          - generic [ref=e305]:
+            - heading "Orders" [level=2] [ref=e308]
+            - link "Refunds" [ref=e310] [cursor=pointer]:
+              - /url: /transactions/refunds
+          - generic [ref=e311]:
+            - tablist [ref=e313]:
+              - tab "Number of QR generations 0" [disabled]:
+                - generic:
+                  - img
+                - generic:
+                  - generic: Number of QR generations
+                  - generic: "0"
+              - tab "Total 0" [selected] [ref=e314] [cursor=pointer]:
+                - img [ref=e316]
+                - generic [ref=e317]:
+                  - generic [ref=e318]: Total
+                  - generic [ref=e319]: "0"
+              - tab "In preparation 0" [ref=e320] [cursor=pointer]:
+                - img [ref=e322]
+                - generic [ref=e325]:
+                  - generic [ref=e326]: In preparation
+                  - generic [ref=e327]: "0"
+              - tab "Waiting for pickup 0" [ref=e328] [cursor=pointer]:
+                - img [ref=e330]
+                - generic [ref=e332]:
+                  - generic [ref=e333]: Waiting for pickup
+                  - generic [ref=e334]: "0"
+              - tab "Received 0" [ref=e335] [cursor=pointer]:
+                - img [ref=e337]
+                - generic [ref=e340]:
+                  - generic [ref=e341]: Received
+                  - generic [ref=e342]: "0"
+              - tab "Canceled 0" [ref=e343] [cursor=pointer]:
+                - img [ref=e345]
+                - generic [ref=e349]:
+                  - generic [ref=e350]: Canceled
+                  - generic [ref=e351]: "0"
+            - generic [ref=e352]:
+              - generic [ref=e353]:
+                - generic [ref=e354]:
+                  - generic [ref=e355]: Show
+                  - generic [ref=e357] [cursor=pointer]:
+                    - generic [ref=e358]:
+                      - combobox [ref=e360]
+                      - generic "15" [ref=e361]
+                    - generic:
+                      - img:
+                        - img
+                  - generic [ref=e362]: entries
+                - generic [ref=e364]:
+                  - generic [ref=e366]: "Search:"
+                  - textbox "Search:" [ref=e367]:
+                    - /placeholder: Search by ID, order number, name
+                - generic [ref=e368]:
+                  - generic [ref=e370]:
+                    - textbox "Select date" [ref=e372]: 20.08.2026
+                    - generic "to" [ref=e374]:
+                      - img "swap-right" [ref=e375]:
+                        - img [ref=e376]
+                    - textbox "Select date" [ref=e379]: 27.08.2026
+                    - generic:
+                      - img "calendar":
+                        - img
+                    - button "close-circle" [ref=e380] [cursor=pointer]:
+                      - img "close-circle" [ref=e381]:
+                        - img [ref=e382]
+                  - button "Actions" [ref=e385] [cursor=pointer]:
+                    - img [ref=e386]
+                    - text: Actions
+              - table [ref=e392]:
+                - rowgroup [ref=e393]:
+                  - row "Employee Employee code Order number Order date Pickup date Status Food object Касса Order price" [ref=e394]:
+                    - columnheader "Employee" [ref=e395]:
+                      - generic [ref=e397] [cursor=pointer]:
+                        - heading "Employee" [level=4] [ref=e398]
+                        - generic [ref=e399]:
+                          - button [ref=e400]:
+                            - img [ref=e401]
+                          - button [ref=e404]:
+                            - img [ref=e405]
+                    - columnheader "Employee code" [ref=e408]:
+                      - generic [ref=e410] [cursor=pointer]:
+                        - heading "Employee code" [level=4] [ref=e411]
+                        - generic [ref=e412]:
+                          - button [ref=e413]:
+                            - img [ref=e414]
+                          - button [ref=e417]:
+                            - img [ref=e418]
+                    - columnheader "Order number" [ref=e421]:
+                      - generic [ref=e423] [cursor=pointer]:
+                        - heading "Order number" [level=4] [ref=e424]
+                        - generic [ref=e425]:
+                          - button [ref=e426]:
+                            - img [ref=e427]
+                          - button [ref=e430]:
+                            - img [ref=e431]
+                    - columnheader "Order date" [ref=e434]:
+                      - generic [ref=e436] [cursor=pointer]:
+                        - heading "Order date" [level=4] [ref=e437]
+                        - generic [ref=e438]:
+                          - button [ref=e439]:
+                            - img [ref=e440]
+                          - button [ref=e443]:
+                            - img [ref=e444]
+                    - columnheader "Pickup date" [ref=e447]:
+                      - generic [ref=e449] [cursor=pointer]:
+                        - heading "Pickup date" [level=4] [ref=e450]
+                        - generic [ref=e451]:
+                          - button [ref=e452]:
+                            - img [ref=e453]
+                          - button [ref=e456]:
+                            - img [ref=e457]
+                    - columnheader "Status" [ref=e460]:
+                      - generic [ref=e462] [cursor=pointer]:
+                        - heading "Status" [level=4] [ref=e463]
+                        - generic [ref=e464]:
+                          - button [ref=e465]:
+                            - img [ref=e466]
+                          - button [ref=e469]:
+                            - img [ref=e470]
+                    - columnheader "Food object" [ref=e473]:
+                      - generic [ref=e475] [cursor=pointer]:
+                        - heading "Food object" [level=4] [ref=e476]
+                        - generic [ref=e477]:
+                          - button [ref=e478]:
+                            - img [ref=e479]
+                          - button [ref=e482]:
+                            - img [ref=e483]
+                    - columnheader "Касса" [ref=e486]:
+                      - generic [ref=e488] [cursor=pointer]:
+                        - heading "Касса" [level=4] [ref=e489]
+                        - generic [ref=e490]:
+                          - button [ref=e491]:
+                            - img [ref=e492]
+                          - button [ref=e495]:
+                            - img [ref=e496]
+                    - columnheader "Order price" [ref=e499]:
+                      - generic [ref=e501] [cursor=pointer]:
+                        - heading "Order price" [level=4] [ref=e502]
+                        - generic [ref=e503]:
+                          - button [ref=e504]:
+                            - img [ref=e505]
+                          - button [ref=e508]:
+                            - img [ref=e509]
+                - rowgroup
+              - navigation "Pagination" [ref=e514]:
+                - listitem [ref=e515]:
+                  - button "Previous page" [disabled] [ref=e516] [cursor=pointer]: ←
+                - listitem [ref=e517]:
+                  - button "Page 1 is your current page" [ref=e518] [cursor=pointer]: "1"
+                - listitem [ref=e519]:
+                  - button "Next page" [disabled] [ref=e520] [cursor=pointer]: →
+    - button "Help" [ref=e521] [cursor=pointer]:
+      - img [ref=e522]
+      - generic [ref=e526]: Help
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic: Cancel dishes
+            - button "Close":
+              - generic:
+                - generic: Close
+          - generic:
+            - generic:
+              - generic:
+                - generic: Dish*
+              - combobox:
+                - generic:
+                  - list
+                  - generic: Choose
+                  - img
+            - generic:
+              - generic:
+                - generic: Food object*
+              - combobox:
+                - generic:
+                  - list
+                  - generic: Choose
+                  - img
+            - generic:
+              - generic:
+                - textbox "Date"
+                - generic:
+                  - img "calendar":
+                    - img
+          - generic:
+            - table:
+              - rowgroup:
+                - row "Employee Employee code Order number Order date Status Food object Order price":
+                  - columnheader "Employee":
+                    - generic:
+                      - generic:
+                        - heading "Employee" [level=4]
+                        - generic:
+                          - button:
+                            - img
+                          - button:
+                            - img
+                  - columnheader "Employee code":
+                    - generic:
+                      - generic:
+                        - heading "Employee code" [level=4]
+                  - columnheader "Order number":
+                    - generic:
+                      - generic:
+                        - heading "Order number" [level=4]
+                  - columnheader "Order date":
+                    - generic:
+                      - generic:
+                        - heading "Order date" [level=4]
+                        - generic:
+                          - button:
+                            - img
+                          - button:
+                            - img
+                  - columnheader "Status":
+                    - generic:
+                      - generic:
+                        - heading "Status" [level=4]
+                  - columnheader "Food object":
+                    - generic:
+                      - generic:
+                        - heading "Food object" [level=4]
+                        - generic:
+                          - button:
+                            - img
+                          - button:
+                            - img
+                  - columnheader "Order price":
+                    - generic:
+                      - generic:
+                        - heading "Order price" [level=4]
+                        - generic:
+                          - button:
+                            - img
+                          - button:
+                            - img
+              - rowgroup:
+                - 'row "Игорь Н. 76496 #2474 27.04.2026 Waiting for pickup Торты и пироги ВЖК-850 510.00 ₽"':
+                  - cell "Игорь Н.":
+                    - generic:
+                      - checkbox
+                    - generic: Игорь Н.
+                  - cell "76496"
+                  - cell "#2474"
+                  - cell "27.04.2026"
+                  - cell "Waiting for pickup":
+                    - generic:
+                      - generic:
+                        - generic: Waiting for pickup
+                  - cell "Торты и пироги ВЖК-850"
+                  - cell "510.00 ₽"
+                - 'row "Виталий Н. 74172 #2472 27.04.2026 Waiting for pickup Торты и пироги ВЖК-850 2295.00 ₽"':
+                  - cell "Виталий Н.":
+                    - generic:
+                      - checkbox
+                    - generic: Виталий Н.
+                  - cell "74172"
+                  - cell "#2472"
+                  - cell "27.04.2026"
+                  - cell "Waiting for pickup":
+                    - generic:
+                      - generic:
+                        - generic: Waiting for pickup
+                  - cell "Торты и пироги ВЖК-850"
+                  - cell "2295.00 ₽"
+                - 'row "Анастасия В. 74900 #2471 27.04.2026 Received Пиццы на ОБП-700 966.00 ₽"':
+                  - cell "Анастасия В.":
+                    - generic:
+                      - checkbox
+                    - generic: Анастасия В.
+                  - cell "74900"
+                  - cell "#2471"
+                  - cell "27.04.2026"
+                  - cell "Received":
+                    - generic:
+                      - generic:
+                        - generic: Received
+                  - cell "Пиццы на ОБП-700"
+                  - cell "966.00 ₽"
+                - 'row "Виктор Е. 74388 #2463 26.04.2026 Received Пиццы для ВЖК-850 4496.00 ₽"':
+                  - cell "Виктор Е.":
+                    - generic:
+                      - checkbox
+                    - generic: Виктор Е.
+                  - cell "74388"
+                  - cell "#2463"
+                  - cell "26.04.2026"
+                  - cell "Received":
+                    - generic:
+                      - generic:
+                        - generic: Received
+                  - cell "Пиццы для ВЖК-850"
+                  - cell "4496.00 ₽"
+                - 'row "Алмаз Ф. 76458 #2461 25.04.2026 Received Торты и пироги для ЛПУ 1024.00 ₽"':
+                  - cell "Алмаз Ф.":
+                    - generic:
+                      - checkbox
+                    - generic: Алмаз Ф.
+                  - cell "76458"
+                  - cell "#2461"
+                  - cell "25.04.2026"
+                  - cell "Received":
+                    - generic:
+                      - generic:
+                        - generic: Received
+                  - cell "Торты и пироги для ЛПУ"
+                  - cell "1024.00 ₽"
+          - generic:
+            - paragraph: Showing from 1 to 5 of 1283 entries
+            - generic:
+              - navigation "Pagination":
+                - listitem:
+                  - button "Previous page" [disabled]: ←
+                - listitem:
+                  - button "Page 1 is your current page": "1"
+                - listitem:
+                  - button "Page 2": "2"
+                - listitem:
+                  - button "Page 3": "3"
+                - listitem:
+                  - button "Jump forward": ...
+                - listitem:
+                  - button "Page 255": "255"
+                - listitem:
+                  - button "Page 256": "256"
+                - listitem:
+                  - button "Page 257": "257"
+                - listitem:
+                  - button "Next page": →
+              - generic:
+                - generic:
+                  - textbox
+          - generic:
+            - button "Cancel selected dishes" [disabled]:
+              - generic:
+                - generic: Cancel selected dishes
+```
