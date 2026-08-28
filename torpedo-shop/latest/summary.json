@@ -2,42 +2,30 @@
   "project": "torpedo-shop",
   "projectDisplayName": "Torpedo Shop",
   "status": "critical",
-  "passed": 630,
-  "failed": 9,
+  "passed": 633,
+  "failed": 6,
   "skipped": 2,
-  "retried": 21,
+  "retried": 19,
   "total": 641,
   "failedCritical": 1,
-  "failedMajor": 8,
+  "failedMajor": 5,
   "failedMinor": 0,
-  "passRate": "98.28",
-  "durationFormatted": "26m 8s",
-  "timestamp": "2026-08-27T05:17:09.376Z",
+  "passRate": "98.75",
+  "durationFormatted": "25m 28s",
+  "timestamp": "2026-08-28T06:11:20.288Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/33040535461",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/33145628448",
   "failedTests": [
-    {
-      "name": "TC-CART-01 | Пустая корзина показывает соответствующее сообщение @major",
-      "priority": "major"
-    },
     {
       "name": "TC-CART-06 | В корзине можно уменьшить количество @major",
       "priority": "major"
     },
     {
-      "name": "TC-CHK-04 | Способы доставки отображаются @critical",
+      "name": "TC-CHK-13 | Итоговая сумма обновляется при выборе доставки @critical",
       "priority": "critical"
     },
     {
       "name": "CJM-02-03 | После добавления счётчик корзины увеличивается @major",
-      "priority": "major"
-    },
-    {
-      "name": "CJM-03-01 | Страница корзины отображает добавленный товар @major",
-      "priority": "major"
-    },
-    {
-      "name": "TC-CAT-11 | Панель фильтров открывается @major",
       "priority": "major"
     },
     {
@@ -53,6 +41,6 @@
       "priority": "major"
     }
   ],
-  "prevFailed": 7,
-  "deltaFailed": 2
+  "prevFailed": 9,
+  "deltaFailed": -3
 }
