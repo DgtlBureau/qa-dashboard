@@ -11,10 +11,10 @@
   "failedMajor": 52,
   "failedMinor": 27,
   "passRate": "0.00",
-  "durationFormatted": "3m 58s",
-  "timestamp": "2026-08-28T07:45:37.893Z",
+  "durationFormatted": "3m 56s",
+  "timestamp": "2026-08-29T05:17:39.829Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/chaika-site/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/33152282568",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/33235599786",
   "failedTests": [
     {
       "name": "Главная / отвечает 200 @critical",
@@ -57,7 +57,7 @@
       "priority": "critical"
     }
   ],
-  "commitMessage": "Карточка члена правления показывала только 6 из 12 остальных членов",
+  "commitMessage": "fix(partners): подпись карточки из имени спонсора, если это статус",
   "prevFailed": 111,
   "deltaFailed": 0
 }
