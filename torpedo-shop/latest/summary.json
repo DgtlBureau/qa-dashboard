@@ -2,20 +2,32 @@
   "project": "torpedo-shop",
   "projectDisplayName": "Torpedo Shop",
   "status": "critical",
-  "passed": 632,
-  "failed": 7,
+  "passed": 633,
+  "failed": 6,
   "skipped": 2,
-  "retried": 16,
+  "retried": 18,
   "total": 641,
   "failedCritical": 2,
-  "failedMajor": 5,
+  "failedMajor": 4,
   "failedMinor": 0,
-  "passRate": "98.60",
-  "durationFormatted": "23m 41s",
-  "timestamp": "2026-08-30T03:37:32.848Z",
+  "passRate": "98.75",
+  "durationFormatted": "24m 54s",
+  "timestamp": "2026-08-31T03:40:03.796Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/33289694689",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/33353110859",
   "failedTests": [
+    {
+      "name": "TC-CART-01 | Пустая корзина показывает соответствующее сообщение @major",
+      "priority": "major"
+    },
+    {
+      "name": "TC-CHK-04 | Способы доставки отображаются @critical",
+      "priority": "critical"
+    },
+    {
+      "name": "TC-CHK-13 | Итоговая сумма обновляется при выборе доставки @critical",
+      "priority": "critical"
+    },
     {
       "name": "TC-CAT-11 | Панель фильтров открывается @major",
       "priority": "major"
@@ -25,26 +37,10 @@
       "priority": "major"
     },
     {
-      "name": "TC-CHK-01 | Форма оформления заказа отображается после авторизации @critical",
-      "priority": "critical"
-    },
-    {
-      "name": "TC-CHK-02 | Поля имени, email, телефона присутствуют @critical",
-      "priority": "critical"
-    },
-    {
-      "name": "CJM-04-01 | Форма заказа отображается на /cart (авторизованный пользователь) @major",
-      "priority": "major"
-    },
-    {
-      "name": "CJM-04-09 | Способы оплаты отображаются @major",
-      "priority": "major"
-    },
-    {
       "name": "CJM-07-02 | Неавторизованный пользователь видит призыв к входу в корзине @major",
       "priority": "major"
     }
   ],
-  "prevFailed": null,
-  "deltaFailed": null
+  "prevFailed": 7,
+  "deltaFailed": -1
 }
