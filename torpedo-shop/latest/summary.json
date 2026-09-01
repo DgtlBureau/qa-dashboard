@@ -2,31 +2,39 @@
   "project": "torpedo-shop",
   "projectDisplayName": "Torpedo Shop",
   "status": "critical",
-  "passed": 633,
-  "failed": 6,
-  "skipped": 2,
-  "retried": 18,
-  "total": 641,
-  "failedCritical": 2,
-  "failedMajor": 4,
-  "failedMinor": 0,
-  "passRate": "98.75",
-  "durationFormatted": "24m 54s",
-  "timestamp": "2026-08-31T03:40:03.796Z",
+  "passed": 619,
+  "failed": 10,
+  "skipped": 11,
+  "retried": 31,
+  "total": 640,
+  "failedCritical": 1,
+  "failedMajor": 8,
+  "failedMinor": 1,
+  "passRate": "96.72",
+  "durationFormatted": "34m 49s",
+  "timestamp": "2026-09-01T03:50:05.670Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/33353110859",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/33465388765",
   "failedTests": [
     {
-      "name": "TC-CART-01 | Пустая корзина показывает соответствующее сообщение @major",
+      "name": "TC-ADDR-03 | На странице есть кнопка \"Добавить адрес\" @major",
       "priority": "major"
     },
     {
-      "name": "TC-CHK-04 | Способы доставки отображаются @critical",
-      "priority": "critical"
+      "name": "TC-ADDR-05 | Форма содержит поля: тип доставки, индекс, улица, дом, квартира @major",
+      "priority": "major"
     },
     {
-      "name": "TC-CHK-13 | Итоговая сумма обновляется при выборе доставки @critical",
-      "priority": "critical"
+      "name": "TC-ADDR-07 | Успешное добавление адреса отображает его в списке @major",
+      "priority": "major"
+    },
+    {
+      "name": "TC-ADDR-12 | Кнопка \"Выйти со всех устройств\" показывает confirm диалог @major",
+      "priority": "major"
+    },
+    {
+      "name": "TC-RAT-04 | В заказах отображается блок оценки товара (если есть заказы) @minor",
+      "priority": "minor"
     },
     {
       "name": "TC-CAT-11 | Панель фильтров открывается @major",
@@ -37,10 +45,18 @@
       "priority": "major"
     },
     {
+      "name": "TC-ACC-16 | Страница билетов загружается @major",
+      "priority": "major"
+    },
+    {
+      "name": "TC-CHK-13 | Итоговая сумма обновляется при выборе доставки @critical",
+      "priority": "critical"
+    },
+    {
       "name": "CJM-07-02 | Неавторизованный пользователь видит призыв к входу в корзине @major",
       "priority": "major"
     }
   ],
-  "prevFailed": 7,
-  "deltaFailed": -1
+  "prevFailed": 6,
+  "deltaFailed": 4
 }
