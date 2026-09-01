@@ -1,62 +1,21 @@
 {
   "project": "torpedo-shop",
   "projectDisplayName": "Torpedo Shop",
-  "status": "critical",
-  "passed": 619,
-  "failed": 10,
-  "skipped": 11,
-  "retried": 31,
-  "total": 640,
-  "failedCritical": 1,
-  "failedMajor": 8,
-  "failedMinor": 1,
-  "passRate": "96.72",
-  "durationFormatted": "34m 49s",
-  "timestamp": "2026-09-01T03:50:05.670Z",
+  "status": "retry",
+  "passed": 639,
+  "failed": 0,
+  "skipped": 2,
+  "retried": 4,
+  "total": 641,
+  "failedCritical": 0,
+  "failedMajor": 0,
+  "failedMinor": 0,
+  "passRate": "99.69",
+  "durationFormatted": "29m 16s",
+  "timestamp": "2026-09-01T08:33:15.038Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/33465388765",
-  "failedTests": [
-    {
-      "name": "TC-ADDR-03 | На странице есть кнопка \"Добавить адрес\" @major",
-      "priority": "major"
-    },
-    {
-      "name": "TC-ADDR-05 | Форма содержит поля: тип доставки, индекс, улица, дом, квартира @major",
-      "priority": "major"
-    },
-    {
-      "name": "TC-ADDR-07 | Успешное добавление адреса отображает его в списке @major",
-      "priority": "major"
-    },
-    {
-      "name": "TC-ADDR-12 | Кнопка \"Выйти со всех устройств\" показывает confirm диалог @major",
-      "priority": "major"
-    },
-    {
-      "name": "TC-RAT-04 | В заказах отображается блок оценки товара (если есть заказы) @minor",
-      "priority": "minor"
-    },
-    {
-      "name": "TC-CAT-11 | Панель фильтров открывается @major",
-      "priority": "major"
-    },
-    {
-      "name": "TC-CAT-15 | Дропдаун сортировки присутствует @major",
-      "priority": "major"
-    },
-    {
-      "name": "TC-ACC-16 | Страница билетов загружается @major",
-      "priority": "major"
-    },
-    {
-      "name": "TC-CHK-13 | Итоговая сумма обновляется при выборе доставки @critical",
-      "priority": "critical"
-    },
-    {
-      "name": "CJM-07-02 | Неавторизованный пользователь видит призыв к входу в корзине @major",
-      "priority": "major"
-    }
-  ],
-  "prevFailed": 6,
-  "deltaFailed": 4
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/33484990685",
+  "failedTests": [],
+  "prevFailed": 10,
+  "deltaFailed": -10
 }
