@@ -11,10 +11,10 @@
   "failedMajor": 52,
   "failedMinor": 27,
   "passRate": "0.00",
-  "durationFormatted": "3m 33s",
-  "timestamp": "2026-09-03T05:48:29.579Z",
+  "durationFormatted": "3m 56s",
+  "timestamp": "2026-09-04T05:30:39.289Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/gorky-site/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/33720021968",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/33839736795",
   "failedTests": [
     {
       "name": "Главная / отвечает 200 @critical",
@@ -57,7 +57,7 @@
       "priority": "critical"
     }
   ],
-  "commitMessage": "Вход на сайт: показывать причину отказа вместо «[object Object]»",
+  "commitMessage": "Виджет таблицы: подписи конференций КХЛ «Запад»/«Восток»",
   "prevFailed": 111,
   "deltaFailed": 0
 }
