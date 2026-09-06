@@ -1,21 +1,26 @@
 {
   "project": "torpedo-shop",
   "projectDisplayName": "Torpedo Shop",
-  "status": "retry",
-  "passed": 639,
-  "failed": 0,
+  "status": "critical",
+  "passed": 638,
+  "failed": 1,
   "skipped": 2,
-  "retried": 5,
+  "retried": 4,
   "total": 641,
-  "failedCritical": 0,
+  "failedCritical": 1,
   "failedMajor": 0,
   "failedMinor": 0,
-  "passRate": "99.69",
-  "durationFormatted": "23m 16s",
-  "timestamp": "2026-09-05T03:40:29.383Z",
+  "passRate": "99.53",
+  "durationFormatted": "23m 8s",
+  "timestamp": "2026-09-06T03:40:38.260Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/33941151471",
-  "failedTests": [],
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/34008372588",
+  "failedTests": [
+    {
+      "name": "TC-CHK-04 | Способы доставки отображаются @critical",
+      "priority": "critical"
+    }
+  ],
   "prevFailed": 0,
-  "deltaFailed": 0
+  "deltaFailed": 1
 }
