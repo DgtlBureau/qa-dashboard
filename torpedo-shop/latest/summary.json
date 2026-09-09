@@ -1,30 +1,26 @@
 {
   "project": "torpedo-shop",
   "projectDisplayName": "Torpedo Shop",
-  "status": "critical",
-  "passed": 637,
-  "failed": 2,
+  "status": "warning",
+  "passed": 638,
+  "failed": 1,
   "skipped": 2,
-  "retried": 5,
+  "retried": 4,
   "total": 641,
-  "failedCritical": 1,
+  "failedCritical": 0,
   "failedMajor": 1,
   "failedMinor": 0,
-  "passRate": "99.38",
-  "durationFormatted": "24m 0s",
-  "timestamp": "2026-09-08T03:41:25.657Z",
+  "passRate": "99.53",
+  "durationFormatted": "23m 45s",
+  "timestamp": "2026-09-09T03:40:08.801Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/34182656668",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/34306187054",
   "failedTests": [
     {
-      "name": "TC-ACC-16 | Страница билетов загружается @major",
+      "name": "CJM-04-06 | Способы доставки отображаются @major",
       "priority": "major"
-    },
-    {
-      "name": "TC-CHK-04 | Способы доставки отображаются @critical",
-      "priority": "critical"
     }
   ],
-  "prevFailed": 0,
-  "deltaFailed": 2
+  "prevFailed": 2,
+  "deltaFailed": -1
 }
