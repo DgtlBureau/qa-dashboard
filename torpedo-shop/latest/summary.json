@@ -5,22 +5,22 @@
   "passed": 638,
   "failed": 1,
   "skipped": 2,
-  "retried": 4,
+  "retried": 6,
   "total": 641,
   "failedCritical": 0,
   "failedMajor": 1,
   "failedMinor": 0,
   "passRate": "99.53",
-  "durationFormatted": "23m 45s",
-  "timestamp": "2026-09-09T03:40:08.801Z",
+  "durationFormatted": "24m 24s",
+  "timestamp": "2026-09-10T03:42:06.525Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/34306187054",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/34432387837",
   "failedTests": [
     {
-      "name": "CJM-04-06 | Способы доставки отображаются @major",
+      "name": "TC-ACC-16 | Страница билетов загружается @major",
       "priority": "major"
     }
   ],
-  "prevFailed": 2,
-  "deltaFailed": -1
+  "prevFailed": 1,
+  "deltaFailed": 0
 }
