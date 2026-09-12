@@ -1,0 +1,1 @@
+beforeAll: выбран товар для тестов корзины: penal-shkolnyy-torpedo-firmennyy-pattern
