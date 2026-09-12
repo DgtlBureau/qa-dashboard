@@ -11,10 +11,10 @@
   "failedMajor": 52,
   "failedMinor": 27,
   "passRate": "0.00",
-  "durationFormatted": "3m 53s",
-  "timestamp": "2026-09-11T05:20:13.405Z",
+  "durationFormatted": "3m 41s",
+  "timestamp": "2026-09-12T05:18:24.424Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-site/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/34565167769",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/34675016978",
   "failedTests": [
     {
       "name": "Главная / отвечает 200 @critical",
