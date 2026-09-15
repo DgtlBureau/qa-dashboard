@@ -11,10 +11,10 @@
   "failedMajor": 52,
   "failedMinor": 27,
   "passRate": "0.00",
-  "durationFormatted": "3m 57s",
-  "timestamp": "2026-09-14T05:21:16.342Z",
+  "durationFormatted": "3m 26s",
+  "timestamp": "2026-09-15T05:19:58.412Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/gorky-site/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/34808965348",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/34931973712",
   "failedTests": [
     {
       "name": "Главная / отвечает 200 @critical",
@@ -57,7 +57,7 @@
       "priority": "critical"
     }
   ],
-  "commitMessage": "Чайка: «хоккейная команда» вместо «хоккейный клуб» в текстах сайта",
+  "commitMessage": "Видео: автозапуск плеера VK/YouTube на странице ролика",
   "prevFailed": 111,
   "deltaFailed": 0
 }
