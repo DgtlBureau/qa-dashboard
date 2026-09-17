@@ -1,0 +1,75 @@
+Pre-cleanup failed: apiRequestContext.get: socket hang up
+Call log:
+  - → GET https://dev-oasis-admin.digitalburo.tech/api/admin/users?sort=&field=&perPage=50&query=%5BE2E%5D
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.7632.6 Safari/537.36
+    - accept: application/json
+    - accept-encoding: gzip,deflate,br
+    - Authorization: Bearer 74197|DRaBGbXE4hmX4mWoEhQxUcZZmZL1BFqm6UdPfpOv94f0a799
+
+    at ApiHelper.getUsers (/home/runner/work/oasis-front/oasis-front/tests/e2e/helpers/api.helper.ts:167:37)
+    at /home/runner/work/oasis-front/oasis-front/tests/e2e/specs/07-users-crud.spec.ts:22:30 {
+  name: 'Error',
+  [Symbol(step)]: {
+    location: {
+      file: '/home/runner/work/oasis-front/oasis-front/tests/e2e/helpers/api.helper.ts',
+      line: 167,
+      column: 37,
+      function: 'ApiHelper.getUsers'
+    },
+    category: 'pw:api',
+    title: 'GET "/api/admin/users?sort=&field=&perPage=50&query=%5BE2E%5D"',
+    apiName: 'apiRequestContext.get',
+    params: {
+      url: 'https://dev-oasis-admin.digitalburo.tech/api/admin/users?sort=&field=&perPage=50&query=%5BE2E%5D',
+      params: undefined,
+      encodedParams: undefined,
+      method: 'GET',
+      headers: [Array],
+      postData: undefined,
+      jsonData: undefined,
+      formData: undefined,
+      multipartData: undefined,
+      timeout: 0,
+      failOnStatusCode: undefined,
+      ignoreHTTPSErrors: undefined,
+      maxRedirects: undefined,
+      maxRetries: undefined,
+      __testHookLookup: undefined
+    },
+    group: undefined,
+    stepId: 'pw:api@22',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@22',
+      _title: 'GET "/api/admin/users?sort=&field=&perPage=50&query=%5BE2E%5D"',
+      _parentStep: [TestStepInfoImpl],
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1789657962020,
+    error: {
+      message: 'Error: apiRequestContext.get: socket hang up\n' +
+        'Call log:\n' +
+        '\x1B[2m  - → GET https://dev-oasis-admin.digitalburo.tech/api/admin/users?sort=&field=&perPage=50&query=%5BE2E%5D\x1B[22m\n' +
+        '\x1B[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.7632.6 Safari/537.36\x1B[22m\n' +
+        '\x1B[2m    - accept: application/json\x1B[22m\n' +
+        '\x1B[2m    - accept-encoding: gzip,deflate,br\x1B[22m\n' +
+        '\x1B[2m    - Authorization: Bearer 74197|DRaBGbXE4hmX4mWoEhQxUcZZmZL1BFqm6UdPfpOv94f0a799\x1B[22m\n',
+      stack: 'Error: apiRequestContext.get: socket hang up\n' +
+        'Call log:\n' +
+        '\x1B[2m  - → GET https://dev-oasis-admin.digitalburo.tech/api/admin/users?sort=&field=&perPage=50&query=%5BE2E%5D\x1B[22m\n' +
+        '\x1B[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.7632.6 Safari/537.36\x1B[22m\n' +
+        '\x1B[2m    - accept: application/json\x1B[22m\n' +
+        '\x1B[2m    - accept-encoding: gzip,deflate,br\x1B[22m\n' +
+        '\x1B[2m    - Authorization: Bearer 74197|DRaBGbXE4hmX4mWoEhQxUcZZmZL1BFqm6UdPfpOv94f0a799\x1B[22m\n' +
+        '\n' +
+        '    at ApiHelper.getUsers (/home/runner/work/oasis-front/oasis-front/tests/e2e/helpers/api.helper.ts:167:37)\n' +
+        '    at /home/runner/work/oasis-front/oasis-front/tests/e2e/specs/07-users-crud.spec.ts:22:30',
+      cause: undefined
+    }
+  }
+}
