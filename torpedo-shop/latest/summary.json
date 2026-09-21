@@ -5,16 +5,16 @@
   "passed": 637,
   "failed": 2,
   "skipped": 2,
-  "retried": 5,
+  "retried": 6,
   "total": 641,
   "failedCritical": 0,
   "failedMajor": 2,
   "failedMinor": 0,
   "passRate": "99.38",
-  "durationFormatted": "26m 51s",
-  "timestamp": "2026-09-20T03:40:31.581Z",
+  "durationFormatted": "25m 9s",
+  "timestamp": "2026-09-21T03:40:15.859Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/35485942978",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/35556783068",
   "failedTests": [
     {
       "name": "TC-CART-06 | В корзине можно уменьшить количество @major",
@@ -25,6 +25,6 @@
       "priority": "major"
     }
   ],
-  "prevFailed": 4,
-  "deltaFailed": -2
+  "prevFailed": 2,
+  "deltaFailed": 0
 }
