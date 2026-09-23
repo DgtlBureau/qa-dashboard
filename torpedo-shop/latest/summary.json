@@ -2,29 +2,61 @@
   "project": "torpedo-shop",
   "projectDisplayName": "Torpedo Shop",
   "status": "warning",
-  "passed": 637,
-  "failed": 2,
-  "skipped": 2,
-  "retried": 4,
+  "passed": 617,
+  "failed": 20,
+  "skipped": 4,
+  "retried": 23,
   "total": 641,
   "failedCritical": 0,
-  "failedMajor": 2,
-  "failedMinor": 0,
-  "passRate": "99.38",
-  "durationFormatted": "23m 42s",
-  "timestamp": "2026-09-22T03:37:23.124Z",
+  "failedMajor": 16,
+  "failedMinor": 4,
+  "passRate": "96.26",
+  "durationFormatted": "26m 46s",
+  "timestamp": "2026-09-23T03:45:00.883Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/35682265175",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/35813392213",
   "failedTests": [
     {
-      "name": "TC-CART-06 | В корзине можно уменьшить количество @major",
+      "name": "TC-CART-02 | Товар добавляется в корзину @major",
+      "priority": "major"
+    },
+    {
+      "name": "TC-CART-03 | Счётчик в хедере обновляется при добавлении @major",
+      "priority": "major"
+    },
+    {
+      "name": "TC-CART-04 | Корзина сохраняется после перезагрузки страницы @major",
       "priority": "major"
     },
     {
       "name": "TC-CART-06 | В корзине можно уменьшить количество @major",
       "priority": "major"
+    },
+    {
+      "name": "TC-CART-07 | Товар удаляется из корзины @major",
+      "priority": "major"
+    },
+    {
+      "name": "TC-CART-08 | Итоговая сумма отображается @major",
+      "priority": "major"
+    },
+    {
+      "name": "TC-CART-10 | Поле промокода присутствует на странице оформления @major",
+      "priority": "major"
+    },
+    {
+      "name": "CJM-02-03 | После добавления счётчик корзины увеличивается @major",
+      "priority": "major"
+    },
+    {
+      "name": "TC-SCH-03 | Schema содержит name, price, priceCurrency @minor",
+      "priority": "minor"
+    },
+    {
+      "name": "TC-SCH-04 | Schema содержит availability (InStock или OutOfStock) @minor",
+      "priority": "minor"
     }
   ],
   "prevFailed": 2,
-  "deltaFailed": 0
+  "deltaFailed": 18
 }
