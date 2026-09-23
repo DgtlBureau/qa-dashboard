@@ -11,10 +11,10 @@
   "failedMajor": 52,
   "failedMinor": 27,
   "passRate": "0.00",
-  "durationFormatted": "3m 55s",
-  "timestamp": "2026-09-22T05:20:28.540Z",
+  "durationFormatted": "2m 49s",
+  "timestamp": "2026-09-23T05:19:49.015Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-site/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/35689959885",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/35821590120",
   "failedTests": [
     {
       "name": "Главная / отвечает 200 @critical",
@@ -57,7 +57,7 @@
       "priority": "critical"
     }
   ],
-  "commitMessage": "Видео: автозапуск плеера VK/YouTube на странице ролика",
+  "commitMessage": "Статистика игроков: сезон берём от даты, а не строкой в коде",
   "prevFailed": 111,
   "deltaFailed": 0
 }
