@@ -2,19 +2,19 @@
   "project": "torpedo-shop",
   "projectDisplayName": "Torpedo Shop",
   "status": "warning",
-  "passed": 617,
-  "failed": 20,
+  "passed": 616,
+  "failed": 21,
   "skipped": 4,
-  "retried": 23,
+  "retried": 24,
   "total": 641,
   "failedCritical": 0,
-  "failedMajor": 16,
+  "failedMajor": 17,
   "failedMinor": 4,
-  "passRate": "96.26",
-  "durationFormatted": "26m 46s",
-  "timestamp": "2026-09-23T03:45:00.883Z",
+  "passRate": "96.10",
+  "durationFormatted": "28m 37s",
+  "timestamp": "2026-09-24T03:47:06.035Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/35813392213",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/35950428666",
   "failedTests": [
     {
       "name": "TC-CART-02 | Товар добавляется в корзину @major",
@@ -57,6 +57,6 @@
       "priority": "minor"
     }
   ],
-  "prevFailed": 2,
-  "deltaFailed": 18
+  "prevFailed": 20,
+  "deltaFailed": 1
 }
