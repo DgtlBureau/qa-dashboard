@@ -11,10 +11,10 @@
   "failedMajor": 52,
   "failedMinor": 27,
   "passRate": "0.00",
-  "durationFormatted": "3m 13s",
-  "timestamp": "2026-09-24T05:20:24.865Z",
+  "durationFormatted": "3m 59s",
+  "timestamp": "2026-09-25T05:20:24.719Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/chaika-site/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/35959097078",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/36097750322",
   "failedTests": [
     {
       "name": "Главная / отвечает 200 @critical",
@@ -57,7 +57,7 @@
       "priority": "critical"
     }
   ],
-  "commitMessage": "Статистика игроков: сезон берём от даты, а не строкой в коде",
+  "commitMessage": "Турнирная таблица: подмена битого логотипа команды",
   "prevFailed": 111,
   "deltaFailed": 0
 }
