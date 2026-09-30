@@ -1,0 +1,1 @@
+beforeAll: выбран товар для тестов корзины: sviter-replika-khk-torpedo-detskiy-siniy-bez-sponsora
