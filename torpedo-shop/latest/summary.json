@@ -1,21 +1,62 @@
 {
   "project": "torpedo-shop",
   "projectDisplayName": "Torpedo Shop",
-  "status": "pass",
-  "passed": 12,
-  "failed": 0,
-  "skipped": 0,
-  "retried": 0,
-  "total": 12,
-  "failedCritical": 0,
-  "failedMajor": 0,
-  "failedMinor": 0,
-  "passRate": "100.00",
-  "durationFormatted": "0m 22s",
-  "timestamp": "2026-09-29T07:58:08.399Z",
+  "status": "critical",
+  "passed": 603,
+  "failed": 34,
+  "skipped": 4,
+  "retried": 42,
+  "total": 641,
+  "failedCritical": 2,
+  "failedMajor": 28,
+  "failedMinor": 4,
+  "passRate": "94.07",
+  "durationFormatted": "25m 3s",
+  "timestamp": "2026-09-30T03:41:22.618Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/36539570793",
-  "failedTests": [],
-  "prevFailed": null,
-  "deltaFailed": null
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/36663456902",
+  "failedTests": [
+    {
+      "name": "TC-PROD-05 | Кнопка «В корзину» или «Добавить в корзину» присутствует @major",
+      "priority": "major"
+    },
+    {
+      "name": "TC-CART-01 | Пустая корзина показывает соответствующее сообщение @major",
+      "priority": "major"
+    },
+    {
+      "name": "TC-CART-02 | Товар добавляется в корзину @major",
+      "priority": "major"
+    },
+    {
+      "name": "TC-CART-03 | Счётчик в хедере обновляется при добавлении @major",
+      "priority": "major"
+    },
+    {
+      "name": "TC-CART-04 | Корзина сохраняется после перезагрузки страницы @major",
+      "priority": "major"
+    },
+    {
+      "name": "TC-CART-06 | В корзине можно уменьшить количество @major",
+      "priority": "major"
+    },
+    {
+      "name": "TC-CART-07 | Товар удаляется из корзины @major",
+      "priority": "major"
+    },
+    {
+      "name": "TC-CART-08 | Итоговая сумма отображается @major",
+      "priority": "major"
+    },
+    {
+      "name": "TC-CART-10 | Поле промокода присутствует на странице оформления @major",
+      "priority": "major"
+    },
+    {
+      "name": "TC-CHK-04 | Способы доставки отображаются @critical",
+      "priority": "critical"
+    }
+  ],
+  "prevFailed": 0,
+  "deltaFailed": 34
 }
