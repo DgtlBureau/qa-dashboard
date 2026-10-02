@@ -11,10 +11,10 @@
   "failedMajor": 52,
   "failedMinor": 27,
   "passRate": "0.00",
-  "durationFormatted": "3m 58s",
-  "timestamp": "2026-10-01T05:21:17.344Z",
+  "durationFormatted": "4m 7s",
+  "timestamp": "2026-10-02T05:21:13.833Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/chaika-site/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/36818911972",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/36968138149",
   "failedTests": [
     {
       "name": "Главная / отвечает 200 @critical",
@@ -57,7 +57,7 @@
       "priority": "critical"
     }
   ],
-  "commitMessage": "fix: normalize birthday photos in home events",
+  "commitMessage": "Исправить адресную очистку образов сайта с сохранением отката",
   "prevFailed": 111,
   "deltaFailed": 0
 }
