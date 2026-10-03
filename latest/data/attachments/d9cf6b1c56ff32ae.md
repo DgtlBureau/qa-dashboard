@@ -1,0 +1,273 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e6]:
+      - button "Открыть меню" [ref=e7] [cursor=pointer]:
+        - img [ref=e8]
+        - img [ref=e11]
+      - text: 
+      - link "ХК Торпедо" [ref=e14] [cursor=pointer]:
+        - /url: /
+        - img "ХК Торпедо" [ref=e15]
+      - generic [ref=e16]:
+        - text: 
+        - link "" [ref=e17] [cursor=pointer]:
+          - /url: https://hctorpedo.ru/
+          - generic [ref=e18]: 
+        - link "" [ref=e19] [cursor=pointer]:
+          - /url: https://hctorpedo.ru/tickets/
+          - generic [ref=e20]: 
+        - link "" [ref=e21] [cursor=pointer]:
+          - /url: /account/personal/
+          - generic [ref=e22]: 
+        - link "Корзина" [ref=e23] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=e24]: 
+  - generic [ref=e26]:
+    - button "Закрыть" [ref=e27] [cursor=pointer]:
+      - img [ref=e28]
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - img "ХК Сочи"
+        - generic [ref=e32]: ХК Сочи
+      - generic [ref=e35]: 3 октября, сб, 22:30
+      - generic [ref=e37]:
+        - img "Торпедо" [ref=e38]
+        - generic [ref=e39]: Торпедо
+  - main [ref=e40]:
+    - list [ref=e42]:
+      - listitem [ref=e43]:
+        - link "Главная" [ref=e44] [cursor=pointer]:
+          - /url: /
+        - text: 
+      - listitem [ref=e45]:
+        - link "Каталог товаров" [ref=e46] [cursor=pointer]:
+          - /url: /catalog
+        - text: 
+      - listitem [ref=e47]:
+        - link "Реплики хоккейных свитеров" [ref=e48] [cursor=pointer]:
+          - /url: /catalog/repliki-khokkeynykh-sviterov-1
+        - text: 
+      - listitem [ref=e49]: Свитер реплика ХК Торпедо детский синий (без спонсора)
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - img [ref=e56]:
+            - generic [ref=e59]: Фото товара отсутствует
+          - generic [ref=e64]:
+            - heading "Свитер реплика ХК Торпедо детский синий (без спонсора)" [level=1] [ref=e65]
+            - generic [ref=e66]:
+              - generic [ref=e67]:
+                - text: Оценка
+                - generic [ref=e68]:
+                  - generic [ref=e69]: 
+                  - generic [ref=e70]: 
+                  - generic [ref=e71]: 
+                  - generic [ref=e72]: 
+                  - generic [ref=e73]: 
+              - generic [ref=e76]: 4 500 ₽
+            - generic [ref=e78]:
+              - generic [ref=e79]: Размер
+              - generic [ref=e80]:
+                - button "40" [disabled] [ref=e81]
+                - button "36" [disabled] [ref=e82]
+                - button "38" [disabled] [ref=e83]
+                - button "34" [disabled] [ref=e84]
+                - button "32" [disabled] [ref=e85]
+                - button "30" [disabled] [ref=e86]
+                - button "28" [disabled] [ref=e87]
+                - button "24" [disabled] [ref=e88]
+                - button "26" [disabled] [ref=e89]
+                - button "42" [ref=e90] [cursor=pointer]
+            - group [ref=e92]:
+              - generic [ref=e93]:
+                - button "Уменьшить" [ref=e94] [cursor=pointer]
+                - spinbutton [ref=e95]: "1"
+                - button "Увеличить" [disabled]
+              - button "Выберите параметры " [disabled]
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - heading "Наличие" [level=3] [ref=e98]
+            - generic [ref=e99]:
+              - generic [ref=e100]:
+                - generic [ref=e101]: "пр. Гагарина, 29:"
+                - generic [ref=e102]: нет
+              - generic [ref=e103]:
+                - generic [ref=e104]: "Интернет-магазин:"
+                - generic [ref=e105]: "1"
+          - generic [ref=e106]:
+            - heading "Способы получения" [level=3] [ref=e107]
+            - generic [ref=e108]:
+              - generic [ref=e109]:
+                - generic [ref=e110]:
+                  - text: Самовывоз из магазина
+                  - link "на пр. Гагарина" [ref=e111] [cursor=pointer]:
+                    - /url: /contacts
+                  - text: через 15 минут
+                - generic [ref=e112]: Бесплатно
+              - generic [ref=e113]:
+                - generic [ref=e114]: Доставка в пункт выдачи СДЭК
+                - generic [ref=e115]: от 264 руб.
+              - generic [ref=e116]:
+                - generic [ref=e117]: Доставка до квартиры
+                - generic [ref=e118]: от 516 руб.
+          - generic [ref=e120]:
+            - paragraph [ref=e123]: Доставка или самовывоз с примеркой. Вы можете отказаться, если товар не подошел
+            - paragraph [ref=e126]: Официальная продукция хоккейного клуба «Торпедо». Остерегайтесь подделок!
+            - paragraph [ref=e129]: Высокое качество материалов для всей семьи!
+        - text: 
+      - generic [ref=e130]:
+        - heading "Похожие товары" [level=3] [ref=e131]
+        - generic [ref=e133]:
+          - link "В избранное Быстрый просмотр Свитер реплика ХК Торпедо взрослый синий (без спонсора) 5 500 ₽     " [ref=e135] [cursor=pointer]:
+            - /url: /product/sviter-replika-khk-torpedo-vzroslyy-siniy-bez-sponsora
+            - generic [ref=e136]:
+              - img [ref=e139]:
+                - generic [ref=e142]: Фото товара отсутствует
+              - button "В избранное" [ref=e147]:
+                - generic [ref=e148]: 
+                - text: 
+              - generic:
+                - button "Быстрый просмотр"
+            - generic [ref=e149]:
+              - generic [ref=e150]: Свитер реплика ХК Торпедо взрослый синий (без спонсора)
+              - generic [ref=e152]: 5 500 ₽
+              - generic [ref=e154]:
+                - generic [ref=e155]: 
+                - generic [ref=e156]: 
+                - generic [ref=e157]: 
+                - generic [ref=e158]: 
+                - generic [ref=e159]: 
+          - link "Свитер хоккейный Торпедо НН синий (A&C) без спонсора В избранное Быстрый просмотр Свитер хоккейный Торпедо НН синий (A&C) без спонсора 7 000 ₽     " [ref=e161] [cursor=pointer]:
+            - /url: /product/sviter-khokkeynyy-torpedo-nn-siniy-ac-bez-sponsora
+            - generic [ref=e162]:
+              - img "Свитер хоккейный Торпедо НН синий (A&C) без спонсора" [ref=e164]
+              - button "В избранное" [ref=e166]:
+                - generic [ref=e167]: 
+                - text: 
+              - generic:
+                - button "Быстрый просмотр"
+            - generic [ref=e168]:
+              - generic [ref=e169]: Свитер хоккейный Торпедо НН синий (A&C) без спонсора
+              - generic [ref=e171]: 7 000 ₽
+              - generic [ref=e173]:
+                - generic [ref=e174]: 
+                - generic [ref=e175]: 
+                - generic [ref=e176]: 
+                - generic [ref=e177]: 
+                - generic [ref=e178]: 
+          - link "Свитер хоккейный игровой детский (сезон 25/26) белый В избранное Быстрый просмотр Свитер хоккейный игровой детский (сезон 25/26) белый 4 500 ₽     " [ref=e180] [cursor=pointer]:
+            - /url: /product/sviter-khokkeynyy-igrovoy-detskiy-sezon-2526-belyy
+            - generic [ref=e181]:
+              - img "Свитер хоккейный игровой детский (сезон 25/26) белый" [ref=e183]
+              - button "В избранное" [ref=e185]:
+                - generic [ref=e186]: 
+                - text: 
+              - generic:
+                - button "Быстрый просмотр"
+            - generic [ref=e187]:
+              - generic [ref=e188]: Свитер хоккейный игровой детский (сезон 25/26) белый
+              - generic [ref=e190]: 4 500 ₽
+              - generic [ref=e192]:
+                - generic [ref=e193]: 
+                - generic [ref=e194]: 
+                - generic [ref=e195]: 
+                - generic [ref=e196]: 
+                - generic [ref=e197]: 
+          - link "Свитер реплика ХК Торпедо детский белый (сезон 25/26) без спонсора В избранное Быстрый просмотр Свитер реплика ХК Торпедо детский белый (сезон 25/26) без спонсора 4 500 ₽     " [ref=e199] [cursor=pointer]:
+            - /url: /product/sviter-replika-khk-torpedo-detskiy-belyy-sezon-2526-bez-sponsora
+            - generic [ref=e200]:
+              - img "Свитер реплика ХК Торпедо детский белый (сезон 25/26) без спонсора" [ref=e202]
+              - button "В избранное" [ref=e204]:
+                - generic [ref=e205]: 
+                - text: 
+              - generic:
+                - button "Быстрый просмотр"
+            - generic [ref=e206]:
+              - generic [ref=e207]: Свитер реплика ХК Торпедо детский белый (сезон 25/26) без спонсора
+              - generic [ref=e209]: 4 500 ₽
+              - generic [ref=e211]:
+                - generic [ref=e212]: 
+                - generic [ref=e213]: 
+                - generic [ref=e214]: 
+                - generic [ref=e215]: 
+                - generic [ref=e216]: 
+  - contentinfo [ref=e217]:
+    - generic [ref=e218]:
+      - generic [ref=e219]:
+        - generic [ref=e220]:
+          - generic [ref=e221]: "Режим работы: Вторник – Суббота 10:00 – 19:00"
+          - generic [ref=e222]:
+            - link "Личный кабинет" [ref=e223] [cursor=pointer]:
+              - /url: /account/orders
+            - link "Оплата" [ref=e224] [cursor=pointer]:
+              - /url: /payment
+            - link "Доставка" [ref=e225] [cursor=pointer]:
+              - /url: /delivery
+            - link "Баллы" [ref=e226] [cursor=pointer]:
+              - /url: /account/bonuses
+            - link "Возврат" [ref=e227] [cursor=pointer]:
+              - /url: /refund
+            - link "Контакты" [ref=e228] [cursor=pointer]:
+              - /url: /contacts
+        - generic [ref=e229]:
+          - link "+7 (930) 711-19-46" [ref=e230] [cursor=pointer]:
+            - /url: tel:+79307111946
+          - generic [ref=e231]: Телефон магазина
+      - generic [ref=e232]:
+        - generic [ref=e233]: Ближайший матч «Торпедо»
+        - generic [ref=e234]:
+          - generic [ref=e235]:
+            - img "Торпедо" [ref=e236]
+            - text: Торпедо
+          - generic [ref=e237]:
+            - generic [ref=e238]: 3 октября, сб, 22:30
+            - text: ДС «Большой»
+          - generic [ref=e239]:
+            - img "ХК Сочи"
+            - text: ХК Сочи
+      - generic [ref=e240]:
+        - generic [ref=e241]: "Следить за нами в социальных сетях:"
+        - generic [ref=e242]:
+          - link "" [ref=e244] [cursor=pointer]:
+            - /url: https://vk.com/shop_hctorpedo
+            - generic [ref=e245]: 
+          - link "" [ref=e247] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@hctorpedo
+            - generic [ref=e248]: 
+          - link "" [ref=e250] [cursor=pointer]:
+            - /url: https://t.me/hctorpedo
+            - generic [ref=e251]: 
+          - link "" [ref=e253] [cursor=pointer]:
+            - /url: https://twitter.com/torpedonn
+            - generic [ref=e254]: 
+          - link "" [ref=e256] [cursor=pointer]:
+            - /url: https://ok.ru/hctorpedo
+            - generic [ref=e257]: 
+          - link "" [ref=e259] [cursor=pointer]:
+            - /url: https://www.youtube.com/hctorpedonn
+            - generic [ref=e260]: 
+      - generic [ref=e261]:
+        - generic [ref=e262]:
+          - paragraph [ref=e263]: 2003-2026 АНО «Хоккейный клуб «Торпедо»
+          - paragraph [ref=e264]:
+            - link "Условия пользования сайтами ХК «Торпедо»" [ref=e265] [cursor=pointer]:
+              - /url: /terms
+        - generic [ref=e267]:
+          - link "Политика обработки персональных данных" [ref=e268] [cursor=pointer]:
+            - /url: /privacy
+          - link "Пользовательское соглашение" [ref=e269] [cursor=pointer]:
+            - /url: /terms
+  - dialog "Уведомление об использовании файлов cookie" [ref=e270]:
+    - generic [ref=e271]:
+      - paragraph [ref=e272]:
+        - text: Мы используем файлы cookie для улучшения работы сайта. Продолжая пользоваться сайтом, вы соглашаетесь с
+        - link "Политикой конфиденциальности" [ref=e273] [cursor=pointer]:
+          - /url: /privacy
+        - text: .
+      - generic [ref=e274]:
+        - button "Принять" [ref=e275] [cursor=pointer]
+        - button "Отказаться" [ref=e276] [cursor=pointer]
+```
