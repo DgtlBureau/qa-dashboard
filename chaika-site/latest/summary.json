@@ -11,10 +11,10 @@
   "failedMajor": 52,
   "failedMinor": 27,
   "passRate": "0.00",
-  "durationFormatted": "2m 50s",
-  "timestamp": "2026-10-04T07:02:02.328Z",
+  "durationFormatted": "3m 12s",
+  "timestamp": "2026-10-05T05:34:51.496Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/chaika-site/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/37184232213",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/37268005405",
   "failedTests": [
     {
       "name": "Главная / отвечает 200 @critical",
@@ -57,7 +57,7 @@
       "priority": "critical"
     }
   ],
-  "commitMessage": "Шапка «Контакты»: фото команды после матча",
+  "commitMessage": "Карточка матча: вернуть авторов голов и фамилии в составе",
   "prevFailed": 111,
   "deltaFailed": 0
 }
