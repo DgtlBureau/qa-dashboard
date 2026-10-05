@@ -11,10 +11,10 @@
   "failedMajor": 52,
   "failedMinor": 27,
   "passRate": "0.00",
-  "durationFormatted": "3m 10s",
-  "timestamp": "2026-10-04T07:02:02.316Z",
+  "durationFormatted": "3m 17s",
+  "timestamp": "2026-10-05T05:34:51.487Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/gorky-site/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/37184232213",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/37268005405",
   "failedTests": [
     {
       "name": "Главная / отвечает 200 @critical",
@@ -57,7 +57,7 @@
       "priority": "critical"
     }
   ],
-  "commitMessage": "Шапка «Контакты»: фото команды после матча",
+  "commitMessage": "Карточка матча: вернуть авторов голов и фамилии в составе",
   "prevFailed": 111,
   "deltaFailed": 0
 }
