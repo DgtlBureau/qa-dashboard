@@ -1,20 +1,20 @@
 {
   "project": "torpedo-shop",
   "projectDisplayName": "Torpedo Shop",
-  "status": "critical",
-  "passed": 601,
-  "failed": 36,
+  "status": "warning",
+  "passed": 612,
+  "failed": 25,
   "skipped": 4,
-  "retried": 40,
+  "retried": 29,
   "total": 641,
-  "failedCritical": 5,
-  "failedMajor": 27,
+  "failedCritical": 0,
+  "failedMajor": 21,
   "failedMinor": 4,
-  "passRate": "93.76",
-  "durationFormatted": "28m 15s",
-  "timestamp": "2026-10-05T03:49:25.426Z",
+  "passRate": "95.48",
+  "durationFormatted": "23m 9s",
+  "timestamp": "2026-10-06T03:38:23.402Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/37258889298",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/37407889014",
   "failedTests": [
     {
       "name": "TC-CART-01 | Пустая корзина показывает соответствующее сообщение @major",
@@ -49,14 +49,14 @@
       "priority": "major"
     },
     {
-      "name": "TC-CHK-13 | Итоговая сумма обновляется при выборе доставки @critical",
-      "priority": "critical"
-    },
-    {
       "name": "ТК-05 | Laravel /_ignition закрыт на backend @major",
       "priority": "major"
+    },
+    {
+      "name": "TC-SCH-03 | Schema содержит name, price, priceCurrency @minor",
+      "priority": "minor"
     }
   ],
-  "prevFailed": 32,
-  "deltaFailed": 4
+  "prevFailed": 36,
+  "deltaFailed": -11
 }

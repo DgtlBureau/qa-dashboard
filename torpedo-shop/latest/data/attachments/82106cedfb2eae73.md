@@ -1,0 +1,344 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]: "Режим работы:"
+        - generic [ref=e8]: Ежедневно 10:00 – 19:00
+        - generic [ref=e9]: "Телефон магазина:"
+        - link "+7 (930) 711-19-46" [ref=e10] [cursor=pointer]:
+          - /url: tel:+79307111946
+        - generic [ref=e11]: "Касса:"
+        - link "+7 (920) 006-05-34" [ref=e12] [cursor=pointer]:
+          - /url: tel:+79200060534
+      - generic [ref=e14]:
+        - link "Оплата" [ref=e15] [cursor=pointer]:
+          - /url: /payment
+        - link "Доставка" [ref=e16] [cursor=pointer]:
+          - /url: /delivery
+        - link "Баллы" [ref=e17] [cursor=pointer]:
+          - /url: /account/bonuses
+        - link "Возврат" [ref=e18] [cursor=pointer]:
+          - /url: /refund
+        - link "Контакты" [ref=e19] [cursor=pointer]:
+          - /url: /contacts
+    - generic [ref=e22]:
+      - generic [ref=e24]:
+        - textbox "Искать товары" [ref=e25]
+        - button "Поиск":
+          - generic: 
+      - link "ХК Торпедо" [ref=e26] [cursor=pointer]:
+        - /url: /
+        - img "ХК Торпедо" [ref=e27]
+      - generic [ref=e28]:
+        - text: 
+        - link " Основной сайт" [ref=e29] [cursor=pointer]:
+          - /url: https://hctorpedo.ru/
+          - generic [ref=e30]: 
+          - generic [ref=e31]: Основной сайт
+        - link " Билеты" [ref=e32] [cursor=pointer]:
+          - /url: https://hctorpedo.ru/tickets/
+          - generic [ref=e33]: 
+          - generic [ref=e34]: Билеты
+        - link " Войти" [ref=e35] [cursor=pointer]:
+          - /url: /account/personal/
+          - generic [ref=e36]: 
+          - generic [ref=e37]: Войти
+        - link "Корзина" [ref=e38] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=e39]: 
+          - generic [ref=e40]: Корзина
+    - navigation [ref=e41]:
+      - list [ref=e43]:
+        - listitem [ref=e44]:
+          - link "Атрибутика" [ref=e45] [cursor=pointer]:
+            - /url: /catalog/atributika-1/
+        - listitem [ref=e46]:
+          - link "Головные уборы" [ref=e47] [cursor=pointer]:
+            - /url: /catalog/golovnye-ubory-1/
+        - listitem [ref=e48]:
+          - link "Аксессуары" [ref=e49] [cursor=pointer]:
+            - /url: /catalog/aksessuary-1/
+        - listitem [ref=e50]:
+          - link "Женская одежда" [ref=e51] [cursor=pointer]:
+            - /url: /catalog/zhenskaya-odezhda-1/
+        - listitem [ref=e52]:
+          - link "Сувениры" [ref=e53] [cursor=pointer]:
+            - /url: /catalog/suveniry-1/
+        - listitem [ref=e54]:
+          - link "Игровые свитеры" [ref=e55] [cursor=pointer]:
+            - /url: /catalog/igrovye-svitery-1/
+        - listitem [ref=e56]:
+          - link "Детская одежда" [ref=e57] [cursor=pointer]:
+            - /url: /catalog/detskaya-odezhda-1/
+        - listitem [ref=e58]:
+          - link "Мужская одежда" [ref=e59] [cursor=pointer]:
+            - /url: /catalog/muzhskaya-odezhda-1/
+        - listitem [ref=e60]:
+          - link "МХК Чайка" [ref=e61] [cursor=pointer]:
+            - /url: /catalog/mkhk-chayka-1/
+  - generic [ref=e62]:
+    - generic [ref=e63]:
+      - button "Закрыть" [ref=e64] [cursor=pointer]:
+        - img [ref=e65]
+        - generic [ref=e67]: Ближайший матч
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - img "Торпедо" [ref=e70]
+          - generic [ref=e71]: Торпедо
+        - generic [ref=e73]:
+          - generic [ref=e74]: 8 октября, чт, 22:30
+          - generic [ref=e75]: VOLGA Арена
+        - generic [ref=e77]:
+          - img "Северсталь" [ref=e78]
+          - generic [ref=e79]: Северсталь
+    - button "Купить билеты" [ref=e80] [cursor=pointer]:
+      - generic [ref=e81]: 
+      - generic [ref=e82]: Купить билеты
+      - img [ref=e83]
+  - main [ref=e85]:
+    - list [ref=e87]:
+      - listitem [ref=e88]:
+        - link "Главная" [ref=e89] [cursor=pointer]:
+          - /url: /
+        - text: 
+      - listitem [ref=e90]:
+        - link "Каталог товаров" [ref=e91] [cursor=pointer]:
+          - /url: /catalog
+        - text: 
+      - listitem [ref=e92]:
+        - link "Брюки и шорты" [ref=e93] [cursor=pointer]:
+          - /url: /catalog/bryuki-i-shorty-3
+        - text: 
+      - listitem [ref=e94]: Брюки парадные ХК «Торпедо» (серый меланж)
+    - generic [ref=e95]:
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - img [ref=e101]:
+            - generic [ref=e104]: Фото товара отсутствует
+          - generic [ref=e109]:
+            - heading "Брюки парадные ХК «Торпедо» (серый меланж)" [level=1] [ref=e110]
+            - generic [ref=e111]:
+              - generic [ref=e112]:
+                - text: Оценка
+                - generic [ref=e113]:
+                  - generic [ref=e114]: 
+                  - generic [ref=e115]: 
+                  - generic [ref=e116]: 
+                  - generic [ref=e117]: 
+                  - generic [ref=e118]: 
+              - generic [ref=e121]: 3 700 ₽
+              - generic [ref=e122]:
+                - button " Войдите на сайт" [ref=e123] [cursor=pointer]:
+                  - generic [ref=e124]: 
+                  - text: Войдите на сайт
+                - generic [ref=e125]: чтобы получать и тратить баллы
+            - generic [ref=e127]:
+              - generic [ref=e128]: Размер
+              - generic [ref=e129]:
+                - button "XS" [disabled] [ref=e130]
+                - button "XXS" [disabled] [ref=e131]
+                - button "L" [disabled] [ref=e132]
+                - button "M" [disabled] [ref=e133]
+                - button "2XL" [disabled] [ref=e134]
+                - button "S" [disabled] [ref=e135]
+                - button "XL" [disabled] [ref=e136]
+                - button "4XL" [disabled] [ref=e137]
+                - button "3XL" [disabled] [ref=e138]
+            - group [ref=e140]:
+              - generic [ref=e141]:
+                - button "Уменьшить" [ref=e142] [cursor=pointer]
+                - spinbutton [ref=e143]: "1"
+                - button "Увеличить" [ref=e144] [cursor=pointer]
+              - button "Только в магазине " [disabled]
+            - generic [ref=e146]: "Мужские брюки состоят из: 70% хлопок, 30 полиэстер"
+        - generic [ref=e147]:
+          - generic [ref=e148]:
+            - heading "Наличие" [level=3] [ref=e149]
+            - generic [ref=e150]:
+              - generic [ref=e151]:
+                - generic [ref=e152]: "пр. Гагарина, 29:"
+                - generic [ref=e153]: "18"
+              - generic [ref=e154]:
+                - generic [ref=e155]: "Интернет-магазин:"
+                - generic [ref=e156]: нет
+          - generic [ref=e157]:
+            - heading "Способы получения" [level=3] [ref=e158]
+            - generic [ref=e159]:
+              - generic [ref=e160]:
+                - generic [ref=e161]:
+                  - text: Самовывоз из магазина
+                  - link "на пр. Гагарина" [ref=e162] [cursor=pointer]:
+                    - /url: /contacts
+                  - text: через 15 минут
+                - generic [ref=e163]: Бесплатно
+              - generic [ref=e164]:
+                - generic [ref=e165]: Доставка в пункт выдачи СДЭК
+                - generic [ref=e166]: от 264 руб.
+              - generic [ref=e167]:
+                - generic [ref=e168]: Доставка до квартиры
+                - generic [ref=e169]: от 516 руб.
+          - generic [ref=e171]:
+            - paragraph [ref=e174]: Доставка или самовывоз с примеркой. Вы можете отказаться, если товар не подошел
+            - paragraph [ref=e177]: Официальная продукция хоккейного клуба «Торпедо». Остерегайтесь подделок!
+            - paragraph [ref=e180]: Высокое качество материалов для всей семьи!
+        - text: 
+      - generic [ref=e181]:
+        - heading "Похожие товары" [level=3] [ref=e182]
+        - generic [ref=e184]:
+          - link "Брюки коричневые «Место силы» (Душа, Торпедо) В избранное Быстрый просмотр Брюки коричневые «Место силы» (Душа, Торпедо) 4 500 ₽     " [ref=e186] [cursor=pointer]:
+            - /url: /product/bryuki-korichnevye-mesto-sily-dusha-torpedo
+            - generic [ref=e187]:
+              - img "Брюки коричневые «Место силы» (Душа, Торпедо)" [ref=e189]
+              - button "В избранное" [ref=e191]:
+                - generic [ref=e192]: 
+                - text: 
+              - generic:
+                - button "Быстрый просмотр"
+            - generic [ref=e193]:
+              - generic [ref=e194]: Брюки коричневые «Место силы» (Душа, Торпедо)
+              - generic [ref=e196]: 4 500 ₽
+              - generic [ref=e198]:
+                - generic [ref=e199]: 
+                - generic [ref=e200]: 
+                - generic [ref=e201]: 
+                - generic [ref=e202]: 
+                - generic [ref=e203]: 
+          - link "Брюки черные «Место силы» (Душа, Торпедо) В избранное Быстрый просмотр Брюки черные «Место силы» (Душа, Торпедо) 4 500 ₽     " [ref=e205] [cursor=pointer]:
+            - /url: /product/bryuki-chernye-mesto-sily-dusha-torpedo
+            - generic [ref=e206]:
+              - img "Брюки черные «Место силы» (Душа, Торпедо)" [ref=e208]
+              - button "В избранное" [ref=e210]:
+                - generic [ref=e211]: 
+                - text: 
+              - generic:
+                - button "Быстрый просмотр"
+            - generic [ref=e212]:
+              - generic [ref=e213]: Брюки черные «Место силы» (Душа, Торпедо)
+              - generic [ref=e215]: 4 500 ₽
+              - generic [ref=e217]:
+                - generic [ref=e218]: 
+                - generic [ref=e219]: 
+                - generic [ref=e220]: 
+                - generic [ref=e221]: 
+                - generic [ref=e222]: 
+          - link "Брюки ХК Торпедо НН (Логотип 1946) синие (A&C) В избранное Быстрый просмотр Брюки ХК Торпедо НН (Логотип 1946) синие (A&C) 3 000 ₽     " [ref=e224] [cursor=pointer]:
+            - /url: /product/bryuki-khk-torpedo-nn-logotip-1946-sinie-ac
+            - generic [ref=e225]:
+              - img "Брюки ХК Торпедо НН (Логотип 1946) синие (A&C)" [ref=e227]
+              - button "В избранное" [ref=e229]:
+                - generic [ref=e230]: 
+                - text: 
+              - generic:
+                - button "Быстрый просмотр"
+            - generic [ref=e231]:
+              - generic [ref=e232]: Брюки ХК Торпедо НН (Логотип 1946) синие (A&C)
+              - generic [ref=e234]: 3 000 ₽
+              - generic [ref=e236]:
+                - generic [ref=e237]: 
+                - generic [ref=e238]: 
+                - generic [ref=e239]: 
+                - generic [ref=e240]: 
+                - generic [ref=e241]: 
+          - link "Брюки ХК Торпедо НН (Логотип) синие (A&C) В избранное Быстрый просмотр Брюки ХК Торпедо НН (Логотип) синие (A&C) 2 800 ₽     " [ref=e243] [cursor=pointer]:
+            - /url: /product/bryuki-khk-torpedo-nn-logotip-sinie-ac
+            - generic [ref=e244]:
+              - img "Брюки ХК Торпедо НН (Логотип) синие (A&C)" [ref=e246]
+              - button "В избранное" [ref=e248]:
+                - generic [ref=e249]: 
+                - text: 
+              - generic:
+                - button "Быстрый просмотр"
+            - generic [ref=e250]:
+              - generic [ref=e251]: Брюки ХК Торпедо НН (Логотип) синие (A&C)
+              - generic [ref=e253]: 2 800 ₽
+              - generic [ref=e255]:
+                - generic [ref=e256]: 
+                - generic [ref=e257]: 
+                - generic [ref=e258]: 
+                - generic [ref=e259]: 
+                - generic [ref=e260]: 
+  - contentinfo [ref=e261]:
+    - generic [ref=e262]:
+      - generic [ref=e263]:
+        - generic [ref=e264]:
+          - generic [ref=e265]: "Режим работы: Вторник – Суббота 10:00 – 19:00"
+          - generic [ref=e266]:
+            - link "Личный кабинет" [ref=e267] [cursor=pointer]:
+              - /url: /account/orders
+            - link "Оплата" [ref=e268] [cursor=pointer]:
+              - /url: /payment
+            - link "Доставка" [ref=e269] [cursor=pointer]:
+              - /url: /delivery
+            - link "Баллы" [ref=e270] [cursor=pointer]:
+              - /url: /account/bonuses
+            - link "Возврат" [ref=e271] [cursor=pointer]:
+              - /url: /refund
+            - link "Контакты" [ref=e272] [cursor=pointer]:
+              - /url: /contacts
+        - generic [ref=e273]:
+          - link "+7 (930) 711-19-46" [ref=e274] [cursor=pointer]:
+            - /url: tel:+79307111946
+          - generic [ref=e275]: Телефон магазина
+      - generic [ref=e276]:
+        - generic [ref=e277]: Ближайший матч «Торпедо»
+        - generic [ref=e278]:
+          - generic [ref=e279]:
+            - img "Торпедо" [ref=e280]
+            - text: Торпедо
+          - generic [ref=e281]:
+            - generic [ref=e282]: 8 октября, чт, 22:30
+            - text: VOLGA Арена
+          - generic [ref=e283]:
+            - img "Северсталь" [ref=e284]
+            - text: Северсталь
+        - link " Билеты " [ref=e285] [cursor=pointer]:
+          - /url: https://widget.afisha.yandex.ru/w/sessions/MTA2NjcxfDU2MzkwMXwxNDAxNDcxMnwxNzkxNDc3MDAwMDAw?clientKey=85231729-d812-4fef-ab69-919e45f9cfb1
+          - generic [ref=e286]: 
+          - text: Билеты
+          - generic [ref=e287]: 
+      - generic [ref=e288]:
+        - generic [ref=e289]: "Следить за нами в социальных сетях:"
+        - generic [ref=e290]:
+          - link "" [ref=e292] [cursor=pointer]:
+            - /url: https://vk.com/shop_hctorpedo
+            - generic [ref=e293]: 
+          - link "" [ref=e295] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@hctorpedo
+            - generic [ref=e296]: 
+          - link "" [ref=e298] [cursor=pointer]:
+            - /url: https://t.me/hctorpedo
+            - generic [ref=e299]: 
+          - link "" [ref=e301] [cursor=pointer]:
+            - /url: https://twitter.com/torpedonn
+            - generic [ref=e302]: 
+          - link "" [ref=e304] [cursor=pointer]:
+            - /url: https://ok.ru/hctorpedo
+            - generic [ref=e305]: 
+          - link "" [ref=e307] [cursor=pointer]:
+            - /url: https://www.youtube.com/hctorpedonn
+            - generic [ref=e308]: 
+      - generic [ref=e309]:
+        - generic [ref=e310]:
+          - paragraph [ref=e311]: 2003-2026 АНО «Хоккейный клуб «Торпедо»
+          - paragraph [ref=e312]:
+            - link "Условия пользования сайтами ХК «Торпедо»" [ref=e313] [cursor=pointer]:
+              - /url: /terms
+        - generic [ref=e315]:
+          - link "Политика обработки персональных данных" [ref=e316] [cursor=pointer]:
+            - /url: /privacy
+          - link "Пользовательское соглашение" [ref=e317] [cursor=pointer]:
+            - /url: /terms
+  - dialog "Уведомление об использовании файлов cookie" [ref=e318]:
+    - generic [ref=e319]:
+      - paragraph [ref=e320]:
+        - text: Мы используем файлы cookie для улучшения работы сайта. Продолжая пользоваться сайтом, вы соглашаетесь с
+        - link "Политикой конфиденциальности" [ref=e321] [cursor=pointer]:
+          - /url: /privacy
+        - text: .
+      - generic [ref=e322]:
+        - button "Принять" [ref=e323] [cursor=pointer]
+        - button "Отказаться" [ref=e324] [cursor=pointer]
+```
