@@ -11,10 +11,10 @@
   "failedMajor": 52,
   "failedMinor": 27,
   "passRate": "0.00",
-  "durationFormatted": "3m 36s",
-  "timestamp": "2026-10-08T05:21:57.990Z",
+  "durationFormatted": "4m 0s",
+  "timestamp": "2026-10-09T05:22:22.393Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-site/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/37731555667",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/37887803295",
   "failedTests": [
     {
       "name": "Главная / отвечает 200 @critical",
@@ -57,7 +57,7 @@
       "priority": "critical"
     }
   ],
-  "commitMessage": "Идеи: тема «VOLGA Арена» в кавычках",
+  "commitMessage": "fix: актуализировать условия программы лояльности",
   "prevFailed": 111,
   "deltaFailed": 0
 }
