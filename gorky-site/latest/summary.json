@@ -11,10 +11,10 @@
   "failedMajor": 52,
   "failedMinor": 27,
   "passRate": "0.00",
-  "durationFormatted": "2m 34s",
-  "timestamp": "2026-10-10T05:19:49.856Z",
+  "durationFormatted": "2m 41s",
+  "timestamp": "2026-10-11T05:20:19.446Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/gorky-site/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/38026823345",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/38114169338",
   "failedTests": [
     {
       "name": "Главная / отвечает 200 @critical",
@@ -57,7 +57,7 @@
       "priority": "critical"
     }
   ],
-  "commitMessage": "fix: актуализировать условия программы лояльности",
+  "commitMessage": "Календарь: ссылка на протокол матча с идентификатором турнира",
   "prevFailed": 111,
   "deltaFailed": 0
 }
