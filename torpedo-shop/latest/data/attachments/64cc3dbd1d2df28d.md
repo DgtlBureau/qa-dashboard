@@ -1,0 +1,991 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]: "Режим работы:"
+        - generic [ref=e8]: Ежедневно 10:00 – 19:00
+        - generic [ref=e9]: "Телефон магазина:"
+        - link "+7 (930) 711-19-46" [ref=e10] [cursor=pointer]:
+          - /url: tel:+79307111946
+        - generic [ref=e11]: "Касса:"
+        - link "+7 (920) 006-05-34" [ref=e12] [cursor=pointer]:
+          - /url: tel:+79200060534
+      - generic [ref=e14]:
+        - link "Оплата" [ref=e15] [cursor=pointer]:
+          - /url: /payment
+        - link "Доставка" [ref=e16] [cursor=pointer]:
+          - /url: /delivery
+        - link "Баллы" [ref=e17] [cursor=pointer]:
+          - /url: /account/bonuses
+        - link "Возврат" [ref=e18] [cursor=pointer]:
+          - /url: /refund
+        - link "Контакты" [ref=e19] [cursor=pointer]:
+          - /url: /contacts
+    - generic [ref=e22]:
+      - generic [ref=e24]:
+        - textbox "Искать товары" [ref=e25]
+        - button "Поиск":
+          - generic: 
+      - link "ХК Торпедо" [ref=e26] [cursor=pointer]:
+        - /url: /
+        - img "ХК Торпедо" [ref=e27]
+      - generic [ref=e28]:
+        - text: 
+        - link " Основной сайт" [ref=e29] [cursor=pointer]:
+          - /url: https://hctorpedo.ru/
+          - generic [ref=e30]: 
+          - generic [ref=e31]: Основной сайт
+        - link " Билеты" [ref=e32] [cursor=pointer]:
+          - /url: https://hctorpedo.ru/tickets/
+          - generic [ref=e33]: 
+          - generic [ref=e34]: Билеты
+        - link " Войти" [ref=e35] [cursor=pointer]:
+          - /url: /account/personal/
+          - generic [ref=e36]: 
+          - generic [ref=e37]: Войти
+        - link "Корзина" [ref=e38] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=e39]: 
+          - generic [ref=e40]: Корзина
+    - navigation [ref=e41]:
+      - list [ref=e43]:
+        - listitem [ref=e44]:
+          - link "Атрибутика" [ref=e45] [cursor=pointer]:
+            - /url: /catalog/atributika-1/
+        - listitem [ref=e46]:
+          - link "Головные уборы" [ref=e47] [cursor=pointer]:
+            - /url: /catalog/golovnye-ubory-1/
+        - listitem [ref=e48]:
+          - link "Аксессуары" [ref=e49] [cursor=pointer]:
+            - /url: /catalog/aksessuary-1/
+        - listitem [ref=e50]:
+          - link "Женская одежда" [ref=e51] [cursor=pointer]:
+            - /url: /catalog/zhenskaya-odezhda-1/
+        - listitem [ref=e52]:
+          - link "Сувениры" [ref=e53] [cursor=pointer]:
+            - /url: /catalog/suveniry-1/
+        - listitem [ref=e54]:
+          - link "Игровые свитеры" [ref=e55] [cursor=pointer]:
+            - /url: /catalog/igrovye-svitery-1/
+        - listitem [ref=e56]:
+          - link "Детская одежда" [ref=e57] [cursor=pointer]:
+            - /url: /catalog/detskaya-odezhda-1/
+        - listitem [ref=e58]:
+          - link "Мужская одежда" [ref=e59] [cursor=pointer]:
+            - /url: /catalog/muzhskaya-odezhda-1/
+        - listitem [ref=e60]:
+          - link "МХК Чайка" [ref=e61] [cursor=pointer]:
+            - /url: /catalog/mkhk-chayka-1/
+  - generic [ref=e62]:
+    - generic [ref=e63]:
+      - button "Закрыть" [ref=e64] [cursor=pointer]:
+        - img [ref=e65]
+        - generic [ref=e67]: Ближайший матч
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - img "Торпедо"
+          - generic [ref=e70]: Торпедо
+        - generic [ref=e72]:
+          - generic [ref=e73]: 16 октября, пт, 22:00
+          - generic [ref=e74]: VOLGA Арена
+        - generic [ref=e76]:
+          - img "Динамо М" [ref=e77]
+          - generic [ref=e78]: Динамо М
+    - button "Купить билеты" [ref=e79] [cursor=pointer]:
+      - generic [ref=e80]: 
+      - generic [ref=e81]: Купить билеты
+      - img [ref=e82]
+  - generic [ref=e84]:
+    - main [ref=e85]:
+      - generic [ref=e88]:
+        - generic [ref=e90]:
+          - link "Головные уборы" [ref=e92] [cursor=pointer]:
+            - /url: /catalog/golovnye-ubory-1
+            - img "Головные уборы" [ref=e94]
+          - link "Игровой свитер" [ref=e96] [cursor=pointer]:
+            - /url: /catalog/igrovye-svitery-1
+            - img "Игровой свитер" [ref=e98]
+          - link "Головные уборы" [ref=e100] [cursor=pointer]:
+            - /url: /catalog/golovnye-ubory-1
+            - img "Головные уборы" [ref=e102]
+          - link "Игровой свитер" [ref=e104] [cursor=pointer]:
+            - /url: /catalog/igrovye-svitery-1
+            - img "Игровой свитер" [ref=e106]
+          - link "Головные уборы" [ref=e108] [cursor=pointer]:
+            - /url: /catalog/golovnye-ubory-1
+            - img "Головные уборы" [ref=e110]
+          - link "Игровой свитер" [ref=e112] [cursor=pointer]:
+            - /url: /catalog/igrovye-svitery-1
+            - img "Игровой свитер" [ref=e114]
+          - link "Головные уборы" [ref=e116] [cursor=pointer]:
+            - /url: /catalog/golovnye-ubory-1
+            - img "Головные уборы" [ref=e118]
+          - link "Игровой свитер" [ref=e120] [cursor=pointer]:
+            - /url: /catalog/igrovye-svitery-1
+            - img "Игровой свитер" [ref=e122]
+        - button "Предыдущий" [ref=e123] [cursor=pointer]:
+          - img [ref=e124]
+        - button "Следующий" [ref=e126] [cursor=pointer]:
+          - img [ref=e127]
+        - generic: 02 из 02
+      - generic [ref=e129]:
+        - generic [ref=e130]:
+          - heading "Популярные товары Смотреть все " [level=3] [ref=e131]:
+            - text: Популярные товары
+            - link "Смотреть все " [ref=e132] [cursor=pointer]:
+              - /url: /catalog
+          - generic [ref=e133]:
+            - generic [ref=e135]:
+              - link "В избранное Быстрый просмотр Худи парадное с капюшоном ХК «Торпедо» (серый меланж) 8 700 ₽     " [ref=e137] [cursor=pointer]:
+                - /url: /product/khudi-paradnoe-s-kapyushonom-khk-torpedo-seryy-melanzh
+                - generic [ref=e138]:
+                  - img [ref=e141]:
+                    - generic [ref=e144]: Фото товара отсутствует
+                  - button "В избранное" [ref=e149]:
+                    - generic [ref=e150]: 
+                    - text: 
+                  - generic:
+                    - button "Быстрый просмотр"
+                - generic [ref=e151]:
+                  - generic [ref=e152]: Худи парадное с капюшоном ХК «Торпедо» (серый меланж)
+                  - generic [ref=e154]: 8 700 ₽
+                  - generic [ref=e156]:
+                    - generic [ref=e157]: 
+                    - generic [ref=e158]: 
+                    - generic [ref=e159]: 
+                    - generic [ref=e160]: 
+                    - generic [ref=e161]: 
+              - link "Бейсболка ХК Торпедо НН (подростковая), син., 52-54 (Atributika&Club) SALE В избранное Быстрый просмотр Бейсболка ХК Торпедо НН (подростковая), син., 52-54 (Atributika&Club) 2 500 ₽ 1 500 ₽     " [ref=e163] [cursor=pointer]:
+                - /url: /product/beysbolka-khk-torpedo-nn-podrostkovaya-sin-52-54-atributikaclub
+                - generic [ref=e164]:
+                  - img "Бейсболка ХК Торпедо НН (подростковая), син., 52-54 (Atributika&Club)" [ref=e166]
+                  - generic [ref=e168]: SALE
+                  - button "В избранное" [ref=e170]:
+                    - generic [ref=e171]: 
+                    - text: 
+                  - generic:
+                    - button "Быстрый просмотр"
+                - generic [ref=e172]:
+                  - generic [ref=e173]: Бейсболка ХК Торпедо НН (подростковая), син., 52-54 (Atributika&Club)
+                  - generic [ref=e174]:
+                    - generic [ref=e175]: 2 500 ₽
+                    - generic [ref=e176]: 1 500 ₽
+                  - generic [ref=e178]:
+                    - generic [ref=e179]: 
+                    - generic [ref=e180]: 
+                    - generic [ref=e181]: 
+                    - generic [ref=e182]: 
+                    - generic [ref=e183]: 
+              - link "В избранное Быстрый просмотр Брюки парадные ХК «Торпедо» (серый меланж) 3 700 ₽     " [ref=e185] [cursor=pointer]:
+                - /url: /product/bryuki-paradnye-khk-torpedo-seryy-melanzh
+                - generic [ref=e186]:
+                  - img [ref=e189]:
+                    - generic [ref=e192]: Фото товара отсутствует
+                  - button "В избранное" [ref=e197]:
+                    - generic [ref=e198]: 
+                    - text: 
+                  - generic:
+                    - button "Быстрый просмотр"
+                - generic [ref=e199]:
+                  - generic [ref=e200]: Брюки парадные ХК «Торпедо» (серый меланж)
+                  - generic [ref=e202]: 3 700 ₽
+                  - generic [ref=e204]:
+                    - generic [ref=e205]: 
+                    - generic [ref=e206]: 
+                    - generic [ref=e207]: 
+                    - generic [ref=e208]: 
+                    - generic [ref=e209]: 
+              - link "Свитер хоккейный Торпедо НН синий оригинальный (A&C) со спонсором В избранное Быстрый просмотр Свитер хоккейный Торпедо НН синий оригинальный (A&C) со спонсором 6 000 ₽     " [ref=e211] [cursor=pointer]:
+                - /url: /product/sviter-khokkeynyy-torpedo-nn-siniy-originalnyy-ac-so-sponsorom
+                - generic [ref=e212]:
+                  - img "Свитер хоккейный Торпедо НН синий оригинальный (A&C) со спонсором" [ref=e214]
+                  - button "В избранное" [ref=e216]:
+                    - generic [ref=e217]: 
+                    - text: 
+                  - generic:
+                    - button "Быстрый просмотр"
+                - generic [ref=e218]:
+                  - generic [ref=e219]: Свитер хоккейный Торпедо НН синий оригинальный (A&C) со спонсором
+                  - generic [ref=e221]: 6 000 ₽
+                  - generic [ref=e223]:
+                    - generic [ref=e224]: 
+                    - generic [ref=e225]: 
+                    - generic [ref=e226]: 
+                    - generic [ref=e227]: 
+                    - generic [ref=e228]: 
+              - link "Куртка зимняя ХК Торпедо НН, черн., (ТМ ATRIBUTIKA&CLUB) SALE В избранное Быстрый просмотр Куртка зимняя ХК Торпедо НН, черн., (ТМ ATRIBUTIKA&CLUB) 13 000 ₽ 6 500 ₽     " [ref=e230] [cursor=pointer]:
+                - /url: /product/kurtka-zimnyaya-khk-torpedo-nn-chern-tm-atributikaclub
+                - generic [ref=e231]:
+                  - img "Куртка зимняя ХК Торпедо НН, черн., (ТМ ATRIBUTIKA&CLUB)" [ref=e233]
+                  - generic [ref=e235]: SALE
+                  - button "В избранное" [ref=e237]:
+                    - generic [ref=e238]: 
+                    - text: 
+                  - generic:
+                    - button "Быстрый просмотр"
+                - generic [ref=e239]:
+                  - generic [ref=e240]: Куртка зимняя ХК Торпедо НН, черн., (ТМ ATRIBUTIKA&CLUB)
+                  - generic [ref=e241]:
+                    - generic [ref=e242]: 13 000 ₽
+                    - generic [ref=e243]: 6 500 ₽
+                  - generic [ref=e245]:
+                    - generic [ref=e246]: 
+                    - generic [ref=e247]: 
+                    - generic [ref=e248]: 
+                    - generic [ref=e249]: 
+                    - generic [ref=e250]: 
+              - link "Шарф классик (1946) В избранное Быстрый просмотр Шарф классик (1946) 1 000 ₽     " [ref=e252] [cursor=pointer]:
+                - /url: /product/sharf-klassik-1946
+                - generic [ref=e253]:
+                  - img "Шарф классик (1946)" [ref=e255]
+                  - button "В избранное" [ref=e257]:
+                    - generic [ref=e258]: 
+                    - text: 
+                  - generic:
+                    - button "Быстрый просмотр"
+                - generic [ref=e259]:
+                  - generic [ref=e260]: Шарф классик (1946)
+                  - generic [ref=e262]: 1 000 ₽
+                  - generic [ref=e264]:
+                    - generic [ref=e265]: 
+                    - generic [ref=e266]: 
+                    - generic [ref=e267]: 
+                    - generic [ref=e268]: 
+                    - generic [ref=e269]: 
+              - link "Свитер реплика ХК Торпедо взрослый белый (сезон 25/26) без спонсора В избранное Быстрый просмотр Свитер реплика ХК Торпедо взрослый белый (сезон 25/26) без спонсора 5 500 ₽     " [ref=e271] [cursor=pointer]:
+                - /url: /product/sviter-replika-khk-torpedo-vzroslyy-belyy-sezon-2526-bez-sponsora
+                - generic [ref=e272]:
+                  - img "Свитер реплика ХК Торпедо взрослый белый (сезон 25/26) без спонсора" [ref=e274]
+                  - button "В избранное" [ref=e276]:
+                    - generic [ref=e277]: 
+                    - text: 
+                  - generic:
+                    - button "Быстрый просмотр"
+                - generic [ref=e278]:
+                  - generic [ref=e279]: Свитер реплика ХК Торпедо взрослый белый (сезон 25/26) без спонсора
+                  - generic [ref=e281]: 5 500 ₽
+                  - generic [ref=e283]:
+                    - generic [ref=e284]: 
+                    - generic [ref=e285]: 
+                    - generic [ref=e286]: 
+                    - generic [ref=e287]: 
+                    - generic [ref=e288]: 
+              - link "Свитер реплика ХК Торпедо взрослый синий (сезон 25/26) без спонсора В избранное Быстрый просмотр Свитер реплика ХК Торпедо взрослый синий (сезон 25/26) без спонсора 5 500 ₽     " [ref=e290] [cursor=pointer]:
+                - /url: /product/sviter-replika-khk-torpedo-vzroslyy-siniy-sezon-2526-bez-sponsora
+                - generic [ref=e291]:
+                  - img "Свитер реплика ХК Торпедо взрослый синий (сезон 25/26) без спонсора" [ref=e293]
+                  - button "В избранное" [ref=e295]:
+                    - generic [ref=e296]: 
+                    - text: 
+                  - generic:
+                    - button "Быстрый просмотр"
+                - generic [ref=e297]:
+                  - generic [ref=e298]: Свитер реплика ХК Торпедо взрослый синий (сезон 25/26) без спонсора
+                  - generic [ref=e300]: 5 500 ₽
+                  - generic [ref=e302]:
+                    - generic [ref=e303]: 
+                    - generic [ref=e304]: 
+                    - generic [ref=e305]: 
+                    - generic [ref=e306]: 
+                    - generic [ref=e307]: 
+              - link "Куртка зимняя удлиненная ХК Торпедо НН, син., (ТМ ATRIBUTIKA&CLUB) SALE В избранное Быстрый просмотр Куртка зимняя удлиненная ХК Торпедо НН, син., (ТМ ATRIBUTIKA&CLUB) 18 000 ₽ 9 000 ₽     " [ref=e309] [cursor=pointer]:
+                - /url: /product/kurtka-zimnyaya-udlinennaya-khk-torpedo-nn-sin-tm-atributikaclub
+                - generic [ref=e310]:
+                  - img "Куртка зимняя удлиненная ХК Торпедо НН, син., (ТМ ATRIBUTIKA&CLUB)" [ref=e312]
+                  - generic [ref=e314]: SALE
+                  - button "В избранное" [ref=e316]:
+                    - generic [ref=e317]: 
+                    - text: 
+                  - generic:
+                    - button "Быстрый просмотр"
+                - generic [ref=e318]:
+                  - generic [ref=e319]: Куртка зимняя удлиненная ХК Торпедо НН, син., (ТМ ATRIBUTIKA&CLUB)
+                  - generic [ref=e320]:
+                    - generic [ref=e321]: 18 000 ₽
+                    - generic [ref=e322]: 9 000 ₽
+                  - generic [ref=e324]:
+                    - generic [ref=e325]: 
+                    - generic [ref=e326]: 
+                    - generic [ref=e327]: 
+                    - generic [ref=e328]: 
+                    - generic [ref=e329]: 
+              - link "Свитер хоккейный Торпедо НН синий (A&C) без спонсора В избранное Быстрый просмотр Свитер хоккейный Торпедо НН синий (A&C) без спонсора 7 000 ₽     " [ref=e331] [cursor=pointer]:
+                - /url: /product/sviter-khokkeynyy-torpedo-nn-siniy-ac-bez-sponsora
+                - generic [ref=e332]:
+                  - img "Свитер хоккейный Торпедо НН синий (A&C) без спонсора" [ref=e334]
+                  - button "В избранное" [ref=e336]:
+                    - generic [ref=e337]: 
+                    - text: 
+                  - generic:
+                    - button "Быстрый просмотр"
+                - generic [ref=e338]:
+                  - generic [ref=e339]: Свитер хоккейный Торпедо НН синий (A&C) без спонсора
+                  - generic [ref=e341]: 7 000 ₽
+                  - generic [ref=e343]:
+                    - generic [ref=e344]: 
+                    - generic [ref=e345]: 
+                    - generic [ref=e346]: 
+                    - generic [ref=e347]: 
+                    - generic [ref=e348]: 
+              - link "Олимпийка ХК Торпедо НН синяя (A&C) В избранное Быстрый просмотр Олимпийка ХК Торпедо НН синяя (A&C) 4 500 ₽     " [ref=e350] [cursor=pointer]:
+                - /url: /product/olimpiyka-khk-torpedo-nn-sinyaya-ac
+                - generic [ref=e351]:
+                  - img "Олимпийка ХК Торпедо НН синяя (A&C)" [ref=e353]
+                  - button "В избранное" [ref=e355]:
+                    - generic [ref=e356]: 
+                    - text: 
+                  - generic:
+                    - button "Быстрый просмотр"
+                - generic [ref=e357]:
+                  - generic [ref=e358]: Олимпийка ХК Торпедо НН синяя (A&C)
+                  - generic [ref=e360]: 4 500 ₽
+                  - generic [ref=e362]:
+                    - generic [ref=e363]: 
+                    - generic [ref=e364]: 
+                    - generic [ref=e365]: 
+                    - generic [ref=e366]: 
+                    - generic [ref=e367]: 
+              - link "Свитер хоккейный игровой детский (сезон 25/26) синий В избранное Быстрый просмотр Свитер хоккейный игровой детский (сезон 25/26) синий 4 500 ₽     " [ref=e369] [cursor=pointer]:
+                - /url: /product/sviter-khokkeynyy-igrovoy-detskiy-sezon-2526-siniy
+                - generic [ref=e370]:
+                  - img "Свитер хоккейный игровой детский (сезон 25/26) синий" [ref=e372]
+                  - button "В избранное" [ref=e374]:
+                    - generic [ref=e375]: 
+                    - text: 
+                  - generic:
+                    - button "Быстрый просмотр"
+                - generic [ref=e376]:
+                  - generic [ref=e377]: Свитер хоккейный игровой детский (сезон 25/26) синий
+                  - generic [ref=e379]: 4 500 ₽
+                  - generic [ref=e381]:
+                    - generic [ref=e382]: 
+                    - generic [ref=e383]: 
+                    - generic [ref=e384]: 
+                    - generic [ref=e385]: 
+                    - generic [ref=e386]: 
+            - button "Вперёд":
+              - img
+        - generic [ref=e398]:
+          - heading "Распродажа Смотреть все " [level=3] [ref=e399]:
+            - text: Распродажа
+            - link "Смотреть все " [ref=e400] [cursor=pointer]:
+              - /url: /catalog
+          - generic [ref=e401]:
+            - generic [ref=e403]:
+              - link "Шапка ХК Торпедо, (1946) синяя с помпоном 55-55 (A&C) SALE В избранное Быстрый просмотр Шапка ХК Торпедо, (1946) синяя с помпоном 55-55 (A&C) 1 600 ₽ 800 ₽     " [ref=e405] [cursor=pointer]:
+                - /url: /product/shapka-khk-torpedo-1946-sinyaya-s-pomponom-55-55-ac
+                - generic [ref=e406]:
+                  - img "Шапка ХК Торпедо, (1946) синяя с помпоном 55-55 (A&C)" [ref=e408]
+                  - generic [ref=e410]: SALE
+                  - button "В избранное" [ref=e412]:
+                    - generic [ref=e413]: 
+                    - text: 
+                  - generic:
+                    - button "Быстрый просмотр"
+                - generic [ref=e414]:
+                  - generic [ref=e415]: Шапка ХК Торпедо, (1946) синяя с помпоном 55-55 (A&C)
+                  - generic [ref=e416]:
+                    - generic [ref=e417]: 1 600 ₽
+                    - generic [ref=e418]: 800 ₽
+                  - generic [ref=e420]:
+                    - generic [ref=e421]: 
+                    - generic [ref=e422]: 
+                    - generic [ref=e423]: 
+                    - generic [ref=e424]: 
+                    - generic [ref=e425]: 
+              - link "Шапка ХК Торпедо с отворотом и помпоном. син 55-58 Atributika&Club SALE В избранное Быстрый просмотр Шапка ХК Торпедо с отворотом и помпоном. син 55-58 Atributika&Club 1 500 ₽ 1 300 ₽     " [ref=e427] [cursor=pointer]:
+                - /url: /product/shapka-khk-torpedo-s-otvorotom-i-pomponom-sin-55-58-atributikaclub
+                - generic [ref=e428]:
+                  - img "Шапка ХК Торпедо с отворотом и помпоном. син 55-58 Atributika&Club" [ref=e430]
+                  - generic [ref=e432]: SALE
+                  - button "В избранное" [ref=e434]:
+                    - generic [ref=e435]: 
+                    - text: 
+                  - generic:
+                    - button "Быстрый просмотр"
+                - generic [ref=e436]:
+                  - generic [ref=e437]: Шапка ХК Торпедо с отворотом и помпоном. син 55-58 Atributika&Club
+                  - generic [ref=e438]:
+                    - generic [ref=e439]: 1 500 ₽
+                    - generic [ref=e440]: 1 300 ₽
+                  - generic [ref=e442]:
+                    - generic [ref=e443]: 
+                    - generic [ref=e444]: 
+                    - generic [ref=e445]: 
+                    - generic [ref=e446]: 
+                    - generic [ref=e447]: 
+              - link "Шапка ХК Торпедо, (милитари) черная, 55-58 (A&C) с помпоном SALE В избранное Быстрый просмотр Шапка ХК Торпедо, (милитари) черная, 55-58 (A&C) с помпоном 1 600 ₽ 800 ₽     " [ref=e449] [cursor=pointer]:
+                - /url: /product/shapka-khk-torpedo-militari-chernaya-55-58-ac-s-pomponom
+                - generic [ref=e450]:
+                  - img "Шапка ХК Торпедо, (милитари) черная, 55-58 (A&C) с помпоном" [ref=e452]
+                  - generic [ref=e454]: SALE
+                  - button "В избранное" [ref=e456]:
+                    - generic [ref=e457]: 
+                    - text: 
+                  - generic:
+                    - button "Быстрый просмотр"
+                - generic [ref=e458]:
+                  - generic [ref=e459]: Шапка ХК Торпедо, (милитари) черная, 55-58 (A&C) с помпоном
+                  - generic [ref=e460]:
+                    - generic [ref=e461]: 1 600 ₽
+                    - generic [ref=e462]: 800 ₽
+                  - generic [ref=e464]:
+                    - generic [ref=e465]: 
+                    - generic [ref=e466]: 
+                    - generic [ref=e467]: 
+                    - generic [ref=e468]: 
+                    - generic [ref=e469]: 
+              - link "Куртка зимняя удлиненная ХК Торпедо НН, син., (ТМ ATRIBUTIKA&CLUB) SALE В избранное Быстрый просмотр Куртка зимняя удлиненная ХК Торпедо НН, син., (ТМ ATRIBUTIKA&CLUB) 18 000 ₽ 9 000 ₽     " [ref=e471] [cursor=pointer]:
+                - /url: /product/kurtka-zimnyaya-udlinennaya-khk-torpedo-nn-sin-tm-atributikaclub
+                - generic [ref=e472]:
+                  - img "Куртка зимняя удлиненная ХК Торпедо НН, син., (ТМ ATRIBUTIKA&CLUB)" [ref=e474]
+                  - generic [ref=e476]: SALE
+                  - button "В избранное" [ref=e478]:
+                    - generic [ref=e479]: 
+                    - text: 
+                  - generic:
+                    - button "Быстрый просмотр"
+                - generic [ref=e480]:
+                  - generic [ref=e481]: Куртка зимняя удлиненная ХК Торпедо НН, син., (ТМ ATRIBUTIKA&CLUB)
+                  - generic [ref=e482]:
+                    - generic [ref=e483]: 18 000 ₽
+                    - generic [ref=e484]: 9 000 ₽
+                  - generic [ref=e486]:
+                    - generic [ref=e487]: 
+                    - generic [ref=e488]: 
+                    - generic [ref=e489]: 
+                    - generic [ref=e490]: 
+                    - generic [ref=e491]: 
+              - link "Шапка ХК Торпедо, (с полосой) бел-син, 55-58 (A&C) с помпоном SALE В избранное Быстрый просмотр Шапка ХК Торпедо, (с полосой) бел-син, 55-58 (A&C) с помпоном 1 500 ₽ 700 ₽     " [ref=e493] [cursor=pointer]:
+                - /url: /product/shapka-khk-torpedo-s-polosoy-bel-sin-55-58-ac-s-pomponom
+                - generic [ref=e494]:
+                  - img "Шапка ХК Торпедо, (с полосой) бел-син, 55-58 (A&C) с помпоном" [ref=e496]
+                  - generic [ref=e498]: SALE
+                  - button "В избранное" [ref=e500]:
+                    - generic [ref=e501]: 
+                    - text: 
+                  - generic:
+                    - button "Быстрый просмотр"
+                - generic [ref=e502]:
+                  - generic [ref=e503]: Шапка ХК Торпедо, (с полосой) бел-син, 55-58 (A&C) с помпоном
+                  - generic [ref=e504]:
+                    - generic [ref=e505]: 1 500 ₽
+                    - generic [ref=e506]: 700 ₽
+                  - generic [ref=e508]:
+                    - generic [ref=e509]: 
+                    - generic [ref=e510]: 
+                    - generic [ref=e511]: 
+                    - generic [ref=e512]: 
+                    - generic [ref=e513]: 
+              - link "Шапка ХК Торпедо с помпоном, син-бел, 55-58 (Atributika&Club) SALE В избранное Быстрый просмотр Шапка ХК Торпедо с помпоном, син-бел, 55-58 (Atributika&Club) 1 500 ₽ 700 ₽     " [ref=e515] [cursor=pointer]:
+                - /url: /product/shapka-khk-torpedo-s-pomponom-sin-bel-55-58-atributikaclub
+                - generic [ref=e516]:
+                  - img "Шапка ХК Торпедо с помпоном, син-бел, 55-58 (Atributika&Club)" [ref=e518]
+                  - generic [ref=e520]: SALE
+                  - button "В избранное" [ref=e522]:
+                    - generic [ref=e523]: 
+                    - text: 
+                  - generic:
+                    - button "Быстрый просмотр"
+                - generic [ref=e524]:
+                  - generic [ref=e525]: Шапка ХК Торпедо с помпоном, син-бел, 55-58 (Atributika&Club)
+                  - generic [ref=e526]:
+                    - generic [ref=e527]: 1 500 ₽
+                    - generic [ref=e528]: 700 ₽
+                  - generic [ref=e530]:
+                    - generic [ref=e531]: 
+                    - generic [ref=e532]: 
+                    - generic [ref=e533]: 
+                    - generic [ref=e534]: 
+                    - generic [ref=e535]: 
+              - link "Шапка ХК Торпедо с отворотом и помпоном. син подростковая 52-54 Atributika&Club SALE В избранное Быстрый просмотр Шапка ХК Торпедо с отворотом и помпоном. син подростковая 52-54 Atributika&Club 1 500 ₽ 1 300 ₽     " [ref=e537] [cursor=pointer]:
+                - /url: /product/shapka-khk-torpedo-s-otvorotom-i-pomponom-sin-podrostkovaya-52-54-atributikaclub
+                - generic [ref=e538]:
+                  - img "Шапка ХК Торпедо с отворотом и помпоном. син подростковая 52-54 Atributika&Club" [ref=e540]
+                  - generic [ref=e542]: SALE
+                  - button "В избранное" [ref=e544]:
+                    - generic [ref=e545]: 
+                    - text: 
+                  - generic:
+                    - button "Быстрый просмотр"
+                - generic [ref=e546]:
+                  - generic [ref=e547]: Шапка ХК Торпедо с отворотом и помпоном. син подростковая 52-54 Atributika&Club
+                  - generic [ref=e548]:
+                    - generic [ref=e549]: 1 500 ₽
+                    - generic [ref=e550]: 1 300 ₽
+                  - generic [ref=e552]:
+                    - generic [ref=e553]: 
+                    - generic [ref=e554]: 
+                    - generic [ref=e555]: 
+                    - generic [ref=e556]: 
+                    - generic [ref=e557]: 
+              - link "Шапка ХК Торпедо, (1946) синяя с помпоном 52-54 (A&C) (подростковая) SALE В избранное Быстрый просмотр Шапка ХК Торпедо, (1946) синяя с помпоном 52-54 (A&C) (подростковая) 1 600 ₽ 800 ₽     " [ref=e559] [cursor=pointer]:
+                - /url: /product/shapka-khk-torpedo-1946-sinyaya-s-pomponom-52-54-ac-podrostkovaya
+                - generic [ref=e560]:
+                  - img "Шапка ХК Торпедо, (1946) синяя с помпоном 52-54 (A&C) (подростковая)" [ref=e562]
+                  - generic [ref=e564]: SALE
+                  - button "В избранное" [ref=e566]:
+                    - generic [ref=e567]: 
+                    - text: 
+                  - generic:
+                    - button "Быстрый просмотр"
+                - generic [ref=e568]:
+                  - generic [ref=e569]: Шапка ХК Торпедо, (1946) синяя с помпоном 52-54 (A&C) (подростковая)
+                  - generic [ref=e570]:
+                    - generic [ref=e571]: 1 600 ₽
+                    - generic [ref=e572]: 800 ₽
+                  - generic [ref=e574]:
+                    - generic [ref=e575]: 
+                    - generic [ref=e576]: 
+                    - generic [ref=e577]: 
+                    - generic [ref=e578]: 
+                    - generic [ref=e579]: 
+              - link "Шапка ХК Торпедо, (лютый маскот) синяя с помпоном 52-54 (A&C) (подростковая) SALE В избранное Быстрый просмотр Шапка ХК Торпедо, (лютый маскот) синяя с помпоном 52-54 (A&C) (подростковая) 1 600 ₽ 1 200 ₽     " [ref=e581] [cursor=pointer]:
+                - /url: /product/shapka-khk-torpedo-lyutyy-maskot-sinyaya-s-pomponom-52-54-ac-podrostkovaya
+                - generic [ref=e582]:
+                  - img "Шапка ХК Торпедо, (лютый маскот) синяя с помпоном 52-54 (A&C) (подростковая)" [ref=e584]
+                  - generic [ref=e586]: SALE
+                  - button "В избранное" [ref=e588]:
+                    - generic [ref=e589]: 
+                    - text: 
+                  - generic:
+                    - button "Быстрый просмотр"
+                - generic [ref=e590]:
+                  - generic [ref=e591]: Шапка ХК Торпедо, (лютый маскот) синяя с помпоном 52-54 (A&C) (подростковая)
+                  - generic [ref=e592]:
+                    - generic [ref=e593]: 1 600 ₽
+                    - generic [ref=e594]: 1 200 ₽
+                  - generic [ref=e596]:
+                    - generic [ref=e597]: 
+                    - generic [ref=e598]: 
+                    - generic [ref=e599]: 
+                    - generic [ref=e600]: 
+                    - generic [ref=e601]: 
+              - link "Шапка ХК Торпедо, (новогодняя) синяя, подростковая 52-54 (A&C) с помпоном SALE В избранное Быстрый просмотр Шапка ХК Торпедо, (новогодняя) синяя, подростковая 52-54 (A&C) с помпоном 1 500 ₽ 1 050 ₽     " [ref=e603] [cursor=pointer]:
+                - /url: /product/shapka-khk-torpedo-novogodnyaya-sinyaya-podrostkovaya-52-54-ac-s-pomponom
+                - generic [ref=e604]:
+                  - img "Шапка ХК Торпедо, (новогодняя) синяя, подростковая 52-54 (A&C) с помпоном" [ref=e606]
+                  - generic [ref=e608]: SALE
+                  - button "В избранное" [ref=e610]:
+                    - generic [ref=e611]: 
+                    - text: 
+                  - generic:
+                    - button "Быстрый просмотр"
+                - generic [ref=e612]:
+                  - generic [ref=e613]: Шапка ХК Торпедо, (новогодняя) синяя, подростковая 52-54 (A&C) с помпоном
+                  - generic [ref=e614]:
+                    - generic [ref=e615]: 1 500 ₽
+                    - generic [ref=e616]: 1 050 ₽
+                  - generic [ref=e618]:
+                    - generic [ref=e619]: 
+                    - generic [ref=e620]: 
+                    - generic [ref=e621]: 
+                    - generic [ref=e622]: 
+                    - generic [ref=e623]: 
+              - link "Шапка ХК Торпедо с помпоном, син-бел, подростковая 52-54 (Atributika&Club) SALE В избранное Быстрый просмотр Шапка ХК Торпедо с помпоном, син-бел, подростковая 52-54 (Atributika&Club) 1 500 ₽ 700 ₽     " [ref=e625] [cursor=pointer]:
+                - /url: /product/shapka-khk-torpedo-s-pomponom-sin-bel-podrostkovaya-52-54-atributikaclub
+                - generic [ref=e626]:
+                  - img "Шапка ХК Торпедо с помпоном, син-бел, подростковая 52-54 (Atributika&Club)" [ref=e628]
+                  - generic [ref=e630]: SALE
+                  - button "В избранное" [ref=e632]:
+                    - generic [ref=e633]: 
+                    - text: 
+                  - generic:
+                    - button "Быстрый просмотр"
+                - generic [ref=e634]:
+                  - generic [ref=e635]: Шапка ХК Торпедо с помпоном, син-бел, подростковая 52-54 (Atributika&Club)
+                  - generic [ref=e636]:
+                    - generic [ref=e637]: 1 500 ₽
+                    - generic [ref=e638]: 700 ₽
+                  - generic [ref=e640]:
+                    - generic [ref=e641]: 
+                    - generic [ref=e642]: 
+                    - generic [ref=e643]: 
+                    - generic [ref=e644]: 
+                    - generic [ref=e645]: 
+              - link "Шапка ХК Торпедо, син, подростковая 52-54 (Atributika&Club) SALE В избранное Быстрый просмотр Шапка ХК Торпедо, син, подростковая 52-54 (Atributika&Club) 1 300 ₽ 700 ₽     " [ref=e647] [cursor=pointer]:
+                - /url: /product/shapka-khk-torpedo-sin-podrostkovaya-52-54-atributikaclub
+                - generic [ref=e648]:
+                  - img "Шапка ХК Торпедо, син, подростковая 52-54 (Atributika&Club)" [ref=e650]
+                  - generic [ref=e652]: SALE
+                  - button "В избранное" [ref=e654]:
+                    - generic [ref=e655]: 
+                    - text: 
+                  - generic:
+                    - button "Быстрый просмотр"
+                - generic [ref=e656]:
+                  - generic [ref=e657]: Шапка ХК Торпедо, син, подростковая 52-54 (Atributika&Club)
+                  - generic [ref=e658]:
+                    - generic [ref=e659]: 1 300 ₽
+                    - generic [ref=e660]: 700 ₽
+                  - generic [ref=e662]:
+                    - generic [ref=e663]: 
+                    - generic [ref=e664]: 
+                    - generic [ref=e665]: 
+                    - generic [ref=e666]: 
+                    - generic [ref=e667]: 
+            - button "Вперёд":
+              - img
+        - generic [ref=e679]:
+          - heading "Категории" [level=3] [ref=e680]
+          - generic [ref=e681]:
+            - link "Футболки и поло Мужчинам Женщинам Детям" [ref=e682] [cursor=pointer]:
+              - /url: /catalog/muzhskaya-odezhda-1/futbolki-i-polo-5/
+              - generic [ref=e683]:
+                - generic [ref=e685]: Футболки и поло
+                - generic [ref=e686]:
+                  - link "Мужчинам" [ref=e687]:
+                    - /url: /catalog/muzhskaya-odezhda-1/futbolki-i-polo-5/
+                  - link "Женщинам" [ref=e688]:
+                    - /url: /catalog/zhenskaya-odezhda-1/futbolki-i-polo-4/
+                  - link "Детям" [ref=e689]:
+                    - /url: /catalog/detskaya-odezhda-1/futbolki-i-polo-3/
+            - link "Толстовки и худи Мужчинам Женщинам Детям" [ref=e690] [cursor=pointer]:
+              - /url: /catalog/muzhskaya-odezhda-1/tolstovki-i-svitshoty-1/
+              - generic [ref=e691]:
+                - generic [ref=e693]: Толстовки и худи
+                - generic [ref=e694]:
+                  - link "Мужчинам" [ref=e695]:
+                    - /url: /catalog/muzhskaya-odezhda-1/tolstovki-i-svitshoty-1/
+                  - link "Женщинам" [ref=e696]:
+                    - /url: /catalog/zhenskaya-odezhda-1/tolstovki-1/
+                  - link "Детям" [ref=e697]:
+                    - /url: /catalog/detskaya-odezhda-1/longslivy-i-svitshoty-1/
+            - link "Атрибутика Шарфы Вымпелы Флаги" [ref=e698] [cursor=pointer]:
+              - /url: /catalog/atributika-1/
+              - generic [ref=e699]:
+                - generic [ref=e701]: Атрибутика
+                - generic [ref=e702]:
+                  - link "Шарфы" [ref=e703]:
+                    - /url: /catalog/atributika-1/sharfy-1/
+                  - link "Вымпелы" [ref=e704]:
+                    - /url: /catalog/atributika-1/vympely-1/
+                  - link "Флаги" [ref=e705]:
+                    - /url: /catalog/atributika-1/flagi-1/
+            - link "Детская одежда Футболки и поло Лонгсливы и свитшоты Брюки и шорты" [ref=e706] [cursor=pointer]:
+              - /url: /catalog/detskaya-odezhda-1/
+              - generic [ref=e707]:
+                - generic [ref=e709]: Детская одежда
+                - generic [ref=e710]:
+                  - link "Футболки и поло" [ref=e711]:
+                    - /url: /catalog/detskaya-odezhda-1/futbolki-i-polo-3/
+                  - link "Лонгсливы и свитшоты" [ref=e712]:
+                    - /url: /catalog/detskaya-odezhda-1/longslivy-i-svitshoty-1/
+                  - link "Брюки и шорты" [ref=e713]:
+                    - /url: /catalog/detskaya-odezhda-1/bryuki-i-shorty-2/
+            - link "Игровые свитера Реплики свитеров Термонанесение" [ref=e714] [cursor=pointer]:
+              - /url: /catalog/igrovye-svitery-1/
+              - generic [ref=e715]:
+                - generic [ref=e717]: Игровые свитера
+                - generic [ref=e718]:
+                  - link "Реплики свитеров" [ref=e719]:
+                    - /url: /catalog/igrovye-svitery-1/repliki-khokkeynykh-sviterov-1/
+                  - link "Термонанесение" [ref=e720]:
+                    - /url: /catalog/igrovye-svitery-1/termonanesenie-1/
+            - link "Головные уборы Бейсболки Шапки Детские бейсболки Детские шапки" [ref=e721] [cursor=pointer]:
+              - /url: /catalog/golovnye-ubory-1/
+              - generic [ref=e722]:
+                - generic [ref=e724]: Головные уборы
+                - generic [ref=e725]:
+                  - link "Бейсболки" [ref=e726]:
+                    - /url: /catalog/golovnye-ubory-1/vzroslye-beysbolki-1/
+                  - link "Шапки" [ref=e727]:
+                    - /url: /catalog/golovnye-ubory-1/vzroslye-shapki-1/
+                  - link "Детские бейсболки" [ref=e728]:
+                    - /url: /catalog/golovnye-ubory-1/detskie-beysbolki/
+                  - link "Детские шапки" [ref=e729]:
+                    - /url: /catalog/golovnye-ubory-1/detskie-shapki-1/
+            - link "Верхняя одежда Мужчинам" [ref=e730] [cursor=pointer]:
+              - /url: /catalog/muzhskaya-odezhda-1/verkhnyaya-odezhda-3/
+              - generic [ref=e731]:
+                - generic [ref=e733]: Верхняя одежда
+                - link "Мужчинам" [ref=e735]:
+                  - /url: /catalog/muzhskaya-odezhda-1/verkhnyaya-odezhda-3/
+            - link "Аксессуары Сумки и рюкзаки Носки Перчатки Автотовары Зонты" [ref=e736] [cursor=pointer]:
+              - /url: /catalog/aksessuary-1/
+              - generic [ref=e737]:
+                - generic [ref=e739]: Аксессуары
+                - generic [ref=e740]:
+                  - link "Сумки и рюкзаки" [ref=e741]:
+                    - /url: /catalog/aksessuary-1/sumki-i-ryukzaki-1/
+                  - link "Носки" [ref=e742]:
+                    - /url: /catalog/aksessuary-1/noski-1/
+                  - link "Перчатки" [ref=e743]:
+                    - /url: /catalog/aksessuary-1/perchatki/
+                  - link "Автотовары" [ref=e744]:
+                    - /url: /catalog/aksessuary-1/avtotovary-1/
+                  - link "Зонты" [ref=e745]:
+                    - /url: /catalog/aksessuary-1/zonty-1/
+            - link "Брюки и шорты Мужчинам Женщинам Детям" [ref=e746] [cursor=pointer]:
+              - /url: /catalog/muzhskaya-odezhda-1/bryuki-i-shorty-3/
+              - generic [ref=e747]:
+                - generic [ref=e749]: Брюки и шорты
+                - generic [ref=e750]:
+                  - link "Мужчинам" [ref=e751]:
+                    - /url: /catalog/muzhskaya-odezhda-1/bryuki-i-shorty-3/
+                  - link "Женщинам" [ref=e752]:
+                    - /url: /catalog/zhenskaya-odezhda-1/bryuki-1/
+                  - link "Детям" [ref=e753]:
+                    - /url: /catalog/detskaya-odezhda-1/bryuki-i-shorty-2/
+        - generic [ref=e754]:
+          - heading "Фирменные сувениры" [level=3] [ref=e755]
+          - generic [ref=e758]:
+            - link "Посуда Посуда" [ref=e760] [cursor=pointer]:
+              - /url: /catalog/suveniry-1/posuda/
+              - img "Посуда" [ref=e763]
+              - generic [ref=e764]: Посуда
+            - link "Товары для дома Товары для дома" [ref=e766] [cursor=pointer]:
+              - /url: /catalog/suveniry-1/tovary-dlya-doma/
+              - img "Товары для дома" [ref=e769]
+              - generic [ref=e770]: Товары для дома
+            - link "Шайбы Шайбы" [ref=e772] [cursor=pointer]:
+              - /url: /catalog/suveniry-1/shayby-1/
+              - img "Шайбы" [ref=e775]
+              - generic [ref=e776]: Шайбы
+            - link "Брелоки Брелоки" [ref=e778] [cursor=pointer]:
+              - /url: /catalog/suveniry-1/breloki-1/
+              - img "Брелоки" [ref=e781]
+              - generic [ref=e782]: Брелоки
+            - link "Значки Значки" [ref=e784] [cursor=pointer]:
+              - /url: /catalog/suveniry-1/znachki-1/
+              - img "Значки" [ref=e787]
+              - generic [ref=e788]: Значки
+            - link "Магниты Магниты" [ref=e790] [cursor=pointer]:
+              - /url: /catalog/suveniry-1/magnity-1/
+              - img "Магниты" [ref=e793]
+              - generic [ref=e794]: Магниты
+            - link "Мягкие игрушки Мягкие игрушки" [ref=e796] [cursor=pointer]:
+              - /url: /catalog/suveniry-1/myagkie-igrushki-1/
+              - img "Мягкие игрушки" [ref=e799]
+              - generic [ref=e800]: Мягкие игрушки
+            - link "Подарочные пакеты Подарочные пакеты" [ref=e802] [cursor=pointer]:
+              - /url: /catalog/suveniry-1/podarochnye-pakety/
+              - img "Подарочные пакеты" [ref=e805]
+              - generic [ref=e806]: Подарочные пакеты
+            - link "Полиграфия и канцтовары Полиграфия и канцтовары" [ref=e808] [cursor=pointer]:
+              - /url: /catalog/suveniry-1/poligrafiya-i-kantstovary/
+              - img "Полиграфия и канцтовары" [ref=e811]
+              - generic [ref=e812]: Полиграфия и канцтовары
+        - generic [ref=e819]:
+          - heading "Настоящему фанату Смотреть все " [level=3] [ref=e820]:
+            - text: Настоящему фанату
+            - link "Смотреть все " [ref=e821] [cursor=pointer]:
+              - /url: /catalog
+          - generic [ref=e824]:
+            - link "Худи с логотипом Т (синее) HIT В избранное Быстрый просмотр Худи с логотипом Т (синее) 8 000 ₽     " [ref=e826] [cursor=pointer]:
+              - /url: /product/khudi-s-logotipom-t-sinee
+              - generic [ref=e827]:
+                - img "Худи с логотипом Т (синее)" [ref=e829]
+                - generic [ref=e831]: HIT
+                - button "В избранное" [ref=e833]:
+                  - generic [ref=e834]: 
+                  - text: 
+                - generic:
+                  - button "Быстрый просмотр"
+              - generic [ref=e835]:
+                - generic [ref=e836]: Худи с логотипом Т (синее)
+                - generic [ref=e838]: 8 000 ₽
+                - generic [ref=e840]:
+                  - generic [ref=e841]: 
+                  - generic [ref=e842]: 
+                  - generic [ref=e843]: 
+                  - generic [ref=e844]: 
+                  - generic [ref=e845]: 
+            - link "Мягкая игрушка Торрик 40 см HIT В избранное Быстрый просмотр Мягкая игрушка Торрик 40 см 2 500 ₽     " [ref=e847] [cursor=pointer]:
+              - /url: /product/myagkaya-igrushka-torrik-40-sm
+              - generic [ref=e848]:
+                - img "Мягкая игрушка Торрик 40 см" [ref=e850]
+                - generic [ref=e852]: HIT
+                - button "В избранное" [ref=e854]:
+                  - generic [ref=e855]: 
+                  - text: 
+                - generic:
+                  - button "Быстрый просмотр"
+              - generic [ref=e856]:
+                - generic [ref=e857]: Мягкая игрушка Торрик 40 см
+                - generic [ref=e859]: 2 500 ₽
+                - generic [ref=e861]:
+                  - generic [ref=e862]: 
+                  - generic [ref=e863]: 
+                  - generic [ref=e864]: 
+                  - generic [ref=e865]: 
+                  - generic [ref=e866]: 
+      - generic [ref=e868]:
+        - heading "ЛИДЕРЫ КОМАНДЫ" [level=2] [ref=e869]
+        - generic [ref=e870]:
+          - generic [ref=e871]:
+            - generic [ref=e872]:
+              - paragraph [ref=e873]: ЛУЧШИЙ
+              - paragraph [ref=e874]: Бомбардир
+            - generic [ref=e875] [cursor=pointer]:
+              - img "Егор Виноградов" [ref=e876]
+              - generic [ref=e877]:
+                - generic [ref=e878]: "12"
+                - generic [ref=e879]: очков
+              - link "КУПИТЬ ДЖЕРСИ" [ref=e880]:
+                - /url: /catalog/igrovye-svitery-1/
+            - generic [ref=e881]:
+              - paragraph [ref=e882]: Егор Виноградов
+              - paragraph [ref=e883]: Нападающий
+          - generic [ref=e884]:
+            - generic [ref=e885]:
+              - paragraph [ref=e886]: ЛУЧШИЙ
+              - paragraph [ref=e887]: Снайпер
+            - generic [ref=e888] [cursor=pointer]:
+              - img "Даниил Сероух" [ref=e889]
+              - generic [ref=e890]:
+                - generic [ref=e891]: "8"
+                - generic [ref=e892]: шайб
+              - link "КУПИТЬ ДЖЕРСИ" [ref=e893]:
+                - /url: /catalog/igrovye-svitery-1/
+            - generic [ref=e894]:
+              - paragraph [ref=e895]: Даниил Сероух
+              - paragraph [ref=e896]: Нападающий
+          - generic [ref=e897]:
+            - generic [ref=e898]:
+              - paragraph [ref=e899]: ЛУЧШИЙ
+              - paragraph [ref=e900]: Ассистент
+            - generic [ref=e901] [cursor=pointer]:
+              - img "Егор Виноградов" [ref=e902]
+              - generic [ref=e903]:
+                - generic [ref=e904]: "9"
+                - generic [ref=e905]: передач
+              - link "КУПИТЬ ДЖЕРСИ" [ref=e906]:
+                - /url: /catalog/igrovye-svitery-1/
+            - generic [ref=e907]:
+              - paragraph [ref=e908]: Егор Виноградов
+              - paragraph [ref=e909]: Нападающий
+          - generic [ref=e910]:
+            - generic [ref=e911]:
+              - paragraph [ref=e912]: ЛУЧШИЙ
+              - paragraph [ref=e913]: Вратарь
+            - generic [ref=e914] [cursor=pointer]:
+              - img "Дмитрий Шугаев" [ref=e915]
+              - generic [ref=e916]:
+                - generic [ref=e917]: 94.7%
+                - generic [ref=e918]: сейвов
+              - link "КУПИТЬ ДЖЕРСИ" [ref=e919]:
+                - /url: /catalog/igrovye-svitery-1/
+            - generic [ref=e920]:
+              - paragraph [ref=e921]: Дмитрий Шугаев
+              - paragraph [ref=e922]: Вратарь
+    - generic [ref=e924]:
+      - generic [ref=e925]:
+        - generic:
+          - region "Map" [ref=e926]
+          - button "Map marker" [ref=e927] [cursor=pointer]:
+            - generic [ref=e928]:
+              - generic [ref=e929]:
+                - text: Нижний Новгород,
+                - text: пр-т. Гагарина, 29
+              - generic [ref=e930]:
+                - img [ref=e931]
+                - img [ref=e933]
+      - generic: Разрешите доступ к геолокации, чтобы увидеть маршрут
+      - generic:
+        - heading "ОФИЦИАЛЬНЫЙ МАГАЗИН ХК «ТОРПЕДО»" [level=2]:
+          - text: ОФИЦИАЛЬНЫЙ МАГАЗИН
+          - text: ХК «ТОРПЕДО»
+      - generic [ref=e936]:
+        - generic [ref=e937]:
+          - paragraph [ref=e938]: "Мы находимся по адресу:"
+          - heading "Нижний Новгород, пр-т. Гагарина, 29" [level=3] [ref=e939]
+          - generic [ref=e940]:
+            - generic [ref=e941]:
+              - paragraph [ref=e942]: Телефон
+              - link "+7 (930) 711-19-46" [ref=e943] [cursor=pointer]:
+                - /url: tel:+79307111946
+            - generic [ref=e944]:
+              - paragraph [ref=e945]: E-mail
+              - link "shop@hctorpedo.ru" [ref=e946] [cursor=pointer]:
+                - /url: mailto:shop@hctorpedo.ru
+        - generic [ref=e947]:
+          - img "Торпедо" [ref=e948]
+          - generic [ref=e949]: OFFICIAL PRODUCT
+          - paragraph [ref=e950]: Вся продукция на нашем сайте официальная от ХК «Торпедо»
+          - paragraph [ref=e951]: Остерегайтесь подделок
+  - contentinfo [ref=e952]:
+    - generic [ref=e953]:
+      - generic [ref=e954]:
+        - generic [ref=e955]:
+          - generic [ref=e956]: "Режим работы: Вторник – Суббота 10:00 – 19:00"
+          - generic [ref=e957]:
+            - link "Личный кабинет" [ref=e958] [cursor=pointer]:
+              - /url: /account/orders
+            - link "Оплата" [ref=e959] [cursor=pointer]:
+              - /url: /payment
+            - link "Доставка" [ref=e960] [cursor=pointer]:
+              - /url: /delivery
+            - link "Баллы" [ref=e961] [cursor=pointer]:
+              - /url: /account/bonuses
+            - link "Возврат" [ref=e962] [cursor=pointer]:
+              - /url: /refund
+            - link "Контакты" [ref=e963] [cursor=pointer]:
+              - /url: /contacts
+        - generic [ref=e964]:
+          - link "+7 (930) 711-19-46" [ref=e965] [cursor=pointer]:
+            - /url: tel:+79307111946
+          - generic [ref=e966]: Телефон магазина
+      - generic [ref=e967]:
+        - generic [ref=e968]: Ближайший матч «Торпедо»
+        - generic [ref=e969]:
+          - generic [ref=e970]:
+            - img "Торпедо"
+            - text: Торпедо
+          - generic [ref=e971]:
+            - generic [ref=e972]: 16 октября, пт, 22:00
+            - text: VOLGA Арена
+          - generic [ref=e973]:
+            - img "Динамо М" [ref=e974]
+            - text: Динамо М
+        - link " Билеты " [ref=e975] [cursor=pointer]:
+          - /url: https://widget.afisha.yandex.ru/w/events/574431?clientKey=85231729-d812-4fef-ab69-919e45f9cfb1&regionId=47
+          - generic [ref=e976]: 
+          - text: Билеты
+          - generic [ref=e977]: 
+      - generic [ref=e978]:
+        - generic [ref=e979]: "Следить за нами в социальных сетях:"
+        - generic [ref=e980]:
+          - link "" [ref=e982] [cursor=pointer]:
+            - /url: https://vk.com/shop_hctorpedo
+            - generic [ref=e983]: 
+          - link "" [ref=e985] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@hctorpedo
+            - generic [ref=e986]: 
+          - link "" [ref=e988] [cursor=pointer]:
+            - /url: https://t.me/hctorpedo
+            - generic [ref=e989]: 
+          - link "" [ref=e991] [cursor=pointer]:
+            - /url: https://twitter.com/torpedonn
+            - generic [ref=e992]: 
+          - link "" [ref=e994] [cursor=pointer]:
+            - /url: https://ok.ru/hctorpedo
+            - generic [ref=e995]: 
+          - link "" [ref=e997] [cursor=pointer]:
+            - /url: https://www.youtube.com/hctorpedonn
+            - generic [ref=e998]: 
+      - generic [ref=e999]:
+        - generic [ref=e1000]:
+          - paragraph [ref=e1001]: 2003-2026 АНО «Хоккейный клуб «Торпедо»
+          - paragraph [ref=e1002]:
+            - link "Условия пользования сайтами ХК «Торпедо»" [ref=e1003] [cursor=pointer]:
+              - /url: /terms
+        - generic [ref=e1005]:
+          - link "Политика обработки персональных данных" [ref=e1006] [cursor=pointer]:
+            - /url: /privacy
+          - link "Пользовательское соглашение" [ref=e1007] [cursor=pointer]:
+            - /url: /terms
+  - dialog "Уведомление об использовании файлов cookie" [ref=e1008]:
+    - generic [ref=e1009]:
+      - paragraph [ref=e1010]:
+        - text: Мы используем файлы cookie для улучшения работы сайта. Продолжая пользоваться сайтом, вы соглашаетесь с
+        - link "Политикой конфиденциальности" [ref=e1011] [cursor=pointer]:
+          - /url: /privacy
+        - text: .
+      - generic [ref=e1012]:
+        - button "Принять" [ref=e1013] [cursor=pointer]
+        - button "Отказаться" [ref=e1014] [cursor=pointer]
+```
