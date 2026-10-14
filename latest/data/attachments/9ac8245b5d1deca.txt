@@ -1,1 +1,0 @@
-beforeAll: выбран товар для тестов корзины: khudi-paradnoe-s-kapyushonom-khk-torpedo-seryy-melanzh
