@@ -11,10 +11,10 @@
   "failedMajor": 52,
   "failedMinor": 27,
   "passRate": "0.00",
-  "durationFormatted": "4m 16s",
-  "timestamp": "2026-10-13T05:23:48.668Z",
+  "durationFormatted": "3m 56s",
+  "timestamp": "2026-10-14T05:19:43.141Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/gorky-site/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/38350680304",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/38515535603",
   "failedTests": [
     {
       "name": "Главная / отвечает 200 @critical",
@@ -57,7 +57,7 @@
       "priority": "critical"
     }
   ],
-  "commitMessage": "Календарь: ссылка на протокол матча с идентификатором турнира",
+  "commitMessage": "feat: обновить баннер продажи билетов",
   "prevFailed": 111,
   "deltaFailed": 0
 }
