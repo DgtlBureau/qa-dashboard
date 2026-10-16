@@ -1,20 +1,20 @@
 {
   "project": "torpedo-shop",
   "projectDisplayName": "Torpedo Shop",
-  "status": "critical",
-  "passed": 616,
-  "failed": 21,
+  "status": "warning",
+  "passed": 617,
+  "failed": 20,
   "skipped": 4,
-  "retried": 30,
+  "retried": 25,
   "total": 641,
-  "failedCritical": 1,
+  "failedCritical": 0,
   "failedMajor": 20,
   "failedMinor": 0,
-  "passRate": "96.10",
-  "durationFormatted": "23m 7s",
-  "timestamp": "2026-10-15T03:36:49.789Z",
+  "passRate": "96.26",
+  "durationFormatted": "25m 14s",
+  "timestamp": "2026-10-16T03:39:14.892Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/38674948122",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/38844260920",
   "failedTests": [
     {
       "name": "TC-CART-02 | Товар добавляется в корзину @major",
@@ -45,18 +45,18 @@
       "priority": "major"
     },
     {
-      "name": "TC-1C-74 | Файл > file_limit отклоняется @major",
-      "priority": "major"
-    },
-    {
       "name": "ТК-05 | Laravel /_ignition закрыт на backend @major",
       "priority": "major"
     },
     {
-      "name": "TC-ADDR-07 | Успешное добавление адреса отображает его в списке @major",
+      "name": "CJM-06-01 | Страница /account/orders загружается @major",
+      "priority": "major"
+    },
+    {
+      "name": "TC-ADDR-05 | Форма содержит поля: тип доставки, индекс, улица, дом, квартира @major",
       "priority": "major"
     }
   ],
-  "prevFailed": 165,
-  "deltaFailed": -144
+  "prevFailed": 21,
+  "deltaFailed": -1
 }
