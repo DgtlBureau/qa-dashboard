@@ -1,1 +1,0 @@
-beforeAll: выбран товар для тестов корзины: bryuki-paradnye-khk-torpedo-seryy-melanzh
