@@ -1,21 +1,25 @@
 {
   "project": "torpedo-shop",
   "projectDisplayName": "Torpedo Shop",
-  "status": "warning",
-  "passed": 617,
-  "failed": 20,
-  "skipped": 4,
-  "retried": 25,
+  "status": "critical",
+  "passed": 609,
+  "failed": 26,
+  "skipped": 6,
+  "retried": 36,
   "total": 641,
-  "failedCritical": 0,
-  "failedMajor": 20,
+  "failedCritical": 2,
+  "failedMajor": 24,
   "failedMinor": 0,
-  "passRate": "96.26",
-  "durationFormatted": "25m 14s",
-  "timestamp": "2026-10-16T03:39:14.892Z",
+  "passRate": "95.01",
+  "durationFormatted": "24m 41s",
+  "timestamp": "2026-10-17T03:37:47.223Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/38844260920",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/38997765845",
   "failedTests": [
+    {
+      "name": "TC-PROD-05 | Кнопка «В корзину» или «Добавить в корзину» присутствует @major",
+      "priority": "major"
+    },
     {
       "name": "TC-CART-02 | Товар добавляется в корзину @major",
       "priority": "major"
@@ -26,10 +30,6 @@
     },
     {
       "name": "TC-CART-04 | Корзина сохраняется после перезагрузки страницы @major",
-      "priority": "major"
-    },
-    {
-      "name": "TC-CART-06 | В корзине можно уменьшить количество @major",
       "priority": "major"
     },
     {
@@ -49,14 +49,14 @@
       "priority": "major"
     },
     {
-      "name": "CJM-06-01 | Страница /account/orders загружается @major",
+      "name": "CJM-02-01 | Кнопка «В корзину» видима и активна @major",
       "priority": "major"
     },
     {
-      "name": "TC-ADDR-05 | Форма содержит поля: тип доставки, индекс, улица, дом, квартира @major",
+      "name": "CJM-03-01 | Страница корзины отображает добавленный товар @major",
       "priority": "major"
     }
   ],
-  "prevFailed": 21,
-  "deltaFailed": -1
+  "prevFailed": 20,
+  "deltaFailed": 6
 }
