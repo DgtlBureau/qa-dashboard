@@ -2,24 +2,20 @@
   "project": "torpedo-shop",
   "projectDisplayName": "Torpedo Shop",
   "status": "critical",
-  "passed": 613,
-  "failed": 24,
+  "passed": 611,
+  "failed": 26,
   "skipped": 4,
-  "retried": 31,
+  "retried": 32,
   "total": 641,
-  "failedCritical": 2,
-  "failedMajor": 22,
+  "failedCritical": 5,
+  "failedMajor": 21,
   "failedMinor": 0,
-  "passRate": "95.63",
-  "durationFormatted": "24m 23s",
-  "timestamp": "2026-10-18T03:37:50.421Z",
+  "passRate": "95.32",
+  "durationFormatted": "25m 2s",
+  "timestamp": "2026-10-19T03:40:07.684Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/39092709038",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/39193585484",
   "failedTests": [
-    {
-      "name": "TC-CART-01 | Пустая корзина показывает соответствующее сообщение @major",
-      "priority": "major"
-    },
     {
       "name": "TC-CART-02 | Товар добавляется в корзину @major",
       "priority": "major"
@@ -49,14 +45,18 @@
       "priority": "major"
     },
     {
+      "name": "TC-CHK-08 | Способы оплаты отображаются @critical",
+      "priority": "critical"
+    },
+    {
       "name": "ТК-05 | Laravel /_ignition закрыт на backend @major",
       "priority": "major"
     },
     {
-      "name": "CJM-03-01 | Страница корзины отображает добавленный товар @major",
+      "name": "TC-ADDR-03 | На странице есть кнопка \"Добавить адрес\" @major",
       "priority": "major"
     }
   ],
-  "prevFailed": 26,
-  "deltaFailed": -2
+  "prevFailed": 24,
+  "deltaFailed": 2
 }
