@@ -7,14 +7,14 @@
   "skipped": 4,
   "retried": 35,
   "total": 641,
-  "failedCritical": 5,
-  "failedMajor": 22,
-  "failedMinor": 0,
+  "failedCritical": 3,
+  "failedMajor": 20,
+  "failedMinor": 4,
   "passRate": "95.16",
-  "durationFormatted": "26m 8s",
-  "timestamp": "2026-10-20T03:40:46.304Z",
+  "durationFormatted": "24m 34s",
+  "timestamp": "2026-10-21T03:39:00.105Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/39362977469",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/39537234738",
   "failedTests": [
     {
       "name": "TC-CART-02 | Товар добавляется в корзину @major",
@@ -45,18 +45,18 @@
       "priority": "major"
     },
     {
-      "name": "TC-CHK-04 | Способы доставки отображаются @critical",
-      "priority": "critical"
-    },
-    {
-      "name": "TC-CHK-08 | Способы оплаты отображаются @critical",
-      "priority": "critical"
-    },
-    {
       "name": "ТК-05 | Laravel /_ignition закрыт на backend @major",
       "priority": "major"
+    },
+    {
+      "name": "TC-SCH-03 | Schema содержит name, price, priceCurrency @minor",
+      "priority": "minor"
+    },
+    {
+      "name": "TC-SCH-04 | Schema содержит availability (InStock или OutOfStock) @minor",
+      "priority": "minor"
     }
   ],
-  "prevFailed": 26,
-  "deltaFailed": 1
+  "prevFailed": 27,
+  "deltaFailed": 0
 }

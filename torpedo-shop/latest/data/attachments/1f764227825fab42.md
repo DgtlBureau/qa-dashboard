@@ -1,0 +1,280 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e6]:
+      - button "Открыть меню" [ref=e7] [cursor=pointer]:
+        - img [ref=e8]
+        - img [ref=e11]
+      - text: 
+      - link "ХК Торпедо" [ref=e14] [cursor=pointer]:
+        - /url: /
+        - img "ХК Торпедо" [ref=e15]
+      - generic [ref=e16]:
+        - text: 
+        - link "" [ref=e17] [cursor=pointer]:
+          - /url: https://hctorpedo.ru/
+          - generic [ref=e18]: 
+        - link "" [ref=e19] [cursor=pointer]:
+          - /url: https://hctorpedo.ru/tickets/
+          - generic [ref=e20]: 
+        - link "" [ref=e21] [cursor=pointer]:
+          - /url: /account/personal/
+          - generic [ref=e22]: 
+        - link "Корзина" [ref=e23] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=e24]: 
+  - generic [ref=e25]:
+    - generic [ref=e26]:
+      - button "Закрыть" [ref=e27] [cursor=pointer]:
+        - img [ref=e28]
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - img "Торпедо" [ref=e32]
+          - generic [ref=e33]: Торпедо
+        - generic [ref=e36]: 24 октября, сб, 20:00
+        - generic [ref=e38]:
+          - img "Динамо Мн" [ref=e39]
+          - generic [ref=e40]: Динамо Мн
+    - button [ref=e41] [cursor=pointer]:
+      - generic [ref=e42]: 
+  - main [ref=e43]:
+    - list [ref=e45]:
+      - listitem [ref=e46]:
+        - link "Главная" [ref=e47] [cursor=pointer]:
+          - /url: /
+        - text: 
+      - listitem [ref=e48]:
+        - link "Каталог товаров" [ref=e49] [cursor=pointer]:
+          - /url: /catalog
+        - text: 
+      - listitem [ref=e50]:
+        - link "Толстовки и свитшоты" [ref=e51] [cursor=pointer]:
+          - /url: /catalog/tolstovki-i-svitshoty-1
+        - text: 
+      - listitem [ref=e52]: Худи парадное с капюшоном ХК «Торпедо» (серый меланж)
+    - generic [ref=e53]:
+      - generic [ref=e54]:
+        - generic [ref=e55]:
+          - img [ref=e59]:
+            - generic [ref=e62]: Фото товара отсутствует
+          - generic [ref=e67]:
+            - heading "Худи парадное с капюшоном ХК «Торпедо» (серый меланж)" [level=1] [ref=e68]
+            - generic [ref=e69]:
+              - generic [ref=e70]:
+                - text: Оценка
+                - generic [ref=e71]:
+                  - generic [ref=e72]: 
+                  - generic [ref=e73]: 
+                  - generic [ref=e74]: 
+                  - generic [ref=e75]: 
+                  - generic [ref=e76]: 
+              - generic [ref=e79]: 8 700 ₽
+            - generic [ref=e81]:
+              - generic [ref=e82]: Размер
+              - generic [ref=e83]:
+                - button "XS" [disabled] [ref=e84]
+                - button "XXS" [disabled] [ref=e85]
+                - button "3XL" [disabled] [ref=e86]
+                - button "2XL" [ref=e87] [cursor=pointer]
+                - button "L" [ref=e88] [cursor=pointer]
+                - button "4XL" [ref=e89] [cursor=pointer]
+                - button "M" [ref=e90] [cursor=pointer]
+                - button "XL" [ref=e91] [cursor=pointer]
+                - button "S" [ref=e92] [cursor=pointer]
+            - group [ref=e94]:
+              - generic [ref=e95]:
+                - button "Уменьшить" [ref=e96] [cursor=pointer]
+                - spinbutton [ref=e97]: "1"
+                - button "Увеличить" [ref=e98] [cursor=pointer]
+              - button "Выберите параметры " [disabled]
+        - generic [ref=e99]:
+          - generic [ref=e100]:
+            - heading "Наличие" [level=3] [ref=e101]
+            - generic [ref=e102]:
+              - generic [ref=e103]:
+                - generic [ref=e104]: "пр. Гагарина, 29:"
+                - generic [ref=e105]: "6"
+              - generic [ref=e106]:
+                - generic [ref=e107]: "Интернет-магазин:"
+                - generic [ref=e108]: "9"
+          - generic [ref=e109]:
+            - heading "Способы получения" [level=3] [ref=e110]
+            - generic [ref=e111]:
+              - generic [ref=e112]:
+                - generic [ref=e113]:
+                  - text: Самовывоз из магазина
+                  - link "на пр. Гагарина" [ref=e114] [cursor=pointer]:
+                    - /url: /contacts
+                  - text: через 15 минут
+                - generic [ref=e115]: Бесплатно
+              - generic [ref=e116]:
+                - generic [ref=e117]: Доставка в пункт выдачи СДЭК
+                - generic [ref=e118]: от 264 руб.
+              - generic [ref=e119]:
+                - generic [ref=e120]: Доставка до квартиры
+                - generic [ref=e121]: от 516 руб.
+          - generic [ref=e123]:
+            - paragraph [ref=e126]: Доставка или самовывоз с примеркой. Вы можете отказаться, если товар не подошел
+            - paragraph [ref=e129]: Официальная продукция хоккейного клуба «Торпедо». Остерегайтесь подделок!
+            - paragraph [ref=e132]: Высокое качество материалов для всей семьи!
+        - text: 
+      - generic [ref=e133]:
+        - heading "Похожие товары" [level=3] [ref=e134]
+        - generic [ref=e136]:
+          - link "В избранное Быстрый просмотр Худи оверсайз «1946» ХК «Торпедо» (синее) 12 000 ₽     " [ref=e138] [cursor=pointer]:
+            - /url: /product/khudi-oversayz-1946-khk-torpedo-sinee
+            - generic [ref=e139]:
+              - img [ref=e142]:
+                - generic [ref=e145]: Фото товара отсутствует
+              - button "В избранное" [ref=e150]:
+                - generic [ref=e151]: 
+                - text: 
+              - generic:
+                - button "Быстрый просмотр"
+            - generic [ref=e152]:
+              - generic [ref=e153]: Худи оверсайз «1946» ХК «Торпедо» (синее)
+              - generic [ref=e155]: 12 000 ₽
+              - generic [ref=e157]:
+                - generic [ref=e158]: 
+                - generic [ref=e159]: 
+                - generic [ref=e160]: 
+                - generic [ref=e161]: 
+                - generic [ref=e162]: 
+          - link "Толстовка коричневая «Место силы» (Душа, Торпедо) В избранное Быстрый просмотр Толстовка коричневая «Место силы» (Душа, Торпедо) 6 000 ₽     " [ref=e164] [cursor=pointer]:
+            - /url: /product/tolstovka-korichnevaya-mesto-sily-dusha-torpedo
+            - generic [ref=e165]:
+              - img "Толстовка коричневая «Место силы» (Душа, Торпедо)" [ref=e167]
+              - button "В избранное" [ref=e169]:
+                - generic [ref=e170]: 
+                - text: 
+              - generic:
+                - button "Быстрый просмотр"
+            - generic [ref=e171]:
+              - generic [ref=e172]: Толстовка коричневая «Место силы» (Душа, Торпедо)
+              - generic [ref=e174]: 6 000 ₽
+              - generic [ref=e176]:
+                - generic [ref=e177]: 
+                - generic [ref=e178]: 
+                - generic [ref=e179]: 
+                - generic [ref=e180]: 
+                - generic [ref=e181]: 
+          - link "Толстовка черная «Место силы» (Душа, Торпедо) В избранное Быстрый просмотр Толстовка черная «Место силы» (Душа, Торпедо) 6 000 ₽     " [ref=e183] [cursor=pointer]:
+            - /url: /product/tolstovka-chernaya-mesto-sily-dusha-torpedo
+            - generic [ref=e184]:
+              - img "Толстовка черная «Место силы» (Душа, Торпедо)" [ref=e186]
+              - button "В избранное" [ref=e188]:
+                - generic [ref=e189]: 
+                - text: 
+              - generic:
+                - button "Быстрый просмотр"
+            - generic [ref=e190]:
+              - generic [ref=e191]: Толстовка черная «Место силы» (Душа, Торпедо)
+              - generic [ref=e193]: 6 000 ₽
+              - generic [ref=e195]:
+                - generic [ref=e196]: 
+                - generic [ref=e197]: 
+                - generic [ref=e198]: 
+                - generic [ref=e199]: 
+                - generic [ref=e200]: 
+          - link "Худи ХК Торпедо НН синяя (A&C) В избранное Быстрый просмотр Худи ХК Торпедо НН синяя (A&C) 3 600 ₽     " [ref=e202] [cursor=pointer]:
+            - /url: /product/khudi-khk-torpedo-nn-sinyaya-ac
+            - generic [ref=e203]:
+              - img "Худи ХК Торпедо НН синяя (A&C)" [ref=e205]
+              - button "В избранное" [ref=e207]:
+                - generic [ref=e208]: 
+                - text: 
+              - generic:
+                - button "Быстрый просмотр"
+            - generic [ref=e209]:
+              - generic [ref=e210]: Худи ХК Торпедо НН синяя (A&C)
+              - generic [ref=e212]: 3 600 ₽
+              - generic [ref=e214]:
+                - generic [ref=e215]: 
+                - generic [ref=e216]: 
+                - generic [ref=e217]: 
+                - generic [ref=e218]: 
+                - generic [ref=e219]: 
+  - contentinfo [ref=e220]:
+    - generic [ref=e221]:
+      - generic [ref=e222]:
+        - generic [ref=e223]:
+          - generic [ref=e224]: "Режим работы: Вторник – Суббота 10:00 – 19:00"
+          - generic [ref=e225]:
+            - link "Личный кабинет" [ref=e226] [cursor=pointer]:
+              - /url: /account/orders
+            - link "Оплата" [ref=e227] [cursor=pointer]:
+              - /url: /payment
+            - link "Доставка" [ref=e228] [cursor=pointer]:
+              - /url: /delivery
+            - link "Баллы" [ref=e229] [cursor=pointer]:
+              - /url: /account/bonuses
+            - link "Возврат" [ref=e230] [cursor=pointer]:
+              - /url: /refund
+            - link "Контакты" [ref=e231] [cursor=pointer]:
+              - /url: /contacts
+        - generic [ref=e232]:
+          - link "+7 (930) 711-19-46" [ref=e233] [cursor=pointer]:
+            - /url: tel:+79307111946
+          - generic [ref=e234]: Телефон магазина
+      - generic [ref=e235]:
+        - generic [ref=e236]: Ближайший матч «Торпедо»
+        - generic [ref=e237]:
+          - generic [ref=e238]:
+            - img "Торпедо" [ref=e239]
+            - text: Торпедо
+          - generic [ref=e240]:
+            - generic [ref=e241]: 24 октября, сб, 20:00
+            - text: VOLGA Арена
+          - generic [ref=e242]:
+            - img "Динамо Мн" [ref=e243]
+            - text: Динамо Мн
+        - link " Билеты " [ref=e244] [cursor=pointer]:
+          - /url: https://widget.afisha.yandex.ru/w/events/574456?clientKey=85231729-d812-4fef-ab69-919e45f9cfb1&regionId=47
+          - generic [ref=e245]: 
+          - text: Билеты
+          - generic [ref=e246]: 
+      - generic [ref=e247]:
+        - generic [ref=e248]: "Следить за нами в социальных сетях:"
+        - generic [ref=e249]:
+          - link "" [ref=e251] [cursor=pointer]:
+            - /url: https://vk.com/shop_hctorpedo
+            - generic [ref=e252]: 
+          - link "" [ref=e254] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@hctorpedo
+            - generic [ref=e255]: 
+          - link "" [ref=e257] [cursor=pointer]:
+            - /url: https://t.me/hctorpedo
+            - generic [ref=e258]: 
+          - link "" [ref=e260] [cursor=pointer]:
+            - /url: https://twitter.com/torpedonn
+            - generic [ref=e261]: 
+          - link "" [ref=e263] [cursor=pointer]:
+            - /url: https://ok.ru/hctorpedo
+            - generic [ref=e264]: 
+          - link "" [ref=e266] [cursor=pointer]:
+            - /url: https://www.youtube.com/hctorpedonn
+            - generic [ref=e267]: 
+      - generic [ref=e268]:
+        - generic [ref=e269]:
+          - paragraph [ref=e270]: 2003-2026 АНО «Хоккейный клуб «Торпедо»
+          - paragraph [ref=e271]:
+            - link "Условия пользования сайтами ХК «Торпедо»" [ref=e272] [cursor=pointer]:
+              - /url: /terms
+        - generic [ref=e274]:
+          - link "Политика обработки персональных данных" [ref=e275] [cursor=pointer]:
+            - /url: /privacy
+          - link "Пользовательское соглашение" [ref=e276] [cursor=pointer]:
+            - /url: /terms
+  - dialog "Уведомление об использовании файлов cookie" [ref=e277]:
+    - generic [ref=e278]:
+      - paragraph [ref=e279]:
+        - text: Мы используем файлы cookie для улучшения работы сайта. Продолжая пользоваться сайтом, вы соглашаетесь с
+        - link "Политикой конфиденциальности" [ref=e280] [cursor=pointer]:
+          - /url: /privacy
+        - text: .
+      - generic [ref=e281]:
+        - button "Принять" [ref=e282] [cursor=pointer]
+        - button "Отказаться" [ref=e283] [cursor=pointer]
+```
