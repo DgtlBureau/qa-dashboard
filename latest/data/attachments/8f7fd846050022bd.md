@@ -1,0 +1,302 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e6]:
+      - button "Открыть меню" [ref=e7] [cursor=pointer]:
+        - img [ref=e8]
+        - img [ref=e11]
+      - text: 
+      - link "ХК Торпедо" [ref=e14] [cursor=pointer]:
+        - /url: /
+        - img "ХК Торпедо" [ref=e15]
+      - generic [ref=e16]:
+        - text: 
+        - link "" [ref=e17] [cursor=pointer]:
+          - /url: https://hctorpedo.ru/
+          - generic [ref=e18]: 
+        - link "" [ref=e19] [cursor=pointer]:
+          - /url: https://hctorpedo.ru/tickets/
+          - generic [ref=e20]: 
+        - link "" [ref=e21] [cursor=pointer]:
+          - /url: /account/personal/
+          - generic [ref=e22]: 
+        - link "Корзина" [ref=e23] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=e24]: 
+  - generic [ref=e25]:
+    - generic [ref=e26]:
+      - button "Закрыть" [ref=e27] [cursor=pointer]:
+        - img [ref=e28]
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - img "Торпедо" [ref=e32]
+          - generic [ref=e33]: Торпедо
+        - generic [ref=e36]: 24 октября, сб, 20:00
+        - generic [ref=e38]:
+          - img "Динамо Мн" [ref=e39]
+          - generic [ref=e40]: Динамо Мн
+    - button [ref=e41] [cursor=pointer]:
+      - generic [ref=e42]: 
+  - main [ref=e43]:
+    - list [ref=e45]:
+      - listitem [ref=e46]:
+        - link "Главная" [ref=e47] [cursor=pointer]:
+          - /url: /
+        - text: 
+      - listitem [ref=e48]:
+        - link "Каталог товаров" [ref=e49] [cursor=pointer]:
+          - /url: /catalog
+        - text: 
+      - listitem [ref=e50]:
+        - link "Футболки и поло" [ref=e51] [cursor=pointer]:
+          - /url: /catalog/futbolki-i-polo-5
+        - text: 
+      - listitem [ref=e52]: Поло вязаное «Торпедо» (синее, короткий рукав)
+    - generic [ref=e53]:
+      - generic [ref=e54]:
+        - generic [ref=e55]:
+          - img [ref=e59]:
+            - generic [ref=e62]: Фото товара отсутствует
+          - generic [ref=e67]:
+            - heading "Поло вязаное «Торпедо» (синее, короткий рукав)" [level=1] [ref=e68]
+            - generic [ref=e69]:
+              - generic [ref=e70]:
+                - text: Оценка
+                - generic [ref=e71]:
+                  - generic [ref=e72]: 
+                  - generic [ref=e73]: 
+                  - generic [ref=e74]: 
+                  - generic [ref=e75]: 
+                  - generic [ref=e76]: 
+              - generic [ref=e79]: 10 000 ₽
+            - generic [ref=e81]:
+              - generic [ref=e82]: Размер
+              - generic [ref=e83]:
+                - button "XL" [disabled] [ref=e84]
+                - button "M" [disabled] [ref=e85]
+                - button "S" [disabled] [ref=e86]
+                - button "3XL" [disabled] [ref=e87]
+                - button "XXS" [disabled] [ref=e88]
+                - button "XS" [disabled] [ref=e89]
+                - button "2XL" [disabled] [ref=e90]
+                - button "L" [disabled] [ref=e91]
+                - button "4XL" [disabled] [ref=e92]
+            - group [ref=e94]:
+              - generic [ref=e95]:
+                - button "Уменьшить" [ref=e96] [cursor=pointer]
+                - spinbutton [ref=e97]: "1"
+                - button "Увеличить" [ref=e98] [cursor=pointer]
+              - button "Нет в наличии " [disabled]
+            - generic [ref=e100]: "Мужская рубашка-поло состоит из: 100% хлопка"
+        - generic [ref=e101]:
+          - generic [ref=e102]:
+            - heading "Наличие" [level=3] [ref=e103]
+            - generic [ref=e104]:
+              - generic [ref=e105]:
+                - generic [ref=e106]: "пр. Гагарина, 29:"
+                - generic [ref=e107]: нет
+              - generic [ref=e108]:
+                - generic [ref=e109]: "Интернет-магазин:"
+                - generic [ref=e110]: нет
+          - generic [ref=e111]:
+            - heading "Способы получения" [level=3] [ref=e112]
+            - generic [ref=e113]:
+              - generic [ref=e114]:
+                - generic [ref=e115]:
+                  - text: Самовывоз из магазина
+                  - link "на пр. Гагарина" [ref=e116] [cursor=pointer]:
+                    - /url: /contacts
+                  - text: через 15 минут
+                - generic [ref=e117]: Бесплатно
+              - generic [ref=e118]:
+                - generic [ref=e119]: Доставка в пункт выдачи СДЭК
+                - generic [ref=e120]: от 264 руб.
+              - generic [ref=e121]:
+                - generic [ref=e122]: Доставка до квартиры
+                - generic [ref=e123]: от 516 руб.
+          - generic [ref=e125]:
+            - paragraph [ref=e128]: Доставка или самовывоз с примеркой. Вы можете отказаться, если товар не подошел
+            - paragraph [ref=e131]: Официальная продукция хоккейного клуба «Торпедо». Остерегайтесь подделок!
+            - paragraph [ref=e134]: Высокое качество материалов для всей семьи!
+        - text: 
+      - generic [ref=e135]:
+        - heading "Похожие товары" [level=3] [ref=e136]
+        - generic [ref=e138]:
+          - link "В избранное Быстрый просмотр XXS 4XL XS S M L XL 2XL 3XL Поло вязаное «Торпедо» (синее, длинный рукав) 10 000 ₽     " [ref=e140] [cursor=pointer]:
+            - /url: /product/polo-vyazanoe-torpedo-sinee-dlinnyy-rukav
+            - generic [ref=e141]:
+              - img [ref=e144]:
+                - generic [ref=e147]: Фото товара отсутствует
+              - button "В избранное" [ref=e152]:
+                - generic [ref=e153]: 
+                - text: 
+              - generic:
+                - button "Быстрый просмотр"
+                - generic:
+                  - generic: XXS
+                  - generic: 4XL
+                  - generic: XS
+                  - generic: S
+                  - generic: M
+                  - generic: L
+                  - generic: XL
+                  - generic: 2XL
+                  - generic: 3XL
+            - generic [ref=e154]:
+              - generic [ref=e155]: Поло вязаное «Торпедо» (синее, длинный рукав)
+              - generic [ref=e157]: 10 000 ₽
+              - generic [ref=e159]:
+                - generic [ref=e160]: 
+                - generic [ref=e161]: 
+                - generic [ref=e162]: 
+                - generic [ref=e163]: 
+                - generic [ref=e164]: 
+          - link "В избранное Быстрый просмотр XS M 3XL S L XL 2XL 4XL XXS Поло вязаное «Торпедо» (серое, длинный рукав) 10 000 ₽     " [ref=e166] [cursor=pointer]:
+            - /url: /product/polo-vyazanoe-torpedo-seroe-dlinnyy-rukav
+            - generic [ref=e167]:
+              - img [ref=e170]:
+                - generic [ref=e173]: Фото товара отсутствует
+              - button "В избранное" [ref=e178]:
+                - generic [ref=e179]: 
+                - text: 
+              - generic:
+                - button "Быстрый просмотр"
+                - generic:
+                  - generic: XS
+                  - generic: M
+                  - generic: 3XL
+                  - generic: S
+                  - generic: L
+                  - generic: XL
+                  - generic: 2XL
+                  - generic: 4XL
+                  - generic: XXS
+            - generic [ref=e180]:
+              - generic [ref=e181]: Поло вязаное «Торпедо» (серое, длинный рукав)
+              - generic [ref=e183]: 10 000 ₽
+              - generic [ref=e185]:
+                - generic [ref=e186]: 
+                - generic [ref=e187]: 
+                - generic [ref=e188]: 
+                - generic [ref=e189]: 
+                - generic [ref=e190]: 
+          - link "Футболка белая «Место силы» (Душа, Торпедо) В избранное Быстрый просмотр Футболка белая «Место силы» (Душа, Торпедо) 3 600 ₽     " [ref=e192] [cursor=pointer]:
+            - /url: /product/futbolka-belaya-mesto-sily-dusha-torpedo
+            - generic [ref=e193]:
+              - img "Футболка белая «Место силы» (Душа, Торпедо)" [ref=e195]
+              - button "В избранное" [ref=e197]:
+                - generic [ref=e198]: 
+                - text: 
+              - generic:
+                - button "Быстрый просмотр"
+            - generic [ref=e199]:
+              - generic [ref=e200]: Футболка белая «Место силы» (Душа, Торпедо)
+              - generic [ref=e202]: 3 600 ₽
+              - generic [ref=e204]:
+                - generic [ref=e205]: 
+                - generic [ref=e206]: 
+                - generic [ref=e207]: 
+                - generic [ref=e208]: 
+                - generic [ref=e209]: 
+          - link "Футболка коричневая «Место силы» (Душа, Торпедо) В избранное Быстрый просмотр Футболка коричневая «Место силы» (Душа, Торпедо) 3 600 ₽     " [ref=e211] [cursor=pointer]:
+            - /url: /product/futbolka-korichnevaya-mesto-sily-dusha-torpedo
+            - generic [ref=e212]:
+              - img "Футболка коричневая «Место силы» (Душа, Торпедо)" [ref=e214]
+              - button "В избранное" [ref=e216]:
+                - generic [ref=e217]: 
+                - text: 
+              - generic:
+                - button "Быстрый просмотр"
+            - generic [ref=e218]:
+              - generic [ref=e219]: Футболка коричневая «Место силы» (Душа, Торпедо)
+              - generic [ref=e221]: 3 600 ₽
+              - generic [ref=e223]:
+                - generic [ref=e224]: 
+                - generic [ref=e225]: 
+                - generic [ref=e226]: 
+                - generic [ref=e227]: 
+                - generic [ref=e228]: 
+  - contentinfo [ref=e229]:
+    - generic [ref=e230]:
+      - generic [ref=e231]:
+        - generic [ref=e232]:
+          - generic [ref=e233]: "Режим работы: Вторник – Суббота 10:00 – 19:00"
+          - generic [ref=e234]:
+            - link "Личный кабинет" [ref=e235] [cursor=pointer]:
+              - /url: /account/orders
+            - link "Оплата" [ref=e236] [cursor=pointer]:
+              - /url: /payment
+            - link "Доставка" [ref=e237] [cursor=pointer]:
+              - /url: /delivery
+            - link "Баллы" [ref=e238] [cursor=pointer]:
+              - /url: /account/bonuses
+            - link "Возврат" [ref=e239] [cursor=pointer]:
+              - /url: /refund
+            - link "Контакты" [ref=e240] [cursor=pointer]:
+              - /url: /contacts
+        - generic [ref=e241]:
+          - link "+7 (930) 711-19-46" [ref=e242] [cursor=pointer]:
+            - /url: tel:+79307111946
+          - generic [ref=e243]: Телефон магазина
+      - generic [ref=e244]:
+        - generic [ref=e245]: Ближайший матч «Торпедо»
+        - generic [ref=e246]:
+          - generic [ref=e247]:
+            - img "Торпедо" [ref=e248]
+            - text: Торпедо
+          - generic [ref=e249]:
+            - generic [ref=e250]: 24 октября, сб, 20:00
+            - text: VOLGA Арена
+          - generic [ref=e251]:
+            - img "Динамо Мн" [ref=e252]
+            - text: Динамо Мн
+        - link " Билеты " [ref=e253] [cursor=pointer]:
+          - /url: https://widget.afisha.yandex.ru/w/events/574456?clientKey=85231729-d812-4fef-ab69-919e45f9cfb1&regionId=47
+          - generic [ref=e254]: 
+          - text: Билеты
+          - generic [ref=e255]: 
+      - generic [ref=e256]:
+        - generic [ref=e257]: "Следить за нами в социальных сетях:"
+        - generic [ref=e258]:
+          - link "" [ref=e260] [cursor=pointer]:
+            - /url: https://vk.com/shop_hctorpedo
+            - generic [ref=e261]: 
+          - link "" [ref=e263] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@hctorpedo
+            - generic [ref=e264]: 
+          - link "" [ref=e266] [cursor=pointer]:
+            - /url: https://t.me/hctorpedo
+            - generic [ref=e267]: 
+          - link "" [ref=e269] [cursor=pointer]:
+            - /url: https://twitter.com/torpedonn
+            - generic [ref=e270]: 
+          - link "" [ref=e272] [cursor=pointer]:
+            - /url: https://ok.ru/hctorpedo
+            - generic [ref=e273]: 
+          - link "" [ref=e275] [cursor=pointer]:
+            - /url: https://www.youtube.com/hctorpedonn
+            - generic [ref=e276]: 
+      - generic [ref=e277]:
+        - generic [ref=e278]:
+          - paragraph [ref=e279]: 2003-2026 АНО «Хоккейный клуб «Торпедо»
+          - paragraph [ref=e280]:
+            - link "Условия пользования сайтами ХК «Торпедо»" [ref=e281] [cursor=pointer]:
+              - /url: /terms
+        - generic [ref=e283]:
+          - link "Политика обработки персональных данных" [ref=e284] [cursor=pointer]:
+            - /url: /privacy
+          - link "Пользовательское соглашение" [ref=e285] [cursor=pointer]:
+            - /url: /terms
+  - dialog "Уведомление об использовании файлов cookie" [ref=e286]:
+    - generic [ref=e287]:
+      - paragraph [ref=e288]:
+        - text: Мы используем файлы cookie для улучшения работы сайта. Продолжая пользоваться сайтом, вы соглашаетесь с
+        - link "Политикой конфиденциальности" [ref=e289] [cursor=pointer]:
+          - /url: /privacy
+        - text: .
+      - generic [ref=e290]:
+        - button "Принять" [ref=e291] [cursor=pointer]
+        - button "Отказаться" [ref=e292] [cursor=pointer]
+```
