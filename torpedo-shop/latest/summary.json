@@ -2,19 +2,19 @@
   "project": "torpedo-shop",
   "projectDisplayName": "Torpedo Shop",
   "status": "critical",
-  "passed": 610,
-  "failed": 27,
+  "passed": 613,
+  "failed": 24,
   "skipped": 4,
-  "retried": 35,
+  "retried": 31,
   "total": 641,
-  "failedCritical": 3,
-  "failedMajor": 20,
+  "failedCritical": 1,
+  "failedMajor": 19,
   "failedMinor": 4,
-  "passRate": "95.16",
-  "durationFormatted": "24m 34s",
-  "timestamp": "2026-10-21T03:39:00.105Z",
+  "passRate": "95.63",
+  "durationFormatted": "27m 46s",
+  "timestamp": "2026-10-22T03:42:00.157Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/39537234738",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/39715448718",
   "failedTests": [
     {
       "name": "TC-CART-02 | Товар добавляется в корзину @major",
@@ -49,14 +49,14 @@
       "priority": "major"
     },
     {
-      "name": "TC-SCH-03 | Schema содержит name, price, priceCurrency @minor",
-      "priority": "minor"
+      "name": "TC-ADDR-07 | Успешное добавление адреса отображает его в списке @major",
+      "priority": "major"
     },
     {
-      "name": "TC-SCH-04 | Schema содержит availability (InStock или OutOfStock) @minor",
+      "name": "TC-SCH-03 | Schema содержит name, price, priceCurrency @minor",
       "priority": "minor"
     }
   ],
   "prevFailed": 27,
-  "deltaFailed": 0
+  "deltaFailed": -3
 }
