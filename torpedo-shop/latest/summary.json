@@ -2,24 +2,20 @@
   "project": "torpedo-shop",
   "projectDisplayName": "Torpedo Shop",
   "status": "critical",
-  "passed": 566,
-  "failed": 26,
-  "skipped": 4,
-  "retried": 31,
-  "total": 596,
-  "failedCritical": 4,
-  "failedMajor": 18,
-  "failedMinor": 4,
-  "passRate": "94.97",
-  "durationFormatted": "25m 23s",
-  "timestamp": "2026-10-27T03:40:33.790Z",
+  "passed": 412,
+  "failed": 24,
+  "skipped": 158,
+  "retried": 35,
+  "total": 594,
+  "failedCritical": 2,
+  "failedMajor": 22,
+  "failedMinor": 0,
+  "passRate": "69.36",
+  "durationFormatted": "34m 57s",
+  "timestamp": "2026-10-28T03:46:08.878Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/40442818625",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/40624972771",
   "failedTests": [
-    {
-      "name": "TC-CART-01 | Пустая корзина показывает соответствующее сообщение @major",
-      "priority": "major"
-    },
     {
       "name": "TC-CART-02 | Товар добавляется в корзину @major",
       "priority": "major"
@@ -49,14 +45,18 @@
       "priority": "major"
     },
     {
-      "name": "TC-CHK-02 | Поля имени, email, телефона присутствуют @critical",
-      "priority": "critical"
+      "name": "ТК-05 | Laravel /_ignition закрыт на backend @major",
+      "priority": "major"
     },
     {
-      "name": "TC-CHK-04 | Способы доставки отображаются @critical",
-      "priority": "critical"
+      "name": "ТК-29 | IDOR: изменение чужого профиля заблокировано @major",
+      "priority": "major"
+    },
+    {
+      "name": "CJM-03-01 | Страница корзины отображает добавленный товар @major",
+      "priority": "major"
     }
   ],
-  "prevFailed": 24,
-  "deltaFailed": 2
+  "prevFailed": 26,
+  "deltaFailed": -2
 }
