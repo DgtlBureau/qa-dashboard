@@ -2,19 +2,19 @@
   "project": "torpedo-shop",
   "projectDisplayName": "Torpedo Shop",
   "status": "critical",
-  "passed": 412,
-  "failed": 24,
-  "skipped": 158,
-  "retried": 35,
+  "passed": 478,
+  "failed": 21,
+  "skipped": 95,
+  "retried": 29,
   "total": 594,
-  "failedCritical": 2,
-  "failedMajor": 22,
+  "failedCritical": 3,
+  "failedMajor": 18,
   "failedMinor": 0,
-  "passRate": "69.36",
-  "durationFormatted": "34m 57s",
-  "timestamp": "2026-10-28T03:46:08.878Z",
+  "passRate": "80.47",
+  "durationFormatted": "35m 4s",
+  "timestamp": "2026-10-29T03:46:45.156Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/40624972771",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/40810471490",
   "failedTests": [
     {
       "name": "TC-CART-02 | Товар добавляется в корзину @major",
@@ -49,14 +49,14 @@
       "priority": "major"
     },
     {
-      "name": "ТК-29 | IDOR: изменение чужого профиля заблокировано @major",
+      "name": "ТК-43 | Промокод: перебор ограничен rate-limit @major",
       "priority": "major"
     },
     {
-      "name": "CJM-03-01 | Страница корзины отображает добавленный товар @major",
+      "name": "TC-CAT-11 | Панель фильтров открывается @major",
       "priority": "major"
     }
   ],
-  "prevFailed": 26,
-  "deltaFailed": -2
+  "prevFailed": 24,
+  "deltaFailed": -3
 }
