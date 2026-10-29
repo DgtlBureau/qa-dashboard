@@ -11,10 +11,10 @@
   "failedMajor": 52,
   "failedMinor": 27,
   "passRate": "0.00",
-  "durationFormatted": "3m 13s",
-  "timestamp": "2026-10-28T05:16:49.815Z",
+  "durationFormatted": "4m 14s",
+  "timestamp": "2026-10-29T05:16:35.506Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/chaika-site/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/40636478278",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/40821894017",
   "failedTests": [
     {
       "name": "Главная / отвечает 200 @critical",
@@ -57,7 +57,7 @@
       "priority": "critical"
     }
   ],
-  "commitMessage": "Выездные матчи: новый текст после отправки заявки",
+  "commitMessage": "Талисманы: ещё два снимка Торрика и Виктории в галерее",
   "prevFailed": 111,
   "deltaFailed": 0
 }
