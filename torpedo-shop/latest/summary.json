@@ -1,20 +1,20 @@
 {
   "project": "torpedo-shop",
   "projectDisplayName": "Torpedo Shop",
-  "status": "critical",
-  "passed": 478,
-  "failed": 21,
-  "skipped": 95,
-  "retried": 29,
-  "total": 594,
-  "failedCritical": 3,
-  "failedMajor": 18,
+  "status": "warning",
+  "passed": 538,
+  "failed": 20,
+  "skipped": 37,
+  "retried": 27,
+  "total": 595,
+  "failedCritical": 0,
+  "failedMajor": 20,
   "failedMinor": 0,
-  "passRate": "80.47",
-  "durationFormatted": "35m 4s",
-  "timestamp": "2026-10-29T03:46:45.156Z",
+  "passRate": "90.42",
+  "durationFormatted": "34m 41s",
+  "timestamp": "2026-10-30T03:46:23.171Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/40810471490",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/40995701688",
   "failedTests": [
     {
       "name": "TC-CART-02 | Товар добавляется в корзину @major",
@@ -49,14 +49,14 @@
       "priority": "major"
     },
     {
-      "name": "ТК-43 | Промокод: перебор ограничен rate-limit @major",
+      "name": "TC-ADDR-07 | Успешное добавление адреса отображает его в списке @major",
       "priority": "major"
     },
     {
-      "name": "TC-CAT-11 | Панель фильтров открывается @major",
+      "name": "TC-ADDR-11 | Кнопка \"Выйти со всех устройств\" присутствует в профиле @major",
       "priority": "major"
     }
   ],
-  "prevFailed": 24,
-  "deltaFailed": -3
+  "prevFailed": 21,
+  "deltaFailed": -1
 }
