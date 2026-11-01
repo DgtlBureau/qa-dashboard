@@ -1,20 +1,20 @@
 {
   "project": "torpedo-shop",
   "projectDisplayName": "Torpedo Shop",
-  "status": "warning",
-  "passed": 538,
-  "failed": 20,
-  "skipped": 37,
-  "retried": 27,
-  "total": 595,
-  "failedCritical": 0,
-  "failedMajor": 20,
-  "failedMinor": 0,
-  "passRate": "90.42",
-  "durationFormatted": "34m 41s",
-  "timestamp": "2026-10-30T03:46:23.171Z",
+  "status": "critical",
+  "passed": 312,
+  "failed": 187,
+  "skipped": 97,
+  "retried": 286,
+  "total": 596,
+  "failedCritical": 42,
+  "failedMajor": 114,
+  "failedMinor": 31,
+  "passRate": "52.35",
+  "durationFormatted": "27m 18s",
+  "timestamp": "2026-11-01T03:38:13.632Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/40995701688",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/41267941288",
   "failedTests": [
     {
       "name": "TC-CART-02 | Товар добавляется в корзину @major",
@@ -49,14 +49,14 @@
       "priority": "major"
     },
     {
-      "name": "TC-ADDR-07 | Успешное добавление адреса отображает его в списке @major",
-      "priority": "major"
+      "name": "TC-HOME-12 | Клик на карточку товара ведёт на страницу товара @critical",
+      "priority": "critical"
     },
     {
-      "name": "TC-ADDR-11 | Кнопка \"Выйти со всех устройств\" присутствует в профиле @major",
-      "priority": "major"
+      "name": "TC-HOME-13 | Секция категорий отображается @critical",
+      "priority": "critical"
     }
   ],
-  "prevFailed": 21,
-  "deltaFailed": -1
+  "prevFailed": 20,
+  "deltaFailed": 167
 }
