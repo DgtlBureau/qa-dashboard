@@ -2,19 +2,19 @@
   "project": "torpedo-shop",
   "projectDisplayName": "Torpedo Shop",
   "status": "critical",
-  "passed": 312,
-  "failed": 187,
-  "skipped": 97,
-  "retried": 286,
+  "passed": 572,
+  "failed": 20,
+  "skipped": 4,
+  "retried": 30,
   "total": 596,
-  "failedCritical": 42,
-  "failedMajor": 114,
-  "failedMinor": 31,
-  "passRate": "52.35",
-  "durationFormatted": "27m 18s",
-  "timestamp": "2026-11-01T03:38:13.632Z",
+  "failedCritical": 1,
+  "failedMajor": 19,
+  "failedMinor": 0,
+  "passRate": "95.97",
+  "durationFormatted": "27m 4s",
+  "timestamp": "2026-11-02T03:37:30.295Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/41267941288",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/41381375153",
   "failedTests": [
     {
       "name": "TC-CART-02 | Товар добавляется в корзину @major",
@@ -49,14 +49,14 @@
       "priority": "major"
     },
     {
-      "name": "TC-HOME-12 | Клик на карточку товара ведёт на страницу товара @critical",
-      "priority": "critical"
+      "name": "CJM-04-10 | Итоговая сумма к оплате отображается @major",
+      "priority": "major"
     },
     {
-      "name": "TC-HOME-13 | Секция категорий отображается @critical",
-      "priority": "critical"
+      "name": "TC-CAT-11 | Панель фильтров открывается @major",
+      "priority": "major"
     }
   ],
-  "prevFailed": 20,
-  "deltaFailed": 167
+  "prevFailed": 187,
+  "deltaFailed": -167
 }
