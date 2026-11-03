@@ -5,17 +5,21 @@
   "passed": 572,
   "failed": 20,
   "skipped": 4,
-  "retried": 30,
+  "retried": 26,
   "total": 596,
   "failedCritical": 1,
   "failedMajor": 19,
   "failedMinor": 0,
   "passRate": "95.97",
-  "durationFormatted": "27m 4s",
-  "timestamp": "2026-11-02T03:37:30.295Z",
+  "durationFormatted": "30m 19s",
+  "timestamp": "2026-11-03T03:39:56.045Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/41381375153",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/41570234941",
   "failedTests": [
+    {
+      "name": "TC-CART-01 | Пустая корзина показывает соответствующее сообщение @major",
+      "priority": "major"
+    },
     {
       "name": "TC-CART-02 | Товар добавляется в корзину @major",
       "priority": "major"
@@ -45,18 +49,14 @@
       "priority": "major"
     },
     {
+      "name": "TC-CHK-08 | Способы оплаты отображаются @critical",
+      "priority": "critical"
+    },
+    {
       "name": "ТК-05 | Laravel /_ignition закрыт на backend @major",
-      "priority": "major"
-    },
-    {
-      "name": "CJM-04-10 | Итоговая сумма к оплате отображается @major",
-      "priority": "major"
-    },
-    {
-      "name": "TC-CAT-11 | Панель фильтров открывается @major",
       "priority": "major"
     }
   ],
-  "prevFailed": 187,
-  "deltaFailed": -167
+  "prevFailed": 20,
+  "deltaFailed": 0
 }
