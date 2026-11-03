@@ -11,10 +11,10 @@
   "failedMajor": 52,
   "failedMinor": 27,
   "passRate": "0.00",
-  "durationFormatted": "4m 17s",
-  "timestamp": "2026-11-02T05:15:47.402Z",
+  "durationFormatted": "3m 43s",
+  "timestamp": "2026-11-03T05:14:54.488Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/chaika-site/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/41392424625",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/41582222193",
   "failedTests": [
     {
       "name": "Главная / отвечает 200 @critical",
@@ -57,7 +57,7 @@
       "priority": "critical"
     }
   ],
-  "commitMessage": "Подвал: логотип БЦТ под пресс-службой, крупнее",
+  "commitMessage": "chore: убрать id клиентского счётчика из бандлов Горького и Чайки",
   "prevFailed": 111,
   "deltaFailed": 0
 }
