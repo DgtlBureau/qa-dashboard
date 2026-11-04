@@ -2,24 +2,20 @@
   "project": "torpedo-shop",
   "projectDisplayName": "Torpedo Shop",
   "status": "critical",
-  "passed": 572,
-  "failed": 20,
+  "passed": 566,
+  "failed": 26,
   "skipped": 4,
-  "retried": 26,
+  "retried": 30,
   "total": 596,
-  "failedCritical": 1,
-  "failedMajor": 19,
+  "failedCritical": 3,
+  "failedMajor": 23,
   "failedMinor": 0,
-  "passRate": "95.97",
-  "durationFormatted": "30m 19s",
-  "timestamp": "2026-11-03T03:39:56.045Z",
+  "passRate": "94.97",
+  "durationFormatted": "28m 11s",
+  "timestamp": "2026-11-04T03:38:02.567Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/torpedo-shop/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/41570234941",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-shop/actions/runs/41765081081",
   "failedTests": [
-    {
-      "name": "TC-CART-01 | Пустая корзина показывает соответствующее сообщение @major",
-      "priority": "major"
-    },
     {
       "name": "TC-CART-02 | Товар добавляется в корзину @major",
       "priority": "major"
@@ -55,8 +51,12 @@
     {
       "name": "ТК-05 | Laravel /_ignition закрыт на backend @major",
       "priority": "major"
+    },
+    {
+      "name": "CJM-04-06 | Способы доставки отображаются @major",
+      "priority": "major"
     }
   ],
   "prevFailed": 20,
-  "deltaFailed": 0
+  "deltaFailed": 6
 }
