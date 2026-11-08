@@ -12,11 +12,11 @@
   "failedMinor": 0,
   "passRate": "0.00",
   "durationFormatted": "0m 0s",
-  "timestamp": "2026-11-07T05:09:34.730Z",
+  "timestamp": "2026-11-08T05:09:39.007Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/gorky-site/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/42341453849",
+  "actionsUrl": "https://github.com/DgtlBureau/hc-torpedo-web/actions/runs/42449608131",
   "failedTests": [],
   "commitMessage": "Перенести МатчДэй в меню фан-зоны",
-  "prevFailed": 111,
-  "deltaFailed": -111
+  "prevFailed": 0,
+  "deltaFailed": 0
 }
