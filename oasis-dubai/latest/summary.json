@@ -1,26 +1,21 @@
 {
   "project": "oasis-dubai",
   "projectDisplayName": "Oasis Admin Dubai",
-  "status": "minor",
+  "status": "pass",
   "passed": 0,
-  "failed": 1,
-  "skipped": 52,
-  "retried": 1,
-  "total": 53,
+  "failed": 0,
+  "skipped": 0,
+  "retried": 0,
+  "total": 0,
   "failedCritical": 0,
   "failedMajor": 0,
-  "failedMinor": 1,
+  "failedMinor": 0,
   "passRate": "0.00",
-  "durationFormatted": "0m 1s",
-  "timestamp": "2026-11-11T04:17:50.643Z",
+  "durationFormatted": "0m 0s",
+  "timestamp": "2026-11-12T04:16:37.048Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/oasis-dubai/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/oasis-front-dubai/actions/runs/42957834350",
-  "failedTests": [
-    {
-      "name": "authenticate as admin",
-      "priority": "minor"
-    }
-  ],
+  "actionsUrl": "https://github.com/DgtlBureau/oasis-front-dubai/actions/runs/43153399557",
+  "failedTests": [],
   "prevFailed": 1,
-  "deltaFailed": 0
+  "deltaFailed": -1
 }
