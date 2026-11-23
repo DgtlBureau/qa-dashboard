@@ -12,9 +12,9 @@
   "failedMinor": 1,
   "passRate": "0.00",
   "durationFormatted": "1m 5s",
-  "timestamp": "2026-11-22T03:37:32.915Z",
+  "timestamp": "2026-11-23T03:39:54.516Z",
   "reportUrl": "https://dgtlbureau.github.io/qa-dashboard/oasis-russia/latest/",
-  "actionsUrl": "https://github.com/DgtlBureau/oasis-front/actions/runs/44981018903",
+  "actionsUrl": "https://github.com/DgtlBureau/oasis-front/actions/runs/45106723443",
   "failedTests": [
     {
       "name": "authenticate as admin",
